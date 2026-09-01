@@ -1,0 +1,17 @@
+{
+  "model_name": "gradient_boosting",
+  "selection_rationale": "Selected 'gradient_boosting' with superior predictive accuracy: RMSE=762.69, MAE=261.89, R\u00b2=0.9904, MAPE=7.30%.",
+  "metrics": {
+    "model_name": "gradient_boosting",
+    "mae": 261.89,
+    "rmse": 762.69,
+    "r2": 0.9904,
+    "mape": 7.3,
+    "median_ae": 91.17,
+    "max_error": 31978.09,
+    "explained_variance": 0.9904,
+    "residual_mean": -4.22,
+    "residual_std": 762.68
+  },
+  "trained_at": "2026-08-31 18:20:53"
+}

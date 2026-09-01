@@ -1,0 +1,58 @@
+{
+  "total_rows": 404800,
+  "total_columns": 27,
+  "duplicate_rows": 0,
+  "completeness_score": 99.89,
+  "missing_by_column": {
+    "education": {
+      "count": 2404,
+      "percentage": 0.59,
+      "dtype": "object"
+    },
+    "monthly_rent": {
+      "count": 2426,
+      "percentage": 0.6,
+      "dtype": "float64"
+    },
+    "credit_score": {
+      "count": 2420,
+      "percentage": 0.6,
+      "dtype": "float64"
+    },
+    "bank_balance": {
+      "count": 2426,
+      "percentage": 0.6,
+      "dtype": "object"
+    },
+    "emergency_fund": {
+      "count": 2351,
+      "percentage": 0.58,
+      "dtype": "float64"
+    }
+  },
+  "categorical_inconsistencies": {
+    "gender": [
+      "Female",
+      "Male",
+      "female",
+      "male",
+      "M",
+      "MALE",
+      "F",
+      "FEMALE"
+    ]
+  },
+  "numeric_outlier_summary": {
+    "credit_score": {
+      "under_300_anomalies": 1566,
+      "over_900_anomalies": 3210,
+      "valid_range_pct": 98.81
+    }
+  },
+  "data_type_issues": [
+    "Column 'age' contains 3 records with duplicate dot formatting (e.g. '.0.0').",
+    "Column 'monthly_salary' contains 1993 records with duplicate dot formatting (e.g. '.0.0').",
+    "Column 'bank_balance' contains 1952 records with duplicate dot formatting (e.g. '.0.0')."
+  ],
+  "quality_grade": "A (Production Quality with Minor Formatting Normalization Required)"
+}

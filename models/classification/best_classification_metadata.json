@@ -1,0 +1,73 @@
+{
+  "model_name": "gradient_boosting",
+  "selection_rationale": "Selected 'gradient_boosting' with highest multi-criteria composite score (0.9184). Key metrics: Macro-F1=0.8719, High-Risk Recall=0.9363, Balanced Accuracy=0.9464, Overall Accuracy=0.9587.",
+  "metrics": {
+    "model_name": "gradient_boosting",
+    "accuracy": 0.9587,
+    "balanced_accuracy": 0.9464,
+    "macro_f1": 0.8719,
+    "weighted_f1": 0.9637,
+    "macro_precision": 0.8357,
+    "macro_recall": 0.9464,
+    "high_risk_recall": 0.9363,
+    "eligible_recall": 0.938,
+    "not_eligible_recall": 0.9649,
+    "roc_auc_ovr": 0.9949,
+    "confusion_matrix": [
+      [
+        10475,
+        648,
+        44
+      ],
+      [
+        100,
+        2456,
+        67
+      ],
+      [
+        109,
+        1539,
+        45283
+      ]
+    ],
+    "classes": [
+      "Eligible",
+      "High_Risk",
+      "Not_Eligible"
+    ],
+    "classification_report": {
+      "Eligible": {
+        "precision": 0.9804380381879446,
+        "recall": 0.9380317005462524,
+        "f1-score": 0.9587661891904261,
+        "support": 11167.0
+      },
+      "High_Risk": {
+        "precision": 0.5289683394357096,
+        "recall": 0.9363324437666793,
+        "f1-score": 0.6760253234241673,
+        "support": 2623.0
+      },
+      "Not_Eligible": {
+        "precision": 0.9975547429175662,
+        "recall": 0.9648846178432167,
+        "f1-score": 0.9809477389656106,
+        "support": 46931.0
+      },
+      "accuracy": 0.9587128011725762,
+      "macro avg": {
+        "precision": 0.8356537068470735,
+        "recall": 0.9464162540520494,
+        "f1-score": 0.8719130838600679,
+        "support": 60721.0
+      },
+      "weighted avg": {
+        "precision": 0.9741650691959773,
+        "recall": 0.9587128011725762,
+        "f1-score": 0.9636964937241835,
+        "support": 60721.0
+      }
+    }
+  },
+  "trained_at": "2026-08-31 18:20:53"
+}

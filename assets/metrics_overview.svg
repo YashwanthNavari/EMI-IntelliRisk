@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#070C1E" />
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <style>
+      .card-label { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 700; fill: #64748B; letter-spacing: 1.5px; }
+      .card-val { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 26px; font-weight: 900; }
+      .card-sub { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: 500; fill: #94A3B8; }
+      .tag { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1100" height="280" rx="16" fill="#050811" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Title Header -->
+  <g transform="translate(30, 25)">
+    <text x="0" y="16" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="800" fill="#00F2FE" letter-spacing="1.2">
+      ACADEMIC BENCHMARK SCORECARD — FINAL HOLDOUT TEST SET (N = 60,720)
+    </text>
+    <text x="0" y="36" font-family="'Segoe UI', sans-serif" font-size="12" fill="#64748B">
+      500-Iteration Bootstrap Resampling • 95% Confidence Intervals • Cost-Sensitive Multiclass Loss
+    </text>
+  </g>
+
+  <!-- Card 1: Macro F1 -->
+  <g transform="translate(30, 80)">
+    <rect width="245" height="170" rx="12" fill="url(#cardBg)" stroke="rgba(0, 242, 254, 0.25)" stroke-width="1.2" />
+    <rect x="16" y="16" width="70" height="22" rx="6" fill="rgba(0, 242, 254, 0.1)" />
+    <text x="51" y="31" text-anchor="middle" class="tag" fill="#00F2FE">CHAMPION</text>
+    <text x="16" y="62" class="card-label">CLASSIFICATION F1</text>
+    <text x="16" y="98" class="card-val" fill="#00F2FE">0.8725</text>
+    <text x="16" y="122" class="card-sub">95% CI: [0.8675 – 0.8771]</text>
+    <text x="16" y="142" font-family="'Segoe UI', sans-serif" font-size="11" fill="#10B981">▲ +19.5% vs Logistic Reg (0.6775)</text>
+  </g>
+
+  <!-- Card 2: High-Risk Recall -->
+  <g transform="translate(295, 80)">
+    <rect width="245" height="170" rx="12" fill="url(#cardBg)" stroke="rgba(245, 158, 11, 0.25)" stroke-width="1.2" />
+    <rect x="16" y="16" width="90" height="22" rx="6" fill="rgba(245, 158, 11, 0.1)" />
+    <text x="61" y="31" text-anchor="middle" class="tag" fill="#F59E0B">DEFAULT GUARD</text>
+    <text x="16" y="62" class="card-label">HIGH-RISK RECALL</text>
+    <text x="16" y="98" class="card-val" fill="#F59E0B">93.63%</text>
+    <text x="16" y="122" class="card-sub">95% CI: [91.92% – 93.84%]</text>
+    <text x="16" y="142" font-family="'Segoe UI', sans-serif" font-size="11" fill="#10B981">▲ 2,456 of 2,623 caught</text>
+  </g>
+
+  <!-- Card 3: Regression R² -->
+  <g transform="translate(560, 80)">
+    <rect width="245" height="170" rx="12" fill="url(#cardBg)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1.2" />
+    <rect x="16" y="16" width="70" height="22" rx="6" fill="rgba(16, 185, 129, 0.1)" />
+    <text x="51" y="31" text-anchor="middle" class="tag" fill="#10B981">EXCELLENCE</text>
+    <text x="16" y="62" class="card-label">REGRESSION R²</text>
+    <text x="16" y="98" class="card-val" fill="#10B981">0.9905</text>
+    <text x="16" y="122" class="card-sub">95% CI: [0.9894 – 0.9915]</text>
+    <text x="16" y="142" font-family="'Segoe UI', sans-serif" font-size="11" fill="#10B981">▲ SMAPE: 5.40% across range</text>
+  </g>
+
+  <!-- Card 4: Regression Error (MAE) -->
+  <g transform="translate(825, 80)">
+    <rect width="245" height="170" rx="12" fill="url(#cardBg)" stroke="rgba(129, 140, 248, 0.25)" stroke-width="1.2" />
+    <rect x="16" y="16" width="80" height="22" rx="6" fill="rgba(129, 140, 248, 0.1)" />
+    <text x="56" y="31" text-anchor="middle" class="tag" fill="#818CF8">PRECISION</text>
+    <text x="16" y="62" class="card-label">MEAN ABSOLUTE ERROR</text>
+    <text x="16" y="98" class="card-val" fill="#818CF8">₹261.89</text>
+    <text x="16" y="122" class="card-sub">Median Absolute Error: ₹91.17</text>
+    <text x="16" y="142" font-family="'Segoe UI', sans-serif" font-size="11" fill="#10B981">▼ -89.4% error vs Ridge (₹2,461)</text>
+  </g>
+</svg>

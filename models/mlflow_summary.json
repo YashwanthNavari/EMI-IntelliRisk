@@ -1,0 +1,681 @@
+{
+  "classification_runs": [
+    {
+      "run_id": "c2bbca72667948bca99f919ad000da23",
+      "model_name": "logistic_regression",
+      "metrics": {
+        "model_name": "logistic_regression",
+        "accuracy": 0.826,
+        "balanced_accuracy": 0.7922,
+        "macro_f1": 0.6775,
+        "weighted_f1": 0.8701,
+        "macro_precision": 0.6923,
+        "macro_recall": 0.7922,
+        "high_risk_recall": 0.7594,
+        "eligible_recall": 0.7753,
+        "not_eligible_recall": 0.8417,
+        "roc_auc_ovr": 0.9508,
+        "confusion_matrix": [
+          [
+            8658,
+            2383,
+            126
+          ],
+          [
+            428,
+            1992,
+            203
+          ],
+          [
+            426,
+            7002,
+            39503
+          ]
+        ],
+        "classes": [
+          "Eligible",
+          "High_Risk",
+          "Not_Eligible"
+        ],
+        "classification_report": {
+          "Eligible": {
+            "precision": 0.9102186711522288,
+            "recall": 0.7753201396973225,
+            "f1-score": 0.8373712461917888,
+            "support": 11167.0
+          },
+          "High_Risk": {
+            "precision": 0.1750900940493979,
+            "recall": 0.7594357605794891,
+            "f1-score": 0.2845714285714286,
+            "support": 2623.0
+          },
+          "Not_Eligible": {
+            "precision": 0.991740309299056,
+            "recall": 0.841725085764207,
+            "f1-score": 0.9105955303528002,
+            "support": 46931.0
+          },
+          "accuracy": 0.8259580705192602,
+          "macro avg": {
+            "precision": 0.6923496915002275,
+            "recall": 0.7921603286803395,
+            "f1-score": 0.6775127350386726,
+            "support": 60721.0
+          },
+          "weighted avg": {
+            "precision": 0.9414706225714746,
+            "recall": 0.8259580705192602,
+            "f1-score": 0.8700863687744574,
+            "support": 60721.0
+          }
+        }
+      }
+    },
+    {
+      "run_id": "34d255cbfd414d108cea4a712793057b",
+      "model_name": "random_forest",
+      "metrics": {
+        "model_name": "random_forest",
+        "accuracy": 0.9313,
+        "balanced_accuracy": 0.8747,
+        "macro_f1": 0.8013,
+        "weighted_f1": 0.9414,
+        "macro_precision": 0.7745,
+        "macro_recall": 0.8747,
+        "high_risk_recall": 0.7808,
+        "eligible_recall": 0.8948,
+        "not_eligible_recall": 0.9484,
+        "roc_auc_ovr": 0.9827,
+        "confusion_matrix": [
+          [
+            9992,
+            1071,
+            104
+          ],
+          [
+            365,
+            2048,
+            210
+          ],
+          [
+            170,
+            2251,
+            44510
+          ]
+        ],
+        "classes": [
+          "Eligible",
+          "High_Risk",
+          "Not_Eligible"
+        ],
+        "classification_report": {
+          "Eligible": {
+            "precision": 0.9491783034102783,
+            "recall": 0.8947792603205874,
+            "f1-score": 0.9211763621277773,
+            "support": 11167.0
+          },
+          "High_Risk": {
+            "precision": 0.3813780260707635,
+            "recall": 0.7807853602744949,
+            "f1-score": 0.5124483923433004,
+            "support": 2623.0
+          },
+          "Not_Eligible": {
+            "precision": 0.9929948242013207,
+            "recall": 0.9484136285184632,
+            "f1-score": 0.9701923600893684,
+            "support": 46931.0
+          },
+          "accuracy": 0.9313087729121721,
+          "macro avg": {
+            "precision": 0.7745170512274542,
+            "recall": 0.8746594163711818,
+            "f1-score": 0.8012723715201487,
+            "support": 60721.0
+          },
+          "weighted avg": {
+            "precision": 0.9585163085449576,
+            "recall": 0.9313087729121721,
+            "f1-score": 0.9414045588898654,
+            "support": 60721.0
+          }
+        }
+      }
+    },
+    {
+      "run_id": "eba24955c6ce412187cffcd65d413636",
+      "model_name": "gradient_boosting",
+      "metrics": {
+        "model_name": "gradient_boosting",
+        "accuracy": 0.9587,
+        "balanced_accuracy": 0.9464,
+        "macro_f1": 0.8719,
+        "weighted_f1": 0.9637,
+        "macro_precision": 0.8357,
+        "macro_recall": 0.9464,
+        "high_risk_recall": 0.9363,
+        "eligible_recall": 0.938,
+        "not_eligible_recall": 0.9649,
+        "roc_auc_ovr": 0.9949,
+        "confusion_matrix": [
+          [
+            10475,
+            648,
+            44
+          ],
+          [
+            100,
+            2456,
+            67
+          ],
+          [
+            109,
+            1539,
+            45283
+          ]
+        ],
+        "classes": [
+          "Eligible",
+          "High_Risk",
+          "Not_Eligible"
+        ],
+        "classification_report": {
+          "Eligible": {
+            "precision": 0.9804380381879446,
+            "recall": 0.9380317005462524,
+            "f1-score": 0.9587661891904261,
+            "support": 11167.0
+          },
+          "High_Risk": {
+            "precision": 0.5289683394357096,
+            "recall": 0.9363324437666793,
+            "f1-score": 0.6760253234241673,
+            "support": 2623.0
+          },
+          "Not_Eligible": {
+            "precision": 0.9975547429175662,
+            "recall": 0.9648846178432167,
+            "f1-score": 0.9809477389656106,
+            "support": 46931.0
+          },
+          "accuracy": 0.9587128011725762,
+          "macro avg": {
+            "precision": 0.8356537068470735,
+            "recall": 0.9464162540520494,
+            "f1-score": 0.8719130838600679,
+            "support": 60721.0
+          },
+          "weighted avg": {
+            "precision": 0.9741650691959773,
+            "recall": 0.9587128011725762,
+            "f1-score": 0.9636964937241835,
+            "support": 60721.0
+          }
+        }
+      }
+    }
+  ],
+  "regression_runs": [
+    {
+      "run_id": "fa02603c023d491c804f14a65cc1fed9",
+      "model_name": "ridge_regression",
+      "metrics": {
+        "model_name": "ridge_regression",
+        "mae": 2461.5,
+        "rmse": 3782.04,
+        "r2": 0.7636,
+        "mape": 113.44,
+        "median_ae": 1666.89,
+        "max_error": 45192.97,
+        "explained_variance": 0.7656,
+        "residual_mean": -342.29,
+        "residual_std": 3766.52
+      }
+    },
+    {
+      "run_id": "cd6361065b2a47969f61c69b38cee680",
+      "model_name": "random_forest",
+      "metrics": {
+        "model_name": "random_forest",
+        "mae": 313.05,
+        "rmse": 1005.67,
+        "r2": 0.9833,
+        "mape": 6.96,
+        "median_ae": 60.57,
+        "max_error": 26169.69,
+        "explained_variance": 0.9833,
+        "residual_mean": 0.97,
+        "residual_std": 1005.67
+      }
+    },
+    {
+      "run_id": "67ba0296f78849b69a0a24e02fb5ca93",
+      "model_name": "gradient_boosting",
+      "metrics": {
+        "model_name": "gradient_boosting",
+        "mae": 261.89,
+        "rmse": 762.69,
+        "r2": 0.9904,
+        "mape": 7.3,
+        "median_ae": 91.17,
+        "max_error": 31978.09,
+        "explained_variance": 0.9904,
+        "residual_mean": -4.22,
+        "residual_std": 762.68
+      }
+    }
+  ],
+  "best_classification_model": "gradient_boosting",
+  "best_regression_model": "gradient_boosting",
+  "classification_rationale": "Selected 'gradient_boosting' with highest multi-criteria composite score (0.9184). Key metrics: Macro-F1=0.8719, High-Risk Recall=0.9363, Balanced Accuracy=0.9464, Overall Accuracy=0.9587.",
+  "regression_rationale": "Selected 'gradient_boosting' with superior predictive accuracy: RMSE=762.69, MAE=261.89, R\u00b2=0.9904, MAPE=7.30%.",
+  "exported_at": "2026-08-31 18:20:53",
+  "final_holdout_test_size": 60720,
+  "normalized_confusion_matrix": [
+    [
+      0.9387480970717292,
+      0.05722217247246351,
+      0.004029730455807289
+    ],
+    [
+      0.04498665650019062,
+      0.9287075867327488,
+      0.026305756767060616
+    ],
+    [
+      0.0021521414873215427,
+      0.031962497336458555,
+      0.9658853611762199
+    ]
+  ],
+  "raw_confusion_matrix": [
+    [
+      10483,
+      639,
+      45
+    ],
+    [
+      118,
+      2436,
+      69
+    ],
+    [
+      101,
+      1500,
+      45329
+    ]
+  ],
+  "per_class_classification_report": {
+    "Eligible": {
+      "precision": 0.9795365352270604,
+      "recall": 0.9387480970717292,
+      "f1-score": 0.9587086743792583,
+      "support": 11167.0
+    },
+    "High_Risk": {
+      "precision": 0.5324590163934426,
+      "recall": 0.9287075867327488,
+      "f1-score": 0.6768546818560711,
+      "support": 2623.0
+    },
+    "Not_Eligible": {
+      "precision": 0.9974913628061528,
+      "recall": 0.9658853611762199,
+      "f1-score": 0.981433968800407,
+      "support": 46930.0
+    },
+    "accuracy": 0.9592885375494071,
+    "macro avg": {
+      "precision": 0.8364956381422187,
+      "recall": 0.9444470149935661,
+      "f1-score": 0.8723324416785788,
+      "support": 60720.0
+    },
+    "weighted avg": {
+      "precision": 0.9741006940937638,
+      "recall": 0.9592885375494071,
+      "f1-score": 0.9640972620735303,
+      "support": 60720.0
+    }
+  },
+  "classification_ablation": [
+    {
+      "experiment": "Model A (Demographics Only)",
+      "features": "7 features (Age, Gender, Marital, Education, Family, House)",
+      "accuracy": 0.4826,
+      "balanced_accuracy": 0.421,
+      "macro_f1": 0.3562,
+      "high_risk_recall": 0.2882
+    },
+    {
+      "experiment": "Model B (Demographics + Raw Financials)",
+      "features": "25 features (All raw un-engineered inputs)",
+      "accuracy": 0.872,
+      "balanced_accuracy": 0.7941,
+      "macro_f1": 0.7083,
+      "high_risk_recall": 0.6519
+    },
+    {
+      "experiment": "Model C (Full Feature Matrix)",
+      "features": "38 features (Raw + 12 Engineered FinTech Ratios)",
+      "accuracy": 0.9322,
+      "balanced_accuracy": 0.9032,
+      "macro_f1": 0.8126,
+      "high_risk_recall": 0.8658
+    }
+  ],
+  "regression_ablation": [
+    {
+      "experiment": "Exp A (Full Feature Matrix)",
+      "feature_group": "Raw + All Engineered FinTech Ratios (38 features)",
+      "r2": 0.9884,
+      "rmse": 835.68,
+      "mae": 292.51,
+      "mape": 8.29
+    },
+    {
+      "experiment": "Exp B (Raw Features Only)",
+      "feature_group": "Raw Disclosures without engineered math (25 features)",
+      "r2": 0.9651,
+      "rmse": 1452.41,
+      "mae": 914.02,
+      "mape": 39.25
+    },
+    {
+      "experiment": "Exp C (Engineered Ratios Only)",
+      "feature_group": "Only Derived FinTech Ratios (13 features)",
+      "r2": 0.9728,
+      "rmse": 1282.96,
+      "mae": 505.43,
+      "mape": 13.53
+    },
+    {
+      "experiment": "Exp D (Restricted Target-Proximal Features)",
+      "feature_group": "Excludes Disposable Income & FOIR (36 features)",
+      "r2": 0.9833,
+      "rmse": 1004.82,
+      "mae": 461.32,
+      "mape": 12.67
+    }
+  ],
+  "bootstrap_confidence_intervals": {
+    "classification_ci": {
+      "accuracy": {
+        "mean": 0.9593135046113307,
+        "std": 0.0007908749970978158,
+        "ci_lower": 0.9576729249011858,
+        "ci_upper": 0.9609770256916995,
+        "formatted": "0.9593 [95% CI: 0.9577 \u2013 0.9610]"
+      },
+      "balanced_accuracy": {
+        "mean": 0.9445306994348335,
+        "std": 0.0018508712289624465,
+        "ci_lower": 0.9409960357183983,
+        "ci_upper": 0.9482336572489829,
+        "formatted": "0.9445 [95% CI: 0.9410 \u2013 0.9482]"
+      },
+      "macro_f1": {
+        "mean": 0.8724567918331523,
+        "std": 0.00234683409938224,
+        "ci_lower": 0.8675171111438302,
+        "ci_upper": 0.8770507293342988,
+        "formatted": "0.8725 [95% CI: 0.8675 \u2013 0.8771]"
+      },
+      "high_risk_recall": {
+        "mean": 0.9289342706710519,
+        "std": 0.005173050800357782,
+        "ci_lower": 0.9192023517023516,
+        "ci_upper": 0.9384288164522478,
+        "formatted": "0.9289 [95% CI: 0.9192 \u2013 0.9384]"
+      }
+    },
+    "regression_ci": {
+      "rmse": {
+        "mean": 757.1307497257624,
+        "std": 22.439141333378718,
+        "ci_lower": 715.0277080477858,
+        "ci_upper": 800.9967472848138,
+        "formatted": "\u20b9757.13 [95% CI: \u20b9715.03 \u2013 \u20b9801.00]"
+      },
+      "mae": {
+        "mean": 263.36454914371126,
+        "std": 2.80265372487572,
+        "ci_lower": 257.9848330406942,
+        "ci_upper": 268.7829943188288,
+        "formatted": "\u20b9263.36 [95% CI: \u20b9257.98 \u2013 \u20b9268.78]"
+      },
+      "r2": {
+        "mean": 0.990499284148839,
+        "std": 0.0005576132242401116,
+        "ci_lower": 0.9894068571827532,
+        "ci_upper": 0.9914989284543417,
+        "formatted": "0.9905 [95% CI: 0.9894 \u2013 0.9915]"
+      },
+      "smape": {
+        "mean": 5.3989701927734925,
+        "std": 0.046452141641554555,
+        "ci_lower": 5.310022718431948,
+        "ci_upper": 5.4898681707940264,
+        "formatted": "5.3990 [95% CI: 5.3100 \u2013 5.4899]"
+      }
+    }
+  },
+  "fairness_audit": {
+    "Gender": [
+      {
+        "subgroup": "Female",
+        "sample_count": 24189,
+        "sample_pct": 39.8,
+        "accuracy": 0.959,
+        "macro_f1": 0.8732,
+        "high_risk_recall": 0.9308,
+        "regression_mae": 261.25,
+        "regression_rmse": 735.82,
+        "regression_r2": 0.9909
+      },
+      {
+        "subgroup": "Male",
+        "sample_count": 36531,
+        "sample_pct": 60.2,
+        "accuracy": 0.9595,
+        "macro_f1": 0.8717,
+        "high_risk_recall": 0.9273,
+        "regression_mae": 264.84,
+        "regression_rmse": 772.65,
+        "regression_r2": 0.9902
+      }
+    ],
+    "Age Group": [
+      {
+        "subgroup": "Young Adults (<30)",
+        "sample_count": 9096,
+        "sample_pct": 15.0,
+        "accuracy": 0.9545,
+        "macro_f1": 0.8646,
+        "high_risk_recall": 0.9185,
+        "regression_mae": 278.14,
+        "regression_rmse": 778.27,
+        "regression_r2": 0.9894
+      },
+      {
+        "subgroup": "Mid-Career (30-50)",
+        "sample_count": 45538,
+        "sample_pct": 75.0,
+        "accuracy": 0.9599,
+        "macro_f1": 0.8728,
+        "high_risk_recall": 0.9301,
+        "regression_mae": 261.88,
+        "regression_rmse": 762.61,
+        "regression_r2": 0.9904
+      },
+      {
+        "subgroup": "Senior (50+)",
+        "sample_count": 6086,
+        "sample_pct": 10.0,
+        "accuracy": 0.9619,
+        "macro_f1": 0.8813,
+        "high_risk_recall": 0.9343,
+        "regression_mae": 252.82,
+        "regression_rmse": 691.72,
+        "regression_r2": 0.9924
+      }
+    ],
+    "Employment Type": [
+      {
+        "subgroup": "Government",
+        "sample_count": 12294,
+        "sample_pct": 20.2,
+        "accuracy": 0.9612,
+        "macro_f1": 0.8779,
+        "high_risk_recall": 0.9119,
+        "regression_mae": 297.36,
+        "regression_rmse": 796.68,
+        "regression_r2": 0.9917
+      },
+      {
+        "subgroup": "Private",
+        "sample_count": 42319,
+        "sample_pct": 69.7,
+        "accuracy": 0.9595,
+        "macro_f1": 0.8741,
+        "high_risk_recall": 0.9369,
+        "regression_mae": 253.61,
+        "regression_rmse": 753.63,
+        "regression_r2": 0.99
+      },
+      {
+        "subgroup": "Self-employed",
+        "sample_count": 6107,
+        "sample_pct": 10.1,
+        "accuracy": 0.9543,
+        "macro_f1": 0.8475,
+        "high_risk_recall": 0.9043,
+        "regression_mae": 263.0,
+        "regression_rmse": 708.63,
+        "regression_r2": 0.9897
+      }
+    ],
+    "Income Tier": [
+      {
+        "subgroup": "Low Income (<\u20b935K)",
+        "sample_count": 14998,
+        "sample_pct": 24.7,
+        "accuracy": 0.9789,
+        "macro_f1": 0.8609,
+        "high_risk_recall": 0.9158,
+        "regression_mae": 191.64,
+        "regression_rmse": 770.42,
+        "regression_r2": 0.9336
+      },
+      {
+        "subgroup": "Middle Income (\u20b935K-\u20b975K)",
+        "sample_count": 31481,
+        "sample_pct": 51.8,
+        "accuracy": 0.9591,
+        "macro_f1": 0.8719,
+        "high_risk_recall": 0.9407,
+        "regression_mae": 180.92,
+        "regression_rmse": 370.52,
+        "regression_r2": 0.9953
+      },
+      {
+        "subgroup": "High Income (>\u20b975K)",
+        "sample_count": 14241,
+        "sample_pct": 23.5,
+        "accuracy": 0.939,
+        "macro_f1": 0.8693,
+        "high_risk_recall": 0.9148,
+        "regression_mae": 521.33,
+        "regression_rmse": 1233.88,
+        "regression_r2": 0.987
+      }
+    ]
+  },
+  "calibration_analysis": {
+    "multiclass_brier_score": 0.0561,
+    "calibration_quality": "Excellent (< 0.10)",
+    "curves_by_class": {
+      "Eligible": {
+        "fraction_of_positives": [
+          0.0012,
+          0.1473,
+          0.3812,
+          0.5242,
+          0.7195,
+          0.7509,
+          0.8434,
+          0.9082,
+          0.957,
+          0.9989
+        ],
+        "mean_predicted_probability": [
+          0.0033,
+          0.1433,
+          0.2491,
+          0.3499,
+          0.4486,
+          0.5479,
+          0.6534,
+          0.7514,
+          0.8558,
+          0.9905
+        ]
+      },
+      "High_Risk": {
+        "fraction_of_positives": [
+          0.0008,
+          0.0252,
+          0.0434,
+          0.0781,
+          0.0941,
+          0.1585,
+          0.2562,
+          0.374,
+          0.6462,
+          0.8159
+        ],
+        "mean_predicted_probability": [
+          0.0039,
+          0.1454,
+          0.2467,
+          0.3485,
+          0.4513,
+          0.5517,
+          0.6507,
+          0.7544,
+          0.8562,
+          0.9333
+        ]
+      },
+      "Not_Eligible": {
+        "fraction_of_positives": [
+          0.0241,
+          0.5955,
+          0.759,
+          0.8474,
+          0.8985,
+          0.9003,
+          0.9391,
+          0.9726,
+          0.9785,
+          0.9995
+        ],
+        "mean_predicted_probability": [
+          0.0089,
+          0.1461,
+          0.2464,
+          0.3473,
+          0.4481,
+          0.549,
+          0.6498,
+          0.7551,
+          0.8542,
+          0.9965
+        ]
+      }
+    }
+  },
+  "academic_validation_completed_at": "2026-08-31 18:37:18"
+}

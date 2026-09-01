@@ -1,0 +1,62 @@
+{
+  "classification_ablation": [
+    {
+      "experiment": "Model A (Demographics Only)",
+      "features": "7 features (Age, Gender, Marital, Education, Family, House)",
+      "accuracy": 0.4826,
+      "balanced_accuracy": 0.421,
+      "macro_f1": 0.3562,
+      "high_risk_recall": 0.2882
+    },
+    {
+      "experiment": "Model B (Demographics + Raw Financials)",
+      "features": "25 features (All raw un-engineered inputs)",
+      "accuracy": 0.872,
+      "balanced_accuracy": 0.7941,
+      "macro_f1": 0.7083,
+      "high_risk_recall": 0.6519
+    },
+    {
+      "experiment": "Model C (Full Feature Matrix)",
+      "features": "38 features (Raw + 12 Engineered FinTech Ratios)",
+      "accuracy": 0.9322,
+      "balanced_accuracy": 0.9032,
+      "macro_f1": 0.8126,
+      "high_risk_recall": 0.8658
+    }
+  ],
+  "regression_ablation": [
+    {
+      "experiment": "Exp A (Full Feature Matrix)",
+      "feature_group": "Raw + All Engineered FinTech Ratios (38 features)",
+      "r2": 0.9884,
+      "rmse": 835.68,
+      "mae": 292.51,
+      "mape": 8.29
+    },
+    {
+      "experiment": "Exp B (Raw Features Only)",
+      "feature_group": "Raw Disclosures without engineered math (25 features)",
+      "r2": 0.9651,
+      "rmse": 1452.41,
+      "mae": 914.02,
+      "mape": 39.25
+    },
+    {
+      "experiment": "Exp C (Engineered Ratios Only)",
+      "feature_group": "Only Derived FinTech Ratios (13 features)",
+      "r2": 0.9728,
+      "rmse": 1282.96,
+      "mae": 505.43,
+      "mape": 13.53
+    },
+    {
+      "experiment": "Exp D (Restricted Target-Proximal Features)",
+      "feature_group": "Excludes Disposable Income & FOIR (36 features)",
+      "r2": 0.9833,
+      "rmse": 1004.82,
+      "mae": 461.32,
+      "mape": 12.67
+    }
+  ]
+}

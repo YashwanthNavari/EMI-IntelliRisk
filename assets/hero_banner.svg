@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0a1022" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Accent Neon Gradients -->
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+
+    <linearGradient id="emeraldNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="purpleNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <linearGradient id="borderSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE">
+        <animate attributeName="stop-color" values="#00F2FE;#818CF8;#10B981;#00F2FE" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#10B981;#00F2FE;#818CF8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#00F2FE;#818CF8;#10B981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowSubtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0, 242, 254, 0.04)" stroke-width="1" />
+      <circle cx="40" cy="40" r="1" fill="rgba(0, 242, 254, 0.15)" />
+    </pattern>
+
+    <style>
+      @keyframes floatPulse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.08); }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes laserScan {
+        0% { transform: translateX(-100%); opacity: 0; }
+        30% { opacity: 0.8; }
+        70% { opacity: 0.8; }
+        100% { transform: translateX(100%); opacity: 0; }
+      }
+      @keyframes blinkDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      .floating { animation: floatPulse 6s ease-in-out infinite; }
+      .laser { animation: laserScan 5s ease-in-out infinite; }
+      .dash-circuit { stroke-dasharray: 8, 12; animation: dashFlow 4s linear infinite; }
+      .pulsing-orb { transform-origin: center; animation: pulseGlow 4s ease-in-out infinite; }
+      .blinking { animation: blinkDot 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="180" cy="100" r="160" fill="#00F2FE" opacity="0.07" filter="url(#glowCyan)" class="pulsing-orb" />
+  <circle cx="1020" cy="320" r="180" fill="#818CF8" opacity="0.08" filter="url(#glowCyan)" class="pulsing-orb" style="animation-delay: -2s;" />
+  <circle cx="600" cy="200" r="220" fill="#10B981" opacity="0.04" filter="url(#glowCyan)" />
+
+  <!-- Outer Border with Animated Gradient -->
+  <rect x="2" y="2" width="1196" height="416" rx="15" fill="none" stroke="url(#borderSweep)" stroke-width="2" opacity="0.75" />
+
+  <!-- Decorative Circuit Lines -->
+  <path d="M 80,60 L 220,60 L 260,100 L 450,100" fill="none" stroke="#00F2FE" stroke-width="1.5" opacity="0.4" class="dash-circuit" />
+  <path d="M 1120,360 L 980,360 L 940,320 L 750,320" fill="none" stroke="#818CF8" stroke-width="1.5" opacity="0.4" class="dash-circuit" />
+  <circle cx="80" cy="60" r="4" fill="#00F2FE" opacity="0.8" />
+  <circle cx="450" cy="100" r="4" fill="#00F2FE" opacity="0.8" />
+  <circle cx="1120" cy="360" r="4" fill="#818CF8" opacity="0.8" />
+  <circle cx="750" cy="320" r="4" fill="#818CF8" opacity="0.8" />
+
+  <!-- Top Badge Container -->
+  <g transform="translate(425, 42)">
+    <rect x="0" y="0" width="350" height="34" rx="17" fill="#0F172A" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1.2" />
+    <circle cx="22" cy="17" r="5" fill="#10B981" class="blinking" />
+    <text x="36" y="22" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="12" font-weight="700" fill="#E2E8F0" letter-spacing="1.5">ENTERPRISE FINTECH AI PLATFORM</text>
+  </g>
+
+  <!-- Main Title Area -->
+  <g class="floating">
+    <!-- Brand Icon -->
+    <g transform="translate(140, 120)">
+      <rect x="0" y="0" width="84" height="84" rx="20" fill="#0F172A" stroke="url(#borderSweep)" stroke-width="2" filter="url(#glowSubtle)" />
+      <!-- Shield / Vault Vector -->
+      <path d="M 42,16 L 64,26 C 64,48 42,66 42,66 C 42,66 20,48 20,26 Z" fill="none" stroke="url(#cyanNeon)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Neural Nodes inside shield -->
+      <circle cx="42" cy="36" r="4" fill="#10B981" />
+      <circle cx="34" cy="46" r="3" fill="#00F2FE" />
+      <circle cx="50" cy="46" r="3" fill="#818CF8" />
+      <line x1="42" y1="36" x2="34" y2="46" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+      <line x1="42" y1="36" x2="50" y2="46" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="246" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="54" font-weight="900" fill="url(#cyanNeon)" letter-spacing="-0.5" filter="url(#glowSubtle)">
+      EMI-IntelliRisk
+    </text>
+    <text x="635" y="152" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14" font-weight="800" fill="#10B981" letter-spacing="2">
+      v1.0.0 ACADEMIC GOLD
+    </text>
+
+    <!-- Subtitle -->
+    <text x="250" y="212" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="17" font-weight="400" fill="#94A3B8" letter-spacing="0.2">
+      Intelligent Financial Risk Assessment, Multiclass Credit Underwriting &amp; Sustainable EMI Prediction
+    </text>
+    <text x="250" y="236" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B" letter-spacing="0.5">
+      Benchmarked on 404,800 Empirical Records • Dual-Engine ML • TreeSHAP Explainability • Zero Target Leakage
+    </text>
+  </g>
+
+  <!-- Metric Badges Row -->
+  <g transform="translate(80, 280)">
+    <!-- Pill 1: Dataset -->
+    <g transform="translate(0, 0)">
+      <rect width="235" height="68" rx="12" fill="#0c1322" stroke="rgba(0, 242, 254, 0.3)" stroke-width="1.2" />
+      <circle cx="28" cy="34" r="14" fill="rgba(0, 242, 254, 0.12)" />
+      <text x="28" y="39" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#00F2FE">📊</text>
+      <text x="56" y="28" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">EMPIRICAL CORPUS</text>
+      <text x="56" y="50" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#F8FAFC">404,800 Records</text>
+    </g>
+
+    <!-- Pill 2: Classification Metric -->
+    <g transform="translate(268, 0)">
+      <rect width="235" height="68" rx="12" fill="#0c1322" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1.2" />
+      <circle cx="28" cy="34" r="14" fill="rgba(16, 185, 129, 0.12)" />
+      <text x="28" y="39" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#10B981">🎯</text>
+      <text x="56" y="28" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">CLASSIFICATION MACRO-F1</text>
+      <text x="56" y="50" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#10B981">0.8725 <tspan font-size="12" font-weight="500" fill="#64748B">(95.9% Acc)</tspan></text>
+    </g>
+
+    <!-- Pill 3: Regression Metric -->
+    <g transform="translate(536, 0)">
+      <rect width="235" height="68" rx="12" fill="#0c1322" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1.2" />
+      <circle cx="28" cy="34" r="14" fill="rgba(129, 140, 248, 0.12)" />
+      <text x="28" y="39" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#818CF8">📈</text>
+      <text x="56" y="28" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">REGRESSION ACCURACY</text>
+      <text x="56" y="50" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#818CF8">R² 0.9905 <tspan font-size="12" font-weight="500" fill="#64748B">(SMAPE 5.4%)</tspan></text>
+    </g>
+
+    <!-- Pill 4: High-Risk Sensitivity -->
+    <g transform="translate(804, 0)">
+      <rect width="235" height="68" rx="12" fill="#0c1322" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1.2" />
+      <circle cx="28" cy="34" r="14" fill="rgba(245, 158, 11, 0.12)" />
+      <text x="28" y="39" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#F59E0B">🛡️</text>
+      <text x="56" y="28" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">HIGH-RISK RECALL</text>
+      <text x="56" y="50" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#F59E0B">93.63% <tspan font-size="12" font-weight="500" fill="#64748B">(Default Guard)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Bottom Interactive Status Bar -->
+  <g transform="translate(80, 375)">
+    <text x="0" y="16" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#475569" letter-spacing="1.2">
+      TECH ARSENAL:
+    </text>
+    <text x="110" y="16" font-family="'Segoe UI', monospace" font-size="12" font-weight="500" fill="#38BDF8">
+      Python 3.10+ • Scikit-Learn • LightGBM • XGBoost • MLflow • TreeSHAP • Streamlit • SQLite • PyTest
+    </text>
+    <text x="1040" y="16" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#10B981">
+      ● STABLE PRODUCTION PIPELINE
+    </text>
+  </g>
+</svg>

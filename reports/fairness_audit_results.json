@@ -1,0 +1,131 @@
+{
+  "Gender": [
+    {
+      "subgroup": "Female",
+      "sample_count": 24189,
+      "sample_pct": 39.8,
+      "accuracy": 0.959,
+      "macro_f1": 0.8732,
+      "high_risk_recall": 0.9308,
+      "regression_mae": 261.25,
+      "regression_rmse": 735.82,
+      "regression_r2": 0.9909
+    },
+    {
+      "subgroup": "Male",
+      "sample_count": 36531,
+      "sample_pct": 60.2,
+      "accuracy": 0.9595,
+      "macro_f1": 0.8717,
+      "high_risk_recall": 0.9273,
+      "regression_mae": 264.84,
+      "regression_rmse": 772.65,
+      "regression_r2": 0.9902
+    }
+  ],
+  "Age Group": [
+    {
+      "subgroup": "Young Adults (<30)",
+      "sample_count": 9096,
+      "sample_pct": 15.0,
+      "accuracy": 0.9545,
+      "macro_f1": 0.8646,
+      "high_risk_recall": 0.9185,
+      "regression_mae": 278.14,
+      "regression_rmse": 778.27,
+      "regression_r2": 0.9894
+    },
+    {
+      "subgroup": "Mid-Career (30-50)",
+      "sample_count": 45538,
+      "sample_pct": 75.0,
+      "accuracy": 0.9599,
+      "macro_f1": 0.8728,
+      "high_risk_recall": 0.9301,
+      "regression_mae": 261.88,
+      "regression_rmse": 762.61,
+      "regression_r2": 0.9904
+    },
+    {
+      "subgroup": "Senior (50+)",
+      "sample_count": 6086,
+      "sample_pct": 10.0,
+      "accuracy": 0.9619,
+      "macro_f1": 0.8813,
+      "high_risk_recall": 0.9343,
+      "regression_mae": 252.82,
+      "regression_rmse": 691.72,
+      "regression_r2": 0.9924
+    }
+  ],
+  "Employment Type": [
+    {
+      "subgroup": "Government",
+      "sample_count": 12294,
+      "sample_pct": 20.2,
+      "accuracy": 0.9612,
+      "macro_f1": 0.8779,
+      "high_risk_recall": 0.9119,
+      "regression_mae": 297.36,
+      "regression_rmse": 796.68,
+      "regression_r2": 0.9917
+    },
+    {
+      "subgroup": "Private",
+      "sample_count": 42319,
+      "sample_pct": 69.7,
+      "accuracy": 0.9595,
+      "macro_f1": 0.8741,
+      "high_risk_recall": 0.9369,
+      "regression_mae": 253.61,
+      "regression_rmse": 753.63,
+      "regression_r2": 0.99
+    },
+    {
+      "subgroup": "Self-employed",
+      "sample_count": 6107,
+      "sample_pct": 10.1,
+      "accuracy": 0.9543,
+      "macro_f1": 0.8475,
+      "high_risk_recall": 0.9043,
+      "regression_mae": 263.0,
+      "regression_rmse": 708.63,
+      "regression_r2": 0.9897
+    }
+  ],
+  "Income Tier": [
+    {
+      "subgroup": "Low Income (<\u20b935K)",
+      "sample_count": 14998,
+      "sample_pct": 24.7,
+      "accuracy": 0.9789,
+      "macro_f1": 0.8609,
+      "high_risk_recall": 0.9158,
+      "regression_mae": 191.64,
+      "regression_rmse": 770.42,
+      "regression_r2": 0.9336
+    },
+    {
+      "subgroup": "Middle Income (\u20b935K-\u20b975K)",
+      "sample_count": 31481,
+      "sample_pct": 51.8,
+      "accuracy": 0.9591,
+      "macro_f1": 0.8719,
+      "high_risk_recall": 0.9407,
+      "regression_mae": 180.92,
+      "regression_rmse": 370.52,
+      "regression_r2": 0.9953
+    },
+    {
+      "subgroup": "High Income (>\u20b975K)",
+      "sample_count": 14241,
+      "sample_pct": 23.5,
+      "accuracy": 0.939,
+      "macro_f1": 0.8693,
+      "high_risk_recall": 0.9148,
+      "regression_mae": 521.33,
+      "regression_rmse": 1233.88,
+      "regression_r2": 0.987
+    }
+  ]
+}

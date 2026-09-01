@@ -1,0 +1,1001 @@
+age,gender,marital_status,education,monthly_salary,employment_type,years_of_employment,company_type,house_type,monthly_rent,family_size,dependents,school_fees,college_fees,travel_expenses,groceries_utilities,other_monthly_expenses,existing_loans,current_emi_amount,credit_score,bank_balance,emergency_fund,emi_scenario,requested_amount,requested_tenure,emi_eligibility,max_monthly_emi
+38.0,Female,Married,Professional,82600.0,Private,0.9,Mid-size,Rented,20000.0,3,2,0.0,0.0,7200.0,19500.0,13200.0,Yes,23700.0,660.0,303200.0,70200.0,Personal Loan EMI,850000.0,15,Not_Eligible,500.0
+38.0,Female,Married,Graduate,21500.0,Private,7.0,MNC,Family,0.0,2,1,5100.0,0.0,1400.0,5400.0,3500.0,Yes,4100.0,714.0,92500.0,26900.0,E-commerce Shopping EMI,128000.0,19,Not_Eligible,700.0
+38.0,Male,Married,Professional,86100.0,Private,5.8,Startup,Own,0.0,4,3,0.0,0.0,10200.0,19400.0,6000.0,No,0.0,650.0,672100.0,324200.0,Education EMI,306000.0,16,Eligible,27775.0
+58.0,Female,Married,High School,66800.0,Private,2.2,Mid-size,Own,0.0,5,4,11400.0,0.0,6200.0,11900.0,7900.0,No,0.0,685.0,440900.0,178100.0,Vehicle EMI,304000.0,83,Eligible,16170.0
+48.0,Female,Married,Professional,57300.0,Private,3.4,Mid-size,Family,0.0,4,3,9400.0,21300.0,3600.0,16200.0,8100.0,No,0.0,770.0,97300.0,28200.0,Home Appliances EMI,252000.0,7,Not_Eligible,500.0
+38.0,Male,Married,High School,38800.0,Government,5.0,Large Indian,Rented,13500.0,4,3,0.0,24100.0,3400.0,8200.0,6700.0,No,0.0,792.0,260800.0,55600.0,Vehicle EMI,1257000.0,53,Not_Eligible,500.0
+58.0,Male,Single,High School,27100.0,Private,36.0,Large Indian,Own,0.0,3,2,10200.0,0.0,1600.0,7300.0,4100.0,No,0.0,741.0,68000.0,36200.0,Home Appliances EMI,280000.0,11,Not_Eligible,1950.0
+58.0,Female,Married,Post Graduate,392044.0,Private,12.9,MNC,Family,0.0,4,3,0.0,0.0,5600.0,12300.0,3000.0,Yes,9900.0,623.0,184600.0,61700.0,E-commerce Shopping EMI,153000.0,12,Not_Eligible,8260.0
+58.0,Female,Married,Professional,47700.0,Private,36.0,Large Indian,Family,0.0,3,2,15000.0,0.0,6100.0,7300.0,8300.0,No,0.0,712.0,235600.0,81800.0,E-commerce Shopping EMI,106000.0,14,Not_Eligible,5500.0
+32.0,Female,Single,Post Graduate,129200.0,Private,1.9,MNC,Family,0.0,2,1,8100.0,11300.0,11800.0,24100.0,16500.0,Yes,33100.0,681.0,963200.0,519100.0,E-commerce Shopping EMI,81000.0,3,Not_Eligible,9355.5
+32.0,Female,Single,Post Graduate,58600.0,Government,7.5,Mid-size,Family,0.0,2,1,0.0,8900.0,3100.0,11000.0,9300.0,Yes,7100.0,791.0,300700.0,101500.0,Vehicle EMI,518000.0,77,Not_Eligible,8870.4
+38.0,Female,Married,Graduate,47000.0,Private,3.7,Large Indian,Rented,13100.0,3,2,0.0,15300.0,6800.0,8900.0,2500.0,Yes,11300.0,560.0,185100.0,48700.0,Personal Loan EMI,650000.0,41,Not_Eligible,500.0
+32.0,Male,Married,Graduate,11837.0,Private,1.3,Large Indian,Rented,11700.0,4,3,0.0,0.0,3800.0,14000.0,3400.0,No,0.0,695.0,129600.0,70900.0,E-commerce Shopping EMI,30000.0,12,Eligible,13440.0
+48.0,Male,Married,Professional,53900.0,Self-employed,3.2,MNC,Own,0.0,4,3,0.0,20300.0,4000.0,10500.0,3900.0,Yes,6300.0,691.0,350500.0,183700.0,Home Appliances EMI,221000.0,15,Not_Eligible,3083.85
+27.0,Female,Married,Post Graduate,110800.0,Government,0.5,MNC,Family,0.0,4,3,10900.0,0.0,6200.0,27700.0,9000.0,No,0.0,788.0,157300.0,40500.0,E-commerce Shopping EMI,83000.0,21,Eligible,27360.0
+48.0,Female,Married,Post Graduate,64000.0,Self-employed,26.0,MNC,Rented,17600.0,2,1,0.0,0.0,4900.0,14000.0,8400.0,Yes,18600.0,664.0,38700.0,12300.0,Personal Loan EMI,650000.0,60,Not_Eligible,500.0
+38.0,Male,Married,Graduate,46600.0,Private,0.9,Mid-size,Own,0.0,4,3,0.0,0.0,6300.0,10000.0,5400.0,Yes,10400.0,662.0,125700.0,73900.0,Vehicle EMI,1179000.0,61,Not_Eligible,4060.0
+27.0,Male,Single,Post Graduate,77400.0,Government,0.9,MNC,Family,0.0,2,1,10900.0,0.0,8300.0,15600.0,10300.0,Yes,21200.0,665.0,551200.0,329200.0,Home Appliances EMI,162000.0,33,Not_Eligible,4273.5
+32.0,Male,Married,Graduate,40700.0,Private,3.2,Large Indian,Rented,8400.0,3,2,12000.0,0.0,3800.0,8800.0,6600.0,Yes,4800.0,655.0,118200.0,38800.0,Vehicle EMI,1286000.0,33,Not_Eligible,500.0
+38.0,Female,Married,Post Graduate,47500.0,Private,0.5,MNC,Own,0.0,4,3,9100.0,0.0,3200.0,13500.0,6900.0,No,0.0,719.0,134300.0,42700.0,Home Appliances EMI,226000.0,35,Not_Eligible,5920.0
+48.0,Male,Married,Post Graduate,65600.0,Private,0.9,MNC,Family,0.0,2,1,10800.0,0.0,9600.0,18500.0,7600.0,Yes,13600.0,663.0,486600.0,271400.0,Personal Loan EMI,689000.0,57,Not_Eligible,1694.0
+27.0,Female,Single,Post Graduate,67300.0,Government,0.8,MNC,Rented,16400.0,1,0,0.0,0.0,5600.0,17600.0,8000.0,No,0.0,765.0,448600.0,142800.0,Education EMI,226000.0,36,Eligible,13002.0
+38.0,Male,Married,Graduate,15000.0,Private,4.2,Large Indian,Rented,3800.0,3,2,9300.0,22400.0,1600.0,2600.0,1700.0,No,0.0,714.0,89300.0,45400.0,Home Appliances EMI,214000.0,7,Not_Eligible,500.0
+32.0,Male,Married,Professional,29200.0,Government,2.6,Mid-size,Rented,7200.0,5,4,0.0,0.0,2600.0,5500.0,4500.0,Yes,5200.0,804.0,146700.0,82700.0,Vehicle EMI,897000.0,63,Not_Eligible,1764.0
+38.0,Female,Married,High School,61600.0,Private,3.9,MNC,Family,0.0,4,3,11700.0,0.0,3100.0,12700.0,12100.0,No,0.0,755.0,481700.0,98300.0,E-commerce Shopping EMI,46000.0,7,Eligible,14520.0
+32.0,Female,Married,Graduate,72800.0,Private,9.7,Startup,Own,0.0,3,2,5500.0,0.0,6100.0,11100.0,8200.0,No,0.0,808.0,374000.0,155100.0,E-commerce Shopping EMI,156000.0,20,Eligible,25140.0
+48.0,Male,Married,Graduate,40700.0,Private,4.7,Mid-size,Own,0.0,3,2,0.0,0.0,5300.0,6500.0,3300.0,Yes,7800.0,710.0,162000.0,65000.0,Vehicle EMI,612000.0,75,Not_Eligible,6230.0
+48.0,Male,Married,Graduate,95000.0,Private,9.6,Large Indian,Rented,14400.0,3,2,0.0,0.0,5500.0,19400.0,8000.0,No,0.0,769.0,374900.0,188400.0,E-commerce Shopping EMI,156000.0,8,Eligible,28620.0
+27.0,Male,Married,Graduate,123200.0,Private,1.7,Large Indian,Own,0.0,3,2,5400.0,6500.0,8700.0,20300.0,16100.0,No,0.0,648.0,112100.0,54900.0,Personal Loan EMI,378000.0,16,Not_Eligible,21184.0
+48.0,Male,Married,Graduate,28400.0,Private,9.4,Startup,Own,0.0,4,3,0.0,15000.0,3000.0,5800.0,2300.0,Yes,5300.0,746.0,149800.0,35900.0,Vehicle EMI,746000.0,23,Not_Eligible,500.0
+38.0,Male,Married,Graduate,29800.0,Self-employed,4.1,Small,Rented,7200.0,3,2,0.0,0.0,4200.0,6700.0,3300.0,Yes,6400.0,614.0,92700.0,33100.0,Personal Loan EMI,142000.0,49,Not_Eligible,504.0
+32.0,Male,Married,High School,32600.0,Government,2.2,Mid-size,Own,0.0,4,3,0.0,12700.0,3300.0,5800.0,6400.0,No,0.0,819.0,206300.0,57600.0,E-commerce Shopping EMI,96000.0,14,Not_Eligible,2904.0
+38.0,Male,Single,Graduate,55200.0,Self-employed,1.0,Mid-size,Own,0.0,1,0,0.0,0.0,7100.0,8600.0,9900.0,No,0.0,570.0,132700.0,61000.0,E-commerce Shopping EMI,39000.0,14,Eligible,10656.0
+27.0,Female,Married,Post Graduate,120900.0,Private,1.7,MNC,Family,0.0,5,4,9100.0,0.0,10800.0,23400.0,10100.0,Yes,34300.0,606.0,416000.0,223900.0,Vehicle EMI,1305000.0,45,Not_Eligible,9296.0
+32.0,Female,Married,Graduate,28900.0,Government,7.6,MNC,Rented,6700.0,4,3,8000.0,0.0,4300.0,5600.0,5100.0,Yes,7500.0,765.0,67100.0,21800.0,Education EMI,156000.0,8,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,148600.0,Private,16.0,MNC,Rented,28300.0,4,3,2400.0,17400.0,11000.0,22500.0,25300.0,No,0.0,717.0,1138000.0,579000.0,Vehicle EMI,1055000.0,80,Eligible,22935.0
+38.0,Male,Single,Graduate,37600.0,Private,2.5,MNC,Rented,10900.0,1,0,0.0,0.0,3900.0,10700.0,2900.0,Yes,6500.0,546.0,238100.0,52600.0,Vehicle EMI,1023000.0,34,Not_Eligible,519.75
+38.0,Female,Single,Professional,53700.0,Government,1.6,Large Indian,Rented,18300.0,3,2,0.0,0.0,7100.0,11200.0,6300.0,No,0.0,702.0,170900.0,38500.0,E-commerce Shopping EMI,24000.0,14,Eligible,5400.0
+48.0,Male,Married,Professional,89500.0,Self-employed,17.1,Large Indian,Rented,16900.0,2,1,0.0,0.0,9700.0,26000.0,11600.0,No,0.0,718.0,641800.0,314500.0,Education EMI,110000.0,45,Eligible,12523.5
+38.0,Male,Married,High School,28500.0,Government,6.6,MNC,Own,0.0,5,4,14400.0,0.0,2800.0,8400.0,3700.0,No,0.0,681.0,68800.0,32800.0,Education EMI,149000.0,18,Not_Eligible,500.0
+48.0,Male,Married,Graduate,49100.0,Private,0.5,Mid-size,Family,0.0,3,2,0.0,0.0,5800.0,13600.0,4400.0,Yes,9300.0,691.0,236000.0,91400.0,Vehicle EMI,483000.0,59,Not_Eligible,4480.0
+48.0,Female,Married,Graduate,60400.0,Private,12.6,Small,Rented,18000.0,4,3,0.0,14900.0,3800.0,13200.0,10600.0,No,0.0,694.0,472900.0,253400.0,E-commerce Shopping EMI,10000.0,9,Not_Eligible,500.0
+38.0,Male,Married,Graduate,43500.0,Private,2.3,Large Indian,Rented,10200.0,4,3,3000.0,24000.0,4000.0,8800.0,5400.0,No,0.0,729.0,298000.0,119000.0,E-commerce Shopping EMI,185000.0,14,Not_Eligible,500.0
+32.0,Male,Married,Graduate,77300.0,Private,1.9,Small,Own,0.0,4,3,0.0,0.0,7500.0,19800.0,14200.0,No,0.0,732.0,502300.0,198100.0,Vehicle EMI,934000.0,48,Not_Eligible,19690.0
+32.0,Male,Married,Professional,61000.0,Private,4.5,MNC,Own,0.0,3,2,12900.0,22000.0,4200.0,16500.0,9800.0,No,0.0,705.0,440100.0,179700.0,E-commerce Shopping EMI,106000.0,22,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,57800.0,Government,11.3,MNC,Rented,9500.0,3,2,2400.0,0.0,5500.0,11400.0,3100.0,No,0.0,850.0,169100.0,75300.0,E-commerce Shopping EMI,95000.0,7,High_Risk,17094.0
+48.0,Female,Married,Graduate,31000.0,Private,1.0,Mid-size,Family,0.0,3,2,8300.0,0.0,1900.0,5300.0,4300.0,No,0.0,697.0,84000.0,17000.0,Home Appliances EMI,232000.0,7,Not_Eligible,5600.0
+32.0,Male,Single,Post Graduate,158100.0,Government,10.0,MNC,Family,0.0,1,0,0.0,0.0,19400.0,36400.0,21700.0,No,0.0,737.0,946000.0,304200.0,Education EMI,137000.0,42,Eligible,44330.0
+38.0,Male,Married,Graduate,24000.0,Self-employed,0.7,Large Indian,Own,0.0,4,3,0.0,0.0,3200.0,4900.0,3500.0,No,0.0,670.0,121000.0,63500.0,Education EMI,145000.0,13,Not_Eligible,5580.0
+47.0,Male,Married,Graduate,93257.0,Self-employed,3.4,Mid-size,Rented,29500.0,2,1,10600.0,0.0,9300.0,22700.0,13000.0,No,0.0,718.0,291300.0,129400.0,Vehicle EMI,316000.0,57,Not_Eligible,4275.0
+38.0,Female,Married,Graduate,103200.0,Private,3.7,Startup,Family,0.0,2,1,0.0,0.0,8400.0,16700.0,7400.0,No,0.0,670.0,726200.0,248800.0,Personal Loan EMI,892000.0,39,Eligible,38885.0
+32.0,Female,Married,High School,17700.0,Private,3.0,Mid-size,Own,16224.0,2,1,0.0,0.0,1300.0,3700.0,2100.0,Yes,3200.0,700.0,36600.0,14300.0,Vehicle EMI,1284000.0,55,Not_Eligible,2590.0
+27.0,Female,Single,Graduate,99100.0,Self-employed,2.1,Large Indian,Family,0.0,1,0,0.0,0.0,8200.0,24200.0,5600.0,No,0.0,727.0,378500.0,127100.0,Personal Loan EMI,955000.0,55,High_Risk,27495.0
+38.0,Male,Married,Graduate,66300.0,Private,7.5,MNC,Family,0.0,4,3,0.0,0.0,6900.0,15300.0,4000.0,No,0.0,628.0,489600.0,104900.0,Home Appliances EMI,165000.0,15,Eligible,17644.0
+38.0,Female,Married,Professional,118500.0,Government,2.7,Startup,Own,0.0,3,2,12300.0,12300.0,16000.0,23800.0,10700.0,Yes,29400.0,731.0,559000.0,294600.0,Personal Loan EMI,540000.0,57,Not_Eligible,4900.0
+32.0,Female,Married,Professional,60100.0,Private,1.0,MNC,Own,0.0,3,2,13800.0,17300.0,4600.0,14100.0,7600.0,Yes,11600.0,730.0,321200.0,109600.0,Home Appliances EMI,180000.0,8,Not_Eligible,500.0
+38.0,Male,Single,Graduate,40100.0,Private,1.3,Startup,Own,0.0,2,1,0.0,0.0,2800.0,6300.0,6600.0,No,0.0,745.0,160100.0,42100.0,Vehicle EMI,845000.0,44,Not_Eligible,12200.0
+32.0,Female,Married,High School,92200.0,Government,0.6,MNC,Rented,27800.0,4,3,0.0,0.0,12500.0,18000.0,12400.0,Yes,20700.0,798.0,357800.0,153600.0,Personal Loan EMI,104000.0,20,Not_Eligible,500.0
+58.0,Female,Married,Graduate,400172.0,Private,8.6,Large Indian,Rented,5700.0,4,3,9900.0,0.0,3600.0,5400.0,4100.0,Yes,5700.0,710.0,32900.0,9700.0,Personal Loan EMI,876000.0,37,Not_Eligible,500.0
+27.0,Male,Single,Graduate,43200.0,Private,0.5,Large Indian,Rented,11500.0,2,1,0.0,0.0,6500.0,10400.0,3900.0,Yes,6300.0,668.0,24000.0,8600.0,Home Appliances EMI,59000.0,7,Not_Eligible,1030.4
+38.0,Female,Married,Graduate,45700.0,Private,0.9,Large Indian,Family,0.0,5,4,9300.0,8300.0,6600.0,12900.0,8700.0,Yes,7800.0,653.0,108900.0,43000.0,Vehicle EMI,1067000.0,22,Not_Eligible,500.0
+27.0,Female,Married,High School,60400.0,Private,0.5,Startup,Rented,13900.0,3,2,12300.0,0.0,3500.0,15100.0,9700.0,Yes,12300.0,735.0,355700.0,92600.0,Home Appliances EMI,115000.0,10,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,54900.0,Private,5.9,Startup,Own,0.0,3,2,0.0,0.0,7000.0,11800.0,6300.0,No,0.0,630.0,67700.0,23400.0,Vehicle EMI,1104000.0,42,Not_Eligible,9536.0
+38.0,Male,Married,Post Graduate,319242.0,Private,0.5,MNC,Rented,9600.0,2,1,12500.0,0.0,2800.0,7500.0,6000.0,No,0.0,704.0,224300.0,106300.0,E-commerce Shopping EMI,23000.0,20,Not_Eligible,500.0
+58.0,Male,Married,Professional,103400.0,Government,8.4,Large Indian,Family,0.0,4,3,5900.0,17600.0,13700.0,23400.0,12600.0,Yes,14300.0,686.0,746500.0,311700.0,Home Appliances EMI,45000.0,35,Eligible,6733.65
+38.0,Male,Married,Graduate,64400.0,Private,12.4,MNC,Rented,11300.0,3,2,0.0,0.0,5300.0,19100.0,8800.0,No,0.0,716.0,55200.0,28400.0,Personal Loan EMI,334000.0,25,Not_Eligible,7960.0
+38.0,Female,Married,Post Graduate,34800.0,Private,2.8,Startup,Own,0.0,3,2,3900.0,0.0,2600.0,5900.0,5400.0,Yes,6700.0,678.0,51600.0,21800.0,Personal Loan EMI,716000.0,15,Not_Eligible,2884.0
+27.0,Female,Single,Professional,49700.0,Private,0.5,Startup,Rented,16500.0,2,1,0.0,17900.0,2800.0,12900.0,5000.0,Yes,14600.0,578.0,285100.0,142200.0,Education EMI,70000.0,6,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,46600.0,Private,0.5,Mid-size,Own,0.0,5,4,12900.0,21900.0,3000.0,9300.0,7000.0,No,0.0,762.0,68800.0,17900.0,E-commerce Shopping EMI,200000.0,24,Not_Eligible,500.0
+38.0,Male,Married,Graduate,60900.0,Self-employed,15.9,Large Indian,Rented,13700.0,3,2,8500.0,0.0,4600.0,15600.0,5700.0,Yes,9000.0,693.0,193300.0,112000.0,E-commerce Shopping EMI,160000.0,18,Not_Eligible,1197.0
+32.0,Male,Married,Graduate,70400.0,Private,1.0,Startup,Family,0.0,3,2,0.0,18900.0,9100.0,18400.0,10200.0,No,0.0,756.0,357900.0,173100.0,Education EMI,176000.0,10,Not_Eligible,8280.0
+38.0,Male,Married,Graduate,61300.0,Private,2.2,Large Indian,Rented,13000.0,3,2,0.0,0.0,4700.0,16200.0,11300.0,No,0.0,703.0,166600.0,95300.0,Vehicle EMI,417000.0,63,Not_Eligible,8050.0
+48.0,Male,Married,Professional,107500.0,Government,7.5,Large Indian,Family,0.0,3,2,0.0,0.0,14000.0,24000.0,20400.0,No,0.0,799.0,173400.0,77300.0,Home Appliances EMI,129000.0,35,Eligible,25924.8
+32.0,Male,Married,Graduate,35300.0,Private,0.5,Large Indian,Own,0.0,5,4,0.0,0.0,4300.0,9500.0,3200.0,Yes,3600.0,543.0,186000.0,72400.0,Home Appliances EMI,226000.0,10,Not_Eligible,2058.0
+32.0,Male,Married,Post Graduate,98800.0,Government,1.0,Mid-size,Family,0.0,2,1,0.0,5400.0,5300.0,17400.0,14500.0,No,0.0,690.0,671300.0,389300.0,Vehicle EMI,305000.0,35,Eligible,30910.0
+48.0,Male,Single,Post Graduate,47200.0,Self-employed,10.2,MNC,Family,0.0,2,1,0.0,0.0,2600.0,9800.0,6500.0,No,0.0,694.0,334600.0,138800.0,Education EMI,423000.0,18,Not_Eligible,14008.5
+48.0,Male,Married,Post Graduate,26700.0,Private,1.6,Large Indian,Own,0.0,4,3,12700.0,0.0,2500.0,7100.0,3800.0,Yes,4700.0,639.0,74600.0,32700.0,E-commerce Shopping EMI,73000.0,11,Not_Eligible,500.0
+58.0,Male,Married,Graduate,43600.0,Private,1.2,Large Indian,Own,0.0,3,2,0.0,0.0,6000.0,7500.0,3100.0,No,0.0,669.0,207500.0,119400.0,E-commerce Shopping EMI,38000.0,14,Eligible,13500.0
+32.0,Male,Married,Post Graduate,49100.0,Private,1.6,MNC,Rented,12700.0,4,3,6800.0,0.0,5200.0,8300.0,8500.0,Yes,14100.0,608.0,53700.0,27800.0,Vehicle EMI,426000.0,19,Not_Eligible,500.0
+38.0,Female,Single,Professional,81600.0,Private,1.5,Large Indian,Own,0.0,1,0,0.0,0.0,5900.0,12900.0,11300.0,Yes,21300.0,728.0,553500.0,299700.0,Personal Loan EMI,771000.0,41,Not_Eligible,11627.0
+27.0,Female,Single,High School,37300.0,Government,5.0,Small,Rented,9600.0,2,1,0.0,0.0,3200.0,9900.0,3500.0,Yes,5900.0,676.0,174700.0,99200.0,Home Appliances EMI,135000.0,19,Not_Eligible,2002.0
+38.0,Female,Married,Post Graduate,49300.0,Government,14.0,MNC,Family,0.0,3,2,7900.0,0.0,2800.0,14000.0,3500.0,Yes,6900.0,777.0,76100.0,40800.0,Home Appliances EMI,124000.0,36,Eligible,5248.32
+27.0,Male,Married,Graduate,56600.0,Self-employed,3.4,Startup,Rented,12800.0,2,1,11000.0,10300.0,8100.0,12900.0,4600.0,No,0.0,716.0,48900.0,17500.0,Education EMI,74000.0,31,Not_Eligible,500.0
+27.0,Male,Single,Post Graduate,33100.0,Private,1.1,Mid-size,Family,0.0,1,0,0.0,0.0,3100.0,8700.0,6200.0,Yes,8900.0,691.0,177600.0,37300.0,Home Appliances EMI,84000.0,28,Not_Eligible,2170.0
+38.0,Female,Married,Graduate,38900.0,Private,3.7,Large Indian,Family,0.0,4,3,0.0,0.0,5800.0,8300.0,4000.0,No,0.0,636.0,54000.0,17500.0,Education EMI,143000.0,34,Eligible,6656.0
+32.0,Male,Single,Post Graduate,38800.0,Private,7.0,MNC,Rented,13500.0,2,1,0.0,0.0,2500.0,7400.0,5600.0,Yes,5100.0,840.0,279300.0,119100.0,Home Appliances EMI,140000.0,16,Not_Eligible,2171.4
+48.0,Male,Married,Graduate,68600.0,Private,6.5,Small,Own,0.0,4,3,7700.0,0.0,8200.0,12600.0,5100.0,No,0.0,712.0,37600.0,8700.0,E-commerce Shopping EMI,80000.0,11,Eligible,14000.0
+48.0,Male,Single,High School,43600.0,Private,7.4,Startup,Own,0.0,2,1,14100.0,0.0,4800.0,10700.0,8200.0,Yes,11200.0,616.0,51100.0,11100.0,Personal Loan EMI,410000.0,20,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,118100.0,Private,5.9,MNC,Rented,24900.0,3,2,14300.0,9500.0,15500.0,27500.0,15200.0,No,0.0,849.0,446400.0,173500.0,Education EMI,163000.0,11,Not_Eligible,6720.0
+38.0,Female,Married,High School,40800.0,Private,7.2,Large Indian,Family,0.0,4,3,5500.0,0.0,3200.0,7900.0,3400.0,Yes,5200.0,688.0,206800.0,99300.0,Education EMI,406000.0,12,Not_Eligible,5460.0
+48.0,Male,Married,Graduate,93200.0,Private,20.7,Mid-size,Family,0.0,4,3,0.0,0.0,5600.0,27600.0,8000.0,No,0.0,722.0,148700.0,83500.0,Vehicle EMI,121000.0,34,Eligible,20800.0
+58.0,Male,Married,Graduate,32000.0,Self-employed,17.6,Mid-size,Family,0.0,3,2,0.0,0.0,2700.0,7800.0,4800.0,No,0.0,725.0,54000.0,28000.0,Personal Loan EMI,519000.0,49,Not_Eligible,6012.0
+38.0,Male,Married,Professional,69100.0,Private,3.0,MNC,Own,0.0,5,4,0.0,0.0,9600.0,14400.0,4800.0,Yes,10900.0,617.0,549600.0,295800.0,Education EMI,310000.0,43,Not_Eligible,9055.2
+32.0,Male,Married,Graduate,40800.0,Private,5.9,Mid-size,Family,0.0,3,2,9900.0,0.0,5000.0,9100.0,4300.0,No,0.0,739.0,309200.0,62500.0,Education EMI,309000.0,42,Not_Eligible,6875.0
+48.0,Female,Married,Post Graduate,125200.0,Government,1.5,MNC,Rented,36500.0,3,2,11200.0,18000.0,8400.0,29100.0,11100.0,No,0.0,770.0,976700.0,208600.0,Personal Loan EMI,350000.0,53,Not_Eligible,7194.0
+48.0,Male,Married,Graduate,23600.0,Government,6.5,Small,Own,0.0,3,2,0.0,0.0,3500.0,4800.0,4000.0,Yes,5600.0,755.0,133100.0,32300.0,Education EMI,84000.0,13,Not_Eligible,2633.4
+38.0,Male,Married,Graduate,23300.0,Private,0.5,MNC,Family,0.0,4,3,4700.0,0.0,3300.0,5700.0,4100.0,Yes,2900.0,637.0,47500.0,21900.0,Vehicle EMI,467000.0,59,Not_Eligible,582.4
+32.0,Male,Married,Graduate,81600.0,Private,6.5,Startup,Rented,18200.0,2,1,14400.0,0.0,5800.0,23900.0,7400.0,No,0.0,706.0,318800.0,141100.0,Home Appliances EMI,270000.0,7,Not_Eligible,5950.0
+58.0,Male,Married,Post Graduate,113300.0,Private,36.0,Large Indian,Rented,21800.0,3,2,11600.0,15500.0,13700.0,31700.0,16500.0,No,0.0,846.0,317200.0,103300.0,Home Appliances EMI,208000.0,15,Not_Eligible,1500.0
+48.0,Male,Married,Graduate,44200.0,Private,16.6,Large Indian,Rented,10400.0,2,1,13800.0,0.0,5300.0,8600.0,5400.0,No,0.0,818.0,115700.0,39600.0,Home Appliances EMI,35000.0,29,Not_Eligible,500.0
+27.0,Male,Single,Professional,166700.0,Self-employed,2.6,Startup,Family,0.0,3,2,0.0,0.0,16600.0,29000.0,29100.0,No,0.0,654.0,809600.0,414500.0,E-commerce Shopping EMI,184000.0,11,Eligible,41400.0
+58.0,Male,Married,Graduate,40500.0,Government,10.9,Large Indian,Own,0.0,4,3,6500.0,24000.0,2100.0,9200.0,5100.0,No,0.0,697.0,178500.0,42200.0,Home Appliances EMI,142000.0,8,Not_Eligible,500.0
+32.0,Male,Single,Post Graduate,77900.0,Private,7.6,Large Indian,Own,0.0,2,1,6200.0,0.0,9000.0,12100.0,7600.0,No,0.0,698.0,160200.0,92300.0,Home Appliances EMI,171000.0,36,Eligible,21500.0
+38.0,Male,Married,Professional,74600.0,Government,1.6,Mid-size,Own,0.0,4,3,6800.0,10200.0,9900.0,15700.0,10800.0,Yes,17800.0,631.0,171400.0,97100.0,Home Appliances EMI,212000.0,10,Not_Eligible,952.0
+48.0,Female,Married,High School,14400.0,Private,20.6,Mid-size,Own,0.0,4,3,10300.0,0.0,1000.0,2800.0,800.0,No,0.0,703.0,114400.0,60700.0,E-commerce Shopping EMI,81000.0,13,Not_Eligible,500.0
+58.0,Female,Married,Post Graduate,57900.0,Government,29.7,MNC,Own,0.0,2,1,9800.0,8600.0,3500.0,14800.0,9600.0,No,0.0,753.0,382200.0,127400.0,Education EMI,339000.0,21,Not_Eligible,8421.6
+38.0,Male,Married,Professional,103000.0,Private,8.5,Large Indian,Rented,18500.0,4,3,0.0,0.0,5800.0,24000.0,9600.0,No,0.0,690.0,245800.0,81900.0,Vehicle EMI,709000.0,28,Not_Eligible,22550.0
+32.0,Female,Single,Graduate,52300.0,Government,0.9,MNC,Rented,17900.0,2,1,5700.0,0.0,6400.0,12500.0,3100.0,Yes,11200.0,631.0,379500.0,165400.0,Home Appliances EMI,214000.0,8,Not_Eligible,500.0
+27.0,Male,Single,Graduate,43500.0,Private,0.5,Large Indian,Rented,11900.0,1,0,0.0,0.0,3800.0,8700.0,3900.0,No,0.0,790.0,226400.0,55700.0,Home Appliances EMI,142000.0,24,High_Risk,7296.0
+48.0,Female,Married,Professional,63000.0,Private,0.9,Startup,Rented,19200.0,4,3,0.0,5300.0,9000.0,18700.0,9300.0,No,0.0,654.0,270900.0,73300.0,Education EMI,478000.0,44,Not_Eligible,600.0
+32.0,Male,Single,Graduate,43600.0,Government,0.5,MNC,Family,0.0,1,0,0.0,0.0,4200.0,10600.0,7700.0,Yes,9900.0,623.0,118800.0,41900.0,Home Appliances EMI,98000.0,26,Not_Eligible,3136.0
+38.0,Female,Married,Graduate,46100.0,Private,3.4,MNC,Own,0.0,5,4,6500.0,0.0,6300.0,12800.0,7800.0,No,0.0,730.0,308200.0,88800.0,Vehicle EMI,126000.0,58,Eligible,6985.0
+32.0,Female,Single,Post Graduate,39700.0,Private,1.5,Mid-size,Own,0.0,1,0,0.0,0.0,3700.0,7100.0,7600.0,No,0.0,637.0,282400.0,139100.0,Home Appliances EMI,182000.0,33,Eligible,9372.0
+58.0,Female,Married,High School,18300.0,Private,10.8,MNC,Rented,5500.0,4,3,5200.0,0.0,2600.0,4200.0,2300.0,No,0.0,713.0,88000.0,46600.0,Home Appliances EMI,96000.0,32,Not_Eligible,500.0
+27.0,Female,Single,Graduate,29500.0,Government,1.3,Large Indian,Rented,6600.0,2,1,10300.0,20700.0,3100.0,7600.0,3800.0,Yes,3600.0,738.0,211300.0,69800.0,Education EMI,363000.0,29,Not_Eligible,500.0
+48.0,Male,Married,Graduate,66500.0,Private,14.2,Large Indian,Own,0.0,2,1,2500.0,0.0,9200.0,15300.0,12800.0,Yes,9500.0,696.0,293200.0,83700.0,Vehicle EMI,245000.0,44,Not_Eligible,6020.0
+38.0,Male,Married,Graduate,20000.0,Private,2.1,Large Indian,Own,0.0,4,3,14800.0,20900.0,1100.0,3100.0,3700.0,No,0.0,748.0,18400.0,9500.0,Vehicle EMI,238000.0,69,Not_Eligible,500.0
+48.0,Male,Married,High School,42900.0,Self-employed,9.9,MNC,Family,0.0,3,2,2000.0,10600.0,5800.0,10500.0,5300.0,No,0.0,821.0,304600.0,157500.0,Vehicle EMI,748000.0,75,Not_Eligible,5167.8
+48.0,Female,Married,Graduate,105400.0,Private,17.1,Large Indian,Family,0.0,2,1,6800.0,0.0,11600.0,29200.0,18000.0,Yes,14400.0,850.0,316100.0,64900.0,Home Appliances EMI,128000.0,36,Eligible,10668.0
+32.0,Male,Married,Post Graduate,127300.0,Private,0.5,Large Indian,Own,0.0,3,2,0.0,0.0,14700.0,20200.0,10200.0,Yes,34000.0,626.0,732200.0,185000.0,Vehicle EMI,1224000.0,23,Not_Eligible,10796.8
+48.0,Male,Married,Post Graduate,29600.0,Private,24.3,Startup,Rented,6700.0,3,2,14500.0,0.0,4200.0,4900.0,5300.0,No,0.0,706.0,138400.0,72200.0,Education EMI,428000.0,25,Not_Eligible,500.0
+32.0,Female,Married,Professional,74100.0,Self-employed,0.5,Large Indian,Rented,24200.0,3,2,9500.0,0.0,5500.0,14900.0,6200.0,No,0.0,618.0,153500.0,34500.0,Vehicle EMI,692000.0,16,Not_Eligible,4968.0
+48.0,Male,Married,Post Graduate,73100.0,Self-employed,0.6,Mid-size,Rented,24600.0,2,1,5000.0,0.0,9000.0,12600.0,4200.0,Yes,19000.0,658.0,517200.0,230600.0,Personal Loan EMI,852000.0,29,Not_Eligible,500.0
+38.0,Female,Married,High School,31700.0,Self-employed,9.1,MNC,Family,0.0,4,3,0.0,0.0,2100.0,8500.0,2400.0,No,0.0,841.0,250500.0,53200.0,Education EMI,395000.0,22,Not_Eligible,11107.8
+32.0,Female,Married,Graduate,35600.0,Private,1.0,MNC,Family,0.0,4,3,13800.0,7900.0,2000.0,8100.0,2200.0,No,0.0,679.0,139500.0,53100.0,Home Appliances EMI,99000.0,15,Not_Eligible,800.0
+32.0,Female,Married,Graduate,48300.0,Self-employed,2.6,Large Indian,Own,0.0,5,4,8800.0,0.0,3300.0,9200.0,5500.0,No,0.0,794.0,172400.0,94100.0,Vehicle EMI,139000.0,23,Eligible,11610.0
+58.0,Male,Married,Graduate,22900.0,Private,10.9,Small,Family,0.0,2,1,0.0,13400.0,1900.0,4600.0,3600.0,No,0.0,646.0,25900.0,11800.0,Personal Loan EMI,818000.0,55,Not_Eligible,500.0
+48.0,Female,Single,Graduate,46900.0,Private,2.5,Startup,Family,0.0,2,1,11800.0,0.0,3500.0,13300.0,5800.0,No,0.0,780.0,104200.0,62400.0,Personal Loan EMI,850000.0,46,Not_Eligible,7500.0
+38.0,Female,Married,Graduate,20900.0,Private,1.3,Mid-size,Rented,5400.0,5,4,8300.0,0.0,3100.0,3900.0,1800.0,Yes,3200.0,640.0,111200.0,36700.0,Home Appliances EMI,144000.0,7,Not_Eligible,500.0
+48.0,Female,Married,Graduate,98000.0,Private,2.5,MNC,Own,0.0,4,3,0.0,5000.0,14000.0,28200.0,12300.0,Yes,14100.0,663.0,304300.0,110900.0,Home Appliances EMI,250000.0,17,Not_Eligible,8540.0
+58.0,Female,Married,Post Graduate,36700.0,Private,14.0,Large Indian,Own,24407.0,3,2,0.0,21700.0,2500.0,9600.0,5600.0,Yes,5500.0,721.0,82600.0,27900.0,Education EMI,382000.0,33,Not_Eligible,500.0
+32.0,Female,Married,Graduate,65500.0,Self-employed,1.2,Large Indian,Rented,11900.0,2,1,5300.0,0.0,8500.0,14100.0,6200.0,No,0.0,790.0,490800.0,189200.0,Personal Loan EMI,730000.0,25,Not_Eligible,11583.0
+32.0,Male,Married,Graduate,48400.0,Government,1.9,Small,Rented,13000.0,3,2,2700.0,19100.0,5100.0,8700.0,5300.0,No,0.0,710.0,128200.0,62900.0,Education EMI,236000.0,39,Not_Eligible,500.0
+38.0,Male,Married,Professional,41900.0,Private,11.4,MNC,Rented,7600.0,3,2,9600.0,0.0,4000.0,9800.0,2200.0,No,0.0,692.0,93600.0,30000.0,Personal Loan EMI,496000.0,60,Not_Eligible,4350.0
+58.0,Female,Married,Graduate,88300.0,Private,11.8,MNC,Own,0.0,5,4,7300.0,16200.0,12500.0,16600.0,15600.0,Yes,14200.0,746.0,83500.0,46700.0,Home Appliances EMI,188000.0,21,Not_Eligible,1652.0
+27.0,Male,Single,Graduate,44000.0,Government,0.5,MNC,Family,0.0,3,2,8200.0,0.0,6300.0,6600.0,8100.0,No,0.0,673.0,147100.0,82500.0,Personal Loan EMI,963000.0,19,Not_Eligible,7400.0
+32.0,Female,Single,Graduate,41500.0,Private,1.1,Mid-size,Own,0.0,2,1,9900.0,0.0,4800.0,6900.0,7300.0,Yes,9800.0,656.0,196000.0,86700.0,E-commerce Shopping EMI,129000.0,5,Not_Eligible,980.0
+32.0,Female,Married,Post Graduate,38900.0,Private,0.6,Mid-size,Family,0.0,2,1,11300.0,0.0,5600.0,9300.0,3100.0,Yes,4300.0,653.0,256300.0,119800.0,Home Appliances EMI,273000.0,35,Not_Eligible,1632.4
+38.0,Female,Single,Graduate,139000.0,Private,2.6,MNC,Rented,33000.0,1,0,0.0,0.0,19100.0,32600.0,12300.0,Yes,36700.0,719.0,185400.0,70600.0,Home Appliances EMI,234000.0,21,Not_Eligible,1484.0
+38.0,Female,Married,Post Graduate,26000.0,Private,2.0,Large Indian,Family,0.0,3,2,0.0,0.0,3400.0,7600.0,5000.0,No,0.0,843.0,23900.0,11200.0,E-commerce Shopping EMI,93000.0,16,Not_Eligible,4800.0
+38.0,Male,Married,Post Graduate,106500.0,Government,6.2,Mid-size,Family,0.0,4,3,4200.0,24600.0,5500.0,18300.0,17200.0,No,0.0,715.0,841800.0,336000.0,E-commerce Shopping EMI,179000.0,14,Eligible,22203.5
+48.0,Female,Married,High School,25800.0,Private,12.4,MNC,Rented,6600.0,3,2,0.0,0.0,3800.0,6600.0,3100.0,Yes,5800.0,701.0,124700.0,65400.0,Education EMI,378000.0,31,Not_Eligible,500.0
+58.0,Male,Married,Professional,77700.0,Private,6.9,MNC,Own,0.0,2,1,5200.0,0.0,7400.0,19000.0,12000.0,Yes,12700.0,701.0,438000.0,151500.0,Vehicle EMI,894000.0,20,Not_Eligible,7490.0
+32.0,Female,Single,High School,84500.0,Private,1.0,MNC,Rented,21300.0,1,0,0.0,0.0,12600.0,23800.0,9900.0,No,0.0,754.0,538600.0,230900.0,Personal Loan EMI,451000.0,27,Not_Eligible,11154.0
+48.0,Male,Single,Professional,62000.0,Private,3.0,MNC,Family,0.0,3,2,5900.0,0.0,4900.0,15900.0,7300.0,No,0.0,805.0,139200.0,58600.0,E-commerce Shopping EMI,178000.0,22,Eligible,16800.0
+58.0,Female,Married,Post Graduate,28500.0,Private,2.2,Large Indian,Own,0.0,4,3,11700.0,19700.0,3700.0,7500.0,3700.0,No,0.0,739.0,96100.0,38600.0,E-commerce Shopping EMI,149000.0,23,Not_Eligible,500.0
+27.0,Female,Single,Post Graduate,10459.0,Private,0.5,Small,Own,0.0,2,1,2200.0,0.0,8600.0,17800.0,8700.0,No,0.0,662.0,426100.0,242600.0,Vehicle EMI,1319000.0,59,Not_Eligible,11044.0
+38.0,Male,Married,Graduate,40900.0,Private,3.2,Startup,Own,0.0,3,2,5500.0,24500.0,6000.0,9100.0,7800.0,No,0.0,595.0,302900.0,82500.0,Home Appliances EMI,236000.0,15,Not_Eligible,500.0
+32.0,Male,Single,Graduate,51000.0,Private,2.1,Startup,Rented,17500.0,2,1,0.0,0.0,4000.0,10800.0,4600.0,No,0.0,713.0,195900.0,40900.0,Education EMI,169000.0,42,Eligible,7050.0
+38.0,Male,Married,Professional,85100.0,Government,5.2,Startup,Rented,24100.0,4,3,9400.0,0.0,8800.0,19300.0,7300.0,No,0.0,673.0,493500.0,119600.0,Personal Loan EMI,497000.0,21,Not_Eligible,8910.0
+48.0,Male,Married,Graduate,40700.0,Private,12.9,Startup,Own,0.0,3,2,0.0,0.0,5400.0,8100.0,5300.0,No,0.0,576.0,141700.0,37000.0,Personal Loan EMI,106000.0,13,Not_Eligible,8760.0
+27.0,Female,Single,Professional,27000.0,Private,5.0,Large Indian,Rented,5500.0,1,0,0.0,0.0,2500.0,7400.0,4300.0,No,0.0,653.0,97300.0,36700.0,E-commerce Shopping EMI,116000.0,19,Not_Eligible,3650.0
+48.0,Male,Married,Graduate,25600.0,Private,5.9,Startup,Own,0.0,4,3,12300.0,0.0,1300.0,7600.0,3300.0,Yes,3300.0,780.0,168800.0,56800.0,Home Appliances EMI,177000.0,15,Not_Eligible,500.0
+38.0,Male,Married,Graduate,55800.0,Government,5.2,Startup,Rented,8500.0,2,1,0.0,12600.0,5100.0,9400.0,6000.0,Yes,9700.0,747.0,357000.0,189000.0,Personal Loan EMI,634000.0,30,Not_Eligible,1905.75
+27.0,Male,Married,Professional,63700.0,Private,4.2,MNC,Own,7917.0,5,4,3400.0,0.0,8200.0,14500.0,9600.0,Yes,16700.0,701.0,320700.0,173600.0,Home Appliances EMI,103000.0,7,Not_Eligible,3955.0
+38.0,Male,Married,High School,36500.0,Self-employed,1.6,Large Indian,Own,0.0,4,3,0.0,0.0,2000.0,9800.0,5200.0,Yes,9600.0,732.0,44800.0,16400.0,Home Appliances EMI,211000.0,19,Not_Eligible,2494.8
+58.0,Male,Married,Post Graduate,96800.0,Private,11.7,Mid-size,Family,0.0,3,2,2100.0,0.0,12100.0,25400.0,14000.0,No,0.0,644.0,531200.0,314900.0,Personal Loan EMI,178000.0,17,Eligible,17280.0
+48.0,Male,Married,Graduate,84400.0,Private,18.1,Mid-size,Family,0.0,3,2,0.0,0.0,5900.0,25200.0,8900.0,No,0.0,776.0,445200.0,147700.0,Personal Loan EMI,157000.0,60,Eligible,26640.0
+38.0,Female,Married,Graduate,39300.0,Private,8.2,MNC,Own,0.0,4,3,0.0,15700.0,5600.0,7500.0,4400.0,Yes,9700.0,676.0,280000.0,126900.0,Home Appliances EMI,151000.0,23,Not_Eligible,500.0
+38.0,Male,Married,Graduate,56300.0,Private,2.3,Small,Own,0.0,3,2,11700.0,0.0,7900.0,16600.0,6700.0,No,0.0,734.0,106200.0,36700.0,Personal Loan EMI,357000.0,31,Not_Eligible,5360.0
+32.0,Female,Married,Graduate,46500.0,Private,3.1,Mid-size,Family,0.0,3,2,7700.0,0.0,3400.0,10100.0,5700.0,No,0.0,725.0,310400.0,82800.0,Vehicle EMI,718000.0,69,Not_Eligible,10780.0
+32.0,Male,Married,High School,92200.0,Private,2.7,Large Indian,Own,0.0,4,3,0.0,5800.0,13400.0,20700.0,7700.0,Yes,22200.0,664.0,584600.0,308400.0,Home Appliances EMI,274000.0,9,Not_Eligible,8624.0
+38.0,Male,Single,Professional,53500.0,Private,1.3,MNC,Family,0.0,2,1,14700.0,18900.0,7200.0,11200.0,6400.0,Yes,6200.0,728.0,167100.0,79900.0,E-commerce Shopping EMI,38000.0,5,Not_Eligible,500.0
+48.0,Male,Married,Graduate,37000.0,Government,0.5,MNC,Rented,7200.0,5,4,7300.0,0.0,2200.0,8900.0,2300.0,No,0.0,751.0,258400.0,70700.0,Personal Loan EMI,66000.0,52,Eligible,6006.0
+32.0,Male,Single,Post Graduate,60776.0,Private,0.5,Mid-size,Rented,10400.0,2,1,13500.0,0.0,3800.0,17600.0,5700.0,Yes,6900.0,705.0,300800.0,167900.0,Home Appliances EMI,157000.0,9,Not_Eligible,500.0
+32.0,Male,Married,Graduate,21700.0,Private,1.9,Mid-size,Own,0.0,4,3,2000.0,13600.0,2100.0,6200.0,3300.0,Yes,5900.0,745.0,28100.0,6100.0,E-commerce Shopping EMI,147000.0,13,Not_Eligible,500.0
+38.0,Female,Married,Post Graduate,95900.0,Private,3.3,MNC,Family,0.0,4,3,8600.0,0.0,7900.0,18400.0,17800.0,No,0.0,900.0,695300.0,383000.0,Vehicle EMI,482000.0,19,Not_Eligible,23760.0
+48.0,Male,Married,Post Graduate,48400.0,Private,20.6,Startup,Own,0.0,3,2,0.0,0.0,4900.0,13000.0,8500.0,Yes,12200.0,682.0,254600.0,129800.0,E-commerce Shopping EMI,141000.0,20,Not_Eligible,3430.0
+38.0,Female,Married,High School,47600.0,Private,7.1,Large Indian,Rented,13900.0,3,2,10500.0,0.0,4200.0,10200.0,8200.0,Yes,12600.0,625.0,113800.0,57900.0,Personal Loan EMI,68000.0,58,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,64300.0,Private,5.5,Large Indian,Own,0.0,3,2,4400.0,0.0,3900.0,17900.0,10300.0,Yes,8000.0,720.0,245400.0,135400.0,Personal Loan EMI,555000.0,14,Not_Eligible,6930.0
+58.0,Male,Married,High School,5534.0,Government,3.3,MNC,Family,0.0,5,4,2500.0,0.0,7100.0,14300.0,10100.0,No,0.0,741.0,67600.0,25300.0,Personal Loan EMI,724000.0,55,Not_Eligible,13508.0
+48.0,Male,Married,Graduate,59800.0,Government,6.9,Large Indian,Rented,9100.0,4,3,3200.0,0.0,7100.0,10500.0,10700.0,No,0.0,777.0,325000.0,118700.0,Education EMI,450000.0,33,Not_Eligible,12672.0
+58.0,Male,Married,High School,23900.0,Private,2.6,MNC,Rented,7900.0,5,4,5100.0,0.0,2500.0,3900.0,4200.0,No,0.0,704.0,31700.0,8600.0,Vehicle EMI,1316000.0,66,Not_Eligible,500.0
+58.0,Male,Married,High School,36200.0,Private,10.4,Mid-size,Own,0.0,5,4,8800.0,10300.0,4400.0,8000.0,7200.0,Yes,5500.0,644.0,80600.0,21600.0,Home Appliances EMI,260000.0,11,Not_Eligible,500.0
+38.0,Female,Married,Graduate,33600.0,Private,0.7,MNC,Rented,9600.0,3,2,0.0,0.0,3500.0,7000.0,2200.0,Yes,4600.0,640.0,36400.0,8600.0,Vehicle EMI,1206000.0,79,Not_Eligible,1200.64
+27.0,Male,Single,Graduate,86400.0,Private,2.7,Large Indian,Rented,22200.0,2,1,0.0,0.0,9400.0,25500.0,9000.0,Yes,12800.0,811.0,605300.0,127700.0,Education EMI,289000.0,25,Not_Eligible,3465.0
+38.0,Male,Married,Post Graduate,80700.0,Private,4.0,Startup,Rented,24700.0,3,2,10700.0,21700.0,6900.0,22200.0,4800.0,Yes,9900.0,670.0,622200.0,302200.0,Home Appliances EMI,241000.0,13,Not_Eligible,500.0
+58.0,Male,Married,High School,26400.0,Private,36.0,Mid-size,Rented,5200.0,3,2,0.0,10700.0,1900.0,6400.0,3200.0,No,0.0,668.0,94500.0,35600.0,E-commerce Shopping EMI,112000.0,23,Not_Eligible,500.0
+27.0,Male,Married,Post Graduate,32700.0,Private,0.7,Mid-size,Family,0.0,3,2,0.0,9000.0,4400.0,6700.0,4600.0,No,0.0,523.0,34200.0,10500.0,Education EMI,457000.0,7,Not_Eligible,1280.0
+58.0,Female,Married,Post Graduate,27700.0,Private,2.4,Startup,Rented,6900.0,2,1,11200.0,0.0,2600.0,4200.0,3500.0,No,0.0,778.0,18100.0,8800.0,Education EMI,491000.0,33,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,23000.0,Private,4.2,Small,Rented,7100.0,2,1,9000.0,0.0,1900.0,5000.0,3100.0,No,0.0,710.0,106400.0,46300.0,Education EMI,139000.0,15,Not_Eligible,500.0
+27.0,Male,Single,Post Graduate,94200.0,Private,0.5,Small,Rented,16500.0,3,2,0.0,21800.0,5400.0,21300.0,16600.0,No,0.0,715.0,85600.0,46700.0,Vehicle EMI,1174000.0,35,Not_Eligible,4032.0
+48.0,Male,Married,Graduate,18700.0,Self-employed,6.6,Startup,Family,0.0,4,3,0.0,15100.0,1500.0,3900.0,2100.0,Yes,4300.0,652.0,19700.0,6000.0,Vehicle EMI,1011000.0,40,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,111000.0,Private,1.7,Large Indian,Rented,0.0,4,3,3800.0,0.0,11200.0,28200.0,8700.0,No,0.0,803.0,98300.0,29200.0,Education EMI,311000.0,24,Eligible,20160.0
+38.0,Male,Married,Professional,41300.0,Private,0.8,MNC,Family,0.0,3,2,5600.0,8500.0,3900.0,8200.0,7600.0,No,0.0,769.0,212900.0,97900.0,Personal Loan EMI,864000.0,18,Not_Eligible,3600.0
+38.0,Male,Married,Graduate,42000.0,Private,4.5,Large Indian,Own,0.0,2,1,5900.0,5300.0,5100.0,7400.0,4600.0,No,0.0,716.0,327800.0,72500.0,Vehicle EMI,1397000.0,33,Not_Eligible,7535.0
+32.0,Female,Married,Graduate,37700.0,Government,0.5,MNC,Own,0.0,3,2,3500.0,6100.0,3300.0,9900.0,5300.0,No,0.0,850.0,87200.0,46400.0,Vehicle EMI,1401000.0,40,Not_Eligible,5760.0
+48.0,Female,Married,High School,50700.0,Private,8.3,MNC,Own,0.0,3,2,7600.0,0.0,3900.0,8200.0,7500.0,No,0.0,708.0,170700.0,92300.0,Personal Loan EMI,694000.0,12,Not_Eligible,11750.0
+58.0,Male,Married,Graduate,48300.0,Private,36.0,Mid-size,Own,0.0,3,2,0.0,0.0,4200.0,14000.0,8300.0,No,0.0,736.0,250600.0,70600.0,Home Appliances EMI,149000.0,33,Eligible,10900.0
+38.0,Female,Married,Graduate,84500.0,Private,0.5,Large Indian,Family,0.0,2,1,13100.0,0.0,5300.0,20100.0,6900.0,No,0.0,675.0,411500.0,94400.0,E-commerce Shopping EMI,162000.0,17,Eligible,15640.0
+38.0,Male,Married,Graduate,80400.0,Private,6.1,Mid-size,Rented,16000.0,2,1,6600.0,0.0,7400.0,21100.0,11900.0,Yes,9300.0,747.0,577300.0,288700.0,E-commerce Shopping EMI,115000.0,8,Not_Eligible,3118.5
+38.0,Female,Married,High School,76000.0,Private,0.6,Small,Family,6843.0,4,3,12800.0,0.0,9000.0,19200.0,7800.0,Yes,18000.0,588.0,51100.0,16200.0,Personal Loan EMI,82000.0,57,Not_Eligible,1648.64
+37.0,Female,Married,Professional,58107.0,Private,5.5,MNC,Rented,16200.0,4,3,4700.0,0.0,7700.0,16300.0,10400.0,Yes,14800.0,647.0,277700.0,102200.0,Education EMI,318000.0,47,Not_Eligible,500.0
+48.0,Male,Married,High School,15400.0,Private,0.5,Large Indian,Rented,2500.0,2,1,0.0,0.0,1000.0,2700.0,2400.0,Yes,3600.0,531.0,10500.0,3500.0,Personal Loan EMI,514000.0,51,Not_Eligible,500.0
+58.0,Female,Married,Professional,82900.0,Self-employed,9.1,Mid-size,Rented,19900.0,2,1,0.0,0.0,7000.0,20800.0,10500.0,Yes,14900.0,752.0,129900.0,34900.0,E-commerce Shopping EMI,22000.0,16,Eligible,2963.52
+27.0,Male,Single,Graduate,37000.0,Private,4.4,Large Indian,Rented,9700.0,3,2,0.0,0.0,3000.0,6900.0,5500.0,No,0.0,698.0,103400.0,57300.0,Education EMI,305000.0,35,Not_Eligible,5950.0
+32.0,Female,Married,Graduate,52800.0,Private,4.2,Mid-size,Rented,13900.0,4,3,0.0,0.0,5700.0,14500.0,5300.0,Yes,5900.0,681.0,394400.0,146700.0,Personal Loan EMI,251000.0,18,Not_Eligible,2887.5
+32.0,Male,Single,Post Graduate,32500.0,Private,8.8,Mid-size,Own,0.0,1,0,0.0,0.0,3800.0,7000.0,2800.0,No,0.0,690.0,68700.0,27700.0,Education EMI,331000.0,48,High_Risk,9450.0
+32.0,Female,Single,Graduate,38000.0,Private,5.6,MNC,Rented,10400.0,2,1,3400.0,0.0,4200.0,8500.0,5300.0,No,0.0,686.0,120800.0,47500.0,Home Appliances EMI,276000.0,18,Not_Eligible,3100.0
+38.0,Female,Married,Professional,49000.0,Private,5.4,Large Indian,Own,0.0,3,2,9500.0,0.0,6000.0,9100.0,3300.0,No,0.0,656.0,110700.0,60300.0,Vehicle EMI,1253000.0,67,Not_Eligible,10550.0
+38.0,Male,Married,High School,58200.0,Government,16.0,MNC,Family,0.0,2,1,11100.0,0.0,4100.0,16600.0,3400.0,Yes,9500.0,633.0,291500.0,74200.0,Home Appliances EMI,119000.0,23,Not_Eligible,4158.0
+32.0,Female,Single,Graduate,23000.0,Self-employed,5.0,Large Indian,Rented,7100.0,2,1,3600.0,0.0,2600.0,3700.0,3100.0,No,0.0,716.0,177900.0,51900.0,Personal Loan EMI,82000.0,22,Not_Eligible,1435.5
+32.0,Female,Married,High School,68300.0,Private,4.6,Large Indian,Family,0.0,3,2,15000.0,0.0,8600.0,17200.0,10700.0,No,0.0,676.0,105600.0,51500.0,Education EMI,489000.0,41,Not_Eligible,6720.0
+27.0,Male,Single,Graduate,70300.0,Private,0.8,Mid-size,Own,0.0,2,1,0.0,0.0,6700.0,17800.0,12300.0,Yes,8100.0,645.0,423900.0,100600.0,Personal Loan EMI,177000.0,20,Not_Eligible,6258.56
+48.0,Male,Married,Post Graduate,164600.0,Private,17.8,MNC,Rented,51500.0,4,3,0.0,6800.0,17800.0,40500.0,18500.0,No,0.0,748.0,1243600.0,456200.0,Vehicle EMI,881000.0,63,Not_Eligible,16225.0
+38.0,Male,Married,High School,30700.0,Government,16.0,Large Indian,Family,0.0,5,4,11200.0,0.0,4600.0,7800.0,2000.0,No,0.0,772.0,91100.0,45500.0,Vehicle EMI,1322000.0,41,Not_Eligible,3366.0
+38.0,Male,Married,Professional,56800.0,Self-employed,2.4,MNC,Own,0.0,4,3,13900.0,0.0,7000.0,14500.0,10400.0,Yes,16100.0,694.0,294500.0,143400.0,Education EMI,201000.0,14,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,95200.0,Private,0.5,Large Indian,Own,0.0,3,2,0.0,19800.0,5000.0,18100.0,7800.0,No,0.0,766.0,466400.0,159700.0,E-commerce Shopping EMI,111000.0,11,Eligible,21360.0
+32.0,Female,Married,Post Graduate,44800.0,Private,10.0,Large Indian,Own,0.0,3,2,4500.0,0.0,6500.0,8500.0,7900.0,Yes,9900.0,710.0,282200.0,62100.0,Personal Loan EMI,622000.0,45,Not_Eligible,2887.5
+38.0,Male,Married,High School,79300.0,Private,1.5,Large Indian,Rented,23800.0,4,3,3600.0,0.0,5800.0,19400.0,8100.0,Yes,13200.0,647.0,416400.0,231300.0,Home Appliances EMI,209000.0,12,Not_Eligible,1512.0
+58.0,Male,Married,Professional,36900.0,Private,20.2,Small,Own,0.0,5,4,0.0,5100.0,3100.0,10200.0,4100.0,Yes,4000.0,650.0,195300.0,57200.0,Education EMI,372000.0,46,Not_Eligible,3640.0
+58.0,Male,Married,High School,86900.0,Self-employed,4.1,Mid-size,Rented,25900.0,2,1,14100.0,0.0,8600.0,16400.0,15000.0,No,0.0,754.0,304100.0,148700.0,Education EMI,380000.0,20,Not_Eligible,3726.0
+27.0,Female,Single,Professional,55200.0,Government,1.0,Mid-size,Rented,15900.0,1,0,0.0,0.0,6600.0,12000.0,3200.0,No,0.0,714.0,393400.0,220000.0,Personal Loan EMI,994000.0,22,Not_Eligible,9625.0
+32.0,Male,Married,Post Graduate,44100.0,Private,2.2,Large Indian,Family,0.0,3,2,7500.0,0.0,6200.0,11900.0,4500.0,No,0.0,711.0,282600.0,164800.0,E-commerce Shopping EMI,68000.0,14,Eligible,7700.0
+58.0,Male,Married,Post Graduate,101400.0,Private,22.7,Startup,Rented,23400.0,3,2,8000.0,0.0,6900.0,18000.0,6700.0,No,0.0,741.0,748700.0,260100.0,E-commerce Shopping EMI,22000.0,3,Eligible,21120.0
+38.0,Female,Married,Post Graduate,23400.0,Government,7.6,MNC,Rented,3600.0,4,3,0.0,21700.0,3500.0,5200.0,2000.0,Yes,2300.0,700.0,185400.0,45500.0,Education EMI,60000.0,24,Not_Eligible,500.0
+27.0,Male,Married,Graduate,40900.0,Government,1.0,MNC,Own,0.0,4,3,8100.0,0.0,2500.0,6800.0,6300.0,No,0.0,762.0,115400.0,24500.0,Personal Loan EMI,245000.0,20,Not_Eligible,10320.0
+38.0,Male,Married,Graduate,18000.0,Private,16.0,Large Indian,Rented,4400.0,4,3,7400.0,0.0,1000.0,3000.0,1900.0,No,0.0,676.0,73400.0,15400.0,Vehicle EMI,434000.0,24,Not_Eligible,500.0
+32.0,Female,Married,Post Graduate,69300.0,Private,3.2,MNC,Family,0.0,4,3,2900.0,0.0,6000.0,14900.0,10600.0,No,0.0,683.0,118900.0,58100.0,Home Appliances EMI,80000.0,8,Eligible,13960.0
+32.0,Male,Married,Professional,71900.0,Private,0.5,MNC,Rented,11800.0,2,1,0.0,0.0,4500.0,14500.0,7200.0,Yes,17200.0,686.0,92000.0,31000.0,Education EMI,488000.0,31,Not_Eligible,3740.8
+32.0,Female,Single,Post Graduate,41200.0,Government,2.3,Mid-size,Family,13983.0,1,0,0.0,0.0,2700.0,9100.0,5500.0,No,0.0,768.0,187300.0,49800.0,Home Appliances EMI,273000.0,16,Not_Eligible,14340.0
+32.0,Male,Married,Graduate,60900.0,Government,0.6,Startup,Family,0.0,4,3,11900.0,0.0,4400.0,12900.0,5200.0,Yes,13100.0,664.0,328300.0,78300.0,Education EMI,268000.0,17,Not_Eligible,4690.0
+38.0,Male,Married,Graduate,18000.0,Private,2.7,MNC,Rented,3400.0,3,2,0.0,16500.0,2300.0,5000.0,2400.0,Yes,3200.0,656.0,19500.0,11200.0,Vehicle EMI,671000.0,13,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,120100.0,Government,0.5,Large Indian,Family,0.0,4,3,11800.0,6400.0,15200.0,32700.0,12400.0,No,0.0,689.0,163900.0,88700.0,Vehicle EMI,640000.0,24,Not_Eligible,16640.0
+32.0,Male,Married,High School,5644.0,Private,5.5,Large Indian,Own,6982.0,4,3,14700.0,19600.0,4400.0,21200.0,4600.0,No,0.0,676.0,292800.0,92400.0,Education EMI,160000.0,30,High_Risk,6800.0
+32.0,Male,Married,Post Graduate,79600.0,Private,1.5,Mid-size,Rented,27800.0,2,1,7400.0,0.0,11900.0,14000.0,7400.0,Yes,14600.0,631.0,422700.0,178600.0,Vehicle EMI,90000.0,74,Not_Eligible,500.0
+58.0,Male,Married,Graduate,85400.0,Private,7.1,Large Indian,Family,0.0,4,3,7100.0,0.0,6800.0,19400.0,14400.0,Yes,14800.0,661.0,241900.0,59400.0,Vehicle EMI,103000.0,83,Eligible,8015.0
+58.0,Male,Married,Professional,72800.0,Private,13.6,MNC,Rented,12200.0,3,2,0.0,0.0,6400.0,12000.0,8600.0,No,0.0,722.0,347200.0,79300.0,Home Appliances EMI,34000.0,23,Eligible,16800.0
+32.0,Female,Single,Graduate,39800.0,Private,3.4,Mid-size,Rented,12900.0,1,0,0.0,0.0,5300.0,8300.0,2700.0,No,0.0,600.0,288300.0,77200.0,Personal Loan EMI,468000.0,33,Not_Eligible,4664.0
+32.0,Male,Married,Post Graduate,54600.0,Private,0.5,Large Indian,Rented,12200.0,4,3,0.0,0.0,8100.0,8300.0,5200.0,No,0.0,765.0,422400.0,129300.0,E-commerce Shopping EMI,120000.0,11,Not_Eligible,10982.4
+38.0,Female,Married,High School,18800.0,Private,8.0,MNC,Family,0.0,2,1,4100.0,0.0,2000.0,5400.0,1100.0,Yes,5000.0,744.0,12100.0,5700.0,Home Appliances EMI,108000.0,30,Not_Eligible,500.0
+38.0,Male,Married,Graduate,58500.0,Self-employed,0.5,Mid-size,Rented,20100.0,4,3,0.0,0.0,8400.0,12000.0,10100.0,No,0.0,753.0,291000.0,87100.0,Education EMI,293000.0,29,Not_Eligible,4266.0
+48.0,Female,Married,Post Graduate,75200.0,Private,26.0,Startup,Rented,21200.0,3,2,12900.0,8900.0,5500.0,20700.0,10300.0,No,0.0,699.0,320600.0,73400.0,Education EMI,59000.0,25,Not_Eligible,500.0
+38.0,Male,Married,Professional,95100.0,Private,1.1,Large Indian,Rented,32300.0,5,4,0.0,0.0,9500.0,17000.0,13300.0,Yes,26800.0,659.0,111600.0,52000.0,Personal Loan EMI,424000.0,50,Not_Eligible,500.0
+32.0,Female,Single,Post Graduate,56000.0,Self-employed,10.0,Mid-size,Own,0.0,2,1,7300.0,0.0,5500.0,14000.0,11100.0,No,0.0,701.0,323100.0,68000.0,E-commerce Shopping EMI,93000.0,24,Eligible,8145.0
+58.0,Male,Married,Professional,43900.0,Private,4.3,Mid-size,Family,0.0,3,2,8700.0,0.0,6600.0,7500.0,6800.0,No,0.0,714.0,300100.0,75500.0,Home Appliances EMI,29000.0,29,Eligible,7865.0
+38.0,Male,Married,Graduate,27800.0,Private,2.4,MNC,Own,0.0,2,1,3400.0,0.0,1900.0,5600.0,4400.0,Yes,5500.0,703.0,118400.0,35600.0,Home Appliances EMI,286000.0,8,Not_Eligible,2450.0
+38.0,Male,Married,Graduate,56500.0,Private,2.9,Large Indian,Rented,11500.0,3,2,0.0,0.0,6900.0,13900.0,4100.0,No,0.0,676.0,325900.0,74000.0,E-commerce Shopping EMI,81000.0,19,Eligible,10050.0
+32.0,Female,Single,Professional,66800.0,Private,0.9,Mid-size,Own,0.0,2,1,0.0,0.0,7700.0,11400.0,7300.0,Yes,8400.0,707.0,150800.0,73100.0,E-commerce Shopping EMI,99000.0,19,Eligible,8960.0
+48.0,Male,Married,Graduate,46100.0,Private,1.3,Large Indian,Rented,13200.0,2,1,0.0,0.0,5100.0,12500.0,8700.0,Yes,5500.0,598.0,150900.0,36000.0,Education EMI,300000.0,30,Not_Eligible,500.0
+38.0,Female,Married,High School,51800.0,Government,10.5,Large Indian,Rented,12800.0,5,4,0.0,0.0,6000.0,11200.0,3700.0,No,0.0,850.0,28800.0,15100.0,E-commerce Shopping EMI,171000.0,14,Not_Eligible,9556.8
+32.0,Female,Married,Graduate,32000.0,Private,0.5,Mid-size,Own,0.0,3,2,0.0,0.0,3600.0,6800.0,3900.0,Yes,6200.0,620.0,111000.0,62900.0,E-commerce Shopping EMI,134000.0,6,Not_Eligible,2576.0
+38.0,Male,Married,Post Graduate,56200.0,Private,9.4,Startup,Own,0.0,5,4,0.0,0.0,5200.0,9600.0,9200.0,Yes,8200.0,643.0,89200.0,51600.0,Education EMI,209000.0,20,Not_Eligible,5376.0
+27.0,Male,Married,High School,34300.0,Private,2.4,Large Indian,Family,0.0,4,3,0.0,0.0,1700.0,6900.0,3200.0,Yes,4300.0,595.0,89000.0,36500.0,E-commerce Shopping EMI,143000.0,15,Not_Eligible,5096.0
+32.0,Male,Married,High School,20500.0,Self-employed,0.5,Large Indian,Family,0.0,4,3,3800.0,0.0,1900.0,3400.0,3000.0,No,0.0,611.0,61100.0,29500.0,Personal Loan EMI,115000.0,20,Not_Eligible,3024.0
+38.0,Male,Single,Graduate,53200.0,Private,13.1,Mid-size,Rented,14400.0,3,2,0.0,0.0,3900.0,13100.0,10300.0,No,0.0,663.0,124700.0,67300.0,Education EMI,426000.0,18,Not_Eligible,5750.0
+48.0,Female,Married,Graduate,58200.0,Private,14.1,Startup,Own,0.0,3,2,12000.0,11000.0,5900.0,9900.0,7300.0,No,0.0,714.0,431000.0,92300.0,Vehicle EMI,1303000.0,35,Not_Eligible,6655.0
+32.0,Male,Married,Post Graduate,61600.0,Government,0.6,MNC,Own,0.0,4,3,4200.0,12300.0,6500.0,13600.0,6600.0,No,0.0,651.0,287500.0,61900.0,Vehicle EMI,863000.0,38,Not_Eligible,9200.0
+38.0,Male,Married,Professional,26100.0,Private,7.1,MNC,Family,0.0,3,2,14000.0,0.0,1700.0,6300.0,3300.0,Yes,3000.0,731.0,67000.0,19100.0,Vehicle EMI,993000.0,42,Not_Eligible,500.0
+38.0,Female,Married,Graduate,69100.0,Private,4.0,Large Indian,Rented,24000.0,3,2,12100.0,0.0,6600.0,15700.0,11700.0,Yes,10600.0,606.0,436700.0,193900.0,Education EMI,472000.0,34,Not_Eligible,500.0
+38.0,Female,Married,Post Graduate,89600.0,Private,16.0,Large Indian,Rented,15800.0,4,3,5700.0,11900.0,10700.0,24900.0,6400.0,No,0.0,792.0,703400.0,343800.0,Vehicle EMI,838000.0,44,Not_Eligible,9372.0
+38.0,Male,Married,Post Graduate,59300.0,Private,11.2,Small,Rented,15500.0,4,3,7400.0,16800.0,8900.0,15800.0,8600.0,No,0.0,300.0,39900.0,16800.0,Vehicle EMI,1121000.0,54,Not_Eligible,500.0
+38.0,Female,Married,Graduate,44300.0,Private,4.8,MNC,Own,0.0,4,3,0.0,0.0,2200.0,9600.0,3600.0,Yes,7000.0,643.0,119400.0,58100.0,Personal Loan EMI,358000.0,19,Not_Eligible,6132.0
+27.0,Female,Single,Professional,53000.0,Self-employed,0.9,Startup,Own,0.0,2,1,0.0,0.0,3800.0,10200.0,7200.0,Yes,10200.0,662.0,204000.0,66100.0,E-commerce Shopping EMI,75000.0,16,Eligible,6804.0
+32.0,Male,Married,Graduate,15000.0,Private,0.5,Large Indian,Rented,2800.0,5,4,5200.0,0.0,1700.0,2400.0,2300.0,No,0.0,752.0,94900.0,47900.0,Home Appliances EMI,184000.0,23,Not_Eligible,500.0
+48.0,Male,Married,Graduate,31200.0,Private,9.1,Mid-size,Family,0.0,3,2,0.0,0.0,2700.0,7300.0,2300.0,No,0.0,722.0,217700.0,93600.0,Vehicle EMI,1115000.0,33,Not_Eligible,10395.0
+32.0,Male,Married,Graduate,38800.0,Private,0.9,MNC,Own,0.0,5,4,5600.0,0.0,2000.0,8900.0,7200.0,No,0.0,675.0,306200.0,89300.0,Vehicle EMI,1302000.0,41,Not_Eligible,6644.0
+58.0,Female,Married,High School,14000.0,Private,15.7,MNC,Own,0.0,2,1,3900.0,0.0,1900.0,2400.0,2300.0,No,0.0,694.0,40100.0,10800.0,Home Appliances EMI,104000.0,28,Not_Eligible,1750.0
+32.0,Female,Married,Graduate,449691.0,Government,7.6,Mid-size,Family,0.0,3,2,5800.0,0.0,3700.0,11400.0,5800.0,Yes,12500.0,728.0,215700.0,45400.0,E-commerce Shopping EMI,99000.0,8,Not_Eligible,2964.5
+38.0,Male,Married,Graduate,35000.0,Self-employed,4.3,Mid-size,Own,0.0,2,1,10000.0,14600.0,3600.0,6800.0,4700.0,No,0.0,736.0,66600.0,23000.0,Education EMI,63000.0,28,Not_Eligible,500.0
+38.0,Female,Married,Professional,124700.0,Private,1.9,Mid-size,Own,0.0,5,4,9400.0,10900.0,12100.0,24700.0,11800.0,Yes,21800.0,574.0,991100.0,428700.0,Education EMI,499000.0,29,Not_Eligible,10472.0
+58.0,Male,Married,Post Graduate,99400.0,Government,6.3,Large Indian,Rented,19600.0,2,1,0.0,6400.0,14600.0,19600.0,8100.0,No,0.0,850.0,537000.0,293100.0,E-commerce Shopping EMI,176000.0,13,Eligible,20526.0
+48.0,Male,Married,Post Graduate,94300.0,Government,5.3,Startup,Own,0.0,3,2,0.0,14000.0,10200.0,17700.0,15200.0,No,0.0,754.0,56100.0,13800.0,Vehicle EMI,736000.0,44,Not_Eligible,19641.6
+32.0,Male,Single,Graduate,84100.0,Private,0.5,MNC,Rented,27200.0,1,0,0.0,0.0,11200.0,22300.0,6000.0,Yes,8500.0,651.0,183700.0,105900.0,Vehicle EMI,531000.0,76,Not_Eligible,2492.0
+32.0,Female,Married,Post Graduate,37300.0,Self-employed,3.7,Small,Family,0.0,4,3,0.0,0.0,2900.0,7500.0,3400.0,No,0.0,587.0,39400.0,23100.0,Vehicle EMI,124000.0,39,Eligible,6768.0
+32.0,Female,Married,Post Graduate,40700.0,Private,0.5,MNC,Family,0.0,5,4,11400.0,5500.0,5900.0,8900.0,3700.0,No,0.0,768.0,313500.0,182300.0,Personal Loan EMI,186000.0,21,Not_Eligible,2798.4
+38.0,Male,Married,Professional,153100.0,Government,0.7,Mid-size,Rented,48900.0,4,3,7100.0,0.0,16600.0,31600.0,27400.0,Yes,31200.0,701.0,889000.0,349800.0,Home Appliances EMI,26000.0,10,Not_Eligible,500.0
+48.0,Male,Married,Graduate,46800.0,Private,0.6,Large Indian,Family,0.0,2,1,0.0,20400.0,6100.0,13200.0,9300.0,Yes,12000.0,654.0,229600.0,74000.0,Personal Loan EMI,199000.0,33,Not_Eligible,500.0
+32.0,Female,Married,Graduate,8317.0,Self-employed,1.0,Large Indian,Family,0.0,2,1,0.0,0.0,3300.0,5400.0,1400.0,No,0.0,701.0,21200.0,5000.0,Education EMI,193000.0,38,Not_Eligible,5652.0
+38.0,Female,Married,High School,53500.0,Private,4.8,MNC,Family,0.0,3,2,0.0,17200.0,3900.0,14000.0,6900.0,Yes,7600.0,677.0,221700.0,85100.0,E-commerce Shopping EMI,162000.0,17,Not_Eligible,1365.0
+38.0,Female,Married,Graduate,32000.0,Private,5.0,MNC,Family,0.0,5,4,5400.0,21600.0,2400.0,5500.0,4500.0,No,0.0,695.0,147000.0,63100.0,Home Appliances EMI,286000.0,25,Not_Eligible,500.0
+27.0,Female,Single,Professional,54000.0,Self-employed,1.9,Startup,Rented,17800.0,2,1,10100.0,16400.0,7500.0,16100.0,10500.0,Yes,15000.0,838.0,111800.0,31200.0,Education EMI,322000.0,25,Not_Eligible,500.0
+48.0,Male,Married,Graduate,77100.0,Private,3.3,Mid-size,Own,0.0,3,2,14500.0,0.0,6600.0,22600.0,4900.0,No,0.0,765.0,122500.0,32000.0,E-commerce Shopping EMI,174000.0,3,Not_Eligible,13680.0
+32.0,Male,Married,Post Graduate,43300.0,Government,2.9,Large Indian,Family,0.0,2,1,0.0,19800.0,2800.0,7700.0,7500.0,Yes,12200.0,733.0,318000.0,110800.0,Vehicle EMI,1338000.0,45,Not_Eligible,500.0
+48.0,Male,Married,Graduate,395133.0,Private,6.1,MNC,Family,0.0,3,2,0.0,0.0,3500.0,14300.0,4400.0,Yes,9400.0,713.0,121200.0,51400.0,E-commerce Shopping EMI,70000.0,5,Not_Eligible,9835.0
+48.0,Male,Married,Graduate,55300.0,Private,18.9,Large Indian,Rented,15700.0,4,3,0.0,0.0,5100.0,15600.0,5100.0,No,0.0,759.0,416500.0,96200.0,Education EMI,436000.0,19,Not_Eligible,9108.0
+38.0,Male,Married,Post Graduate,74900.0,Government,11.9,Large Indian,Rented,17700.0,3,2,13500.0,0.0,8800.0,13200.0,12300.0,Yes,19200.0,738.0,409800.0,138400.0,E-commerce Shopping EMI,92000.0,9,Not_Eligible,500.0
+38.0,Male,Married,Graduate,33600.0,Self-employed,0.5,Mid-size,Own,0.0,3,2,3700.0,0.0,4600.0,5600.0,4900.0,Yes,8100.0,627.0,167800.0,42800.0,Education EMI,254000.0,8,Not_Eligible,1688.4
+48.0,Male,Married,Professional,45200.0,Private,21.3,Large Indian,Rented,14500.0,5,4,0.0,0.0,2600.0,13100.0,5500.0,Yes,6700.0,711.0,344700.0,147500.0,Home Appliances EMI,200000.0,15,Not_Eligible,1078.0
+48.0,Female,Married,Post Graduate,41300.0,Private,6.4,Mid-size,Rented,7600.0,3,2,0.0,0.0,4700.0,7400.0,4900.0,Yes,7700.0,689.0,173000.0,73100.0,Personal Loan EMI,499000.0,47,Not_Eligible,3150.0
+38.0,Male,Married,Graduate,50200.0,Government,11.2,Mid-size,Own,0.0,4,3,7000.0,0.0,2800.0,10400.0,6500.0,No,0.0,742.0,113700.0,58800.0,Vehicle EMI,890000.0,45,Not_Eligible,12925.0
+32.0,Female,Married,Graduate,38900.0,Government,5.4,Small,Family,0.0,3,2,14900.0,0.0,2500.0,6600.0,7300.0,No,0.0,690.0,177900.0,83900.0,E-commerce Shopping EMI,167000.0,9,Not_Eligible,4180.0
+58.0,Male,Married,Graduate,95900.0,Self-employed,11.7,Large Indian,Family,0.0,5,4,0.0,0.0,12600.0,25500.0,15000.0,No,0.0,770.0,655100.0,224200.0,Education EMI,127000.0,14,Eligible,25423.2
+32.0,Male,Single,Post Graduate,105700.0,Private,2.7,Small,Rented,22900.0,1,0,0.0,0.0,6100.0,30800.0,10100.0,Yes,14100.0,646.0,61300.0,20900.0,Home Appliances EMI,263000.0,11,Not_Eligible,4860.8
+27.0,Male,Single,Post Graduate,75800.0,Private,1.1,Startup,Own,0.0,2,1,10500.0,0.0,6300.0,18600.0,12800.0,No,0.0,688.0,373300.0,217500.0,Home Appliances EMI,75000.0,14,Eligible,13800.0
+32.0,Male,Single,Professional,60300.0,Government,1.5,MNC,Own,0.0,1,0,0.0,0.0,4200.0,17200.0,5500.0,No,0.0,750.0,320400.0,134000.0,E-commerce Shopping EMI,144000.0,24,Eligible,20040.0
+48.0,Female,Single,High School,61400.0,Private,15.5,MNC,Rented,16900.0,3,2,10600.0,24900.0,6400.0,11700.0,4300.0,No,0.0,774.0,289400.0,81600.0,E-commerce Shopping EMI,151000.0,9,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,49000.0,Government,1.3,Large Indian,Rented,15200.0,3,2,0.0,0.0,6300.0,11200.0,6400.0,No,0.0,657.0,369000.0,189000.0,E-commerce Shopping EMI,186000.0,5,Not_Eligible,5445.0
+38.0,Male,Married,High School,35400.0,Self-employed,3.5,Startup,Own,0.0,4,3,3300.0,0.0,2900.0,10200.0,6800.0,Yes,6500.0,650.0,41600.0,17000.0,Vehicle EMI,1265000.0,64,Not_Eligible,1436.4
+32.0,Male,Married,Post Graduate,45000.0,Private,0.7,Mid-size,Rented,7100.0,4,3,10700.0,0.0,6300.0,12900.0,3900.0,Yes,13500.0,675.0,288100.0,73300.0,Home Appliances EMI,205000.0,14,Not_Eligible,500.0
+32.0,Male,Single,Professional,143300.0,Private,0.5,Startup,Rented,35800.0,2,1,5100.0,0.0,13800.0,24500.0,12800.0,Yes,21200.0,900.0,722800.0,225400.0,Home Appliances EMI,22000.0,25,Eligible,10113.6
+58.0,Male,Married,Graduate,57200.0,Private,36.0,Large Indian,Own,0.0,4,3,9400.0,0.0,4400.0,12500.0,6600.0,No,0.0,731.0,34000.0,6900.0,E-commerce Shopping EMI,120000.0,9,Not_Eligible,9720.0
+38.0,Female,Married,Post Graduate,39100.0,Private,12.0,Large Indian,Own,0.0,3,2,0.0,0.0,2400.0,6600.0,2800.0,No,0.0,698.0,214400.0,51200.0,Education EMI,473000.0,15,Not_Eligible,13650.0
+27.0,Male,Married,Professional,117200.0,Private,1.8,Mid-size,Own,0.0,4,3,0.0,0.0,16400.0,22000.0,14300.0,Yes,23300.0,607.0,499000.0,189100.0,Home Appliances EMI,263000.0,16,Not_Eligible,11536.0
+32.0,Male,Single,Graduate,104100.0,Private,0.6,Startup,Family,0.0,2,1,4300.0,0.0,13300.0,19300.0,8000.0,Yes,28500.0,636.0,95900.0,46000.0,Home Appliances EMI,143000.0,29,Not_Eligible,5501.44
+38.0,Male,Married,Graduate,94800.0,Government,4.2,Large Indian,Family,0.0,3,2,0.0,0.0,5700.0,16800.0,15700.0,No,0.0,748.0,499700.0,292500.0,Education EMI,345000.0,34,Eligible,31130.0
+32.0,Male,Married,Graduate,46100.0,Government,0.6,Startup,Rented,16100.0,2,1,4600.0,0.0,6200.0,9300.0,8600.0,No,0.0,767.0,359000.0,211200.0,Vehicle EMI,532000.0,17,Not_Eligible,858.0
+58.0,Male,Married,High School,34100.0,Private,14.2,Mid-size,Own,0.0,2,1,0.0,0.0,4400.0,10000.0,2900.0,Yes,6200.0,642.0,220600.0,98200.0,Education EMI,210000.0,17,Not_Eligible,3264.8
+27.0,Female,Married,Post Graduate,92400.0,Private,0.5,Large Indian,Family,0.0,5,4,10800.0,0.0,10200.0,24600.0,10000.0,Yes,13200.0,677.0,196000.0,275900.0,Personal Loan EMI,935000.0,41,Not_Eligible,6608.0
+32.0,Female,Married,Graduate,54100.0,Self-employed,6.3,Large Indian,Family,0.0,3,2,8700.0,21200.0,7000.0,15800.0,7900.0,Yes,10500.0,540.0,420000.0,219900.0,Personal Loan EMI,976000.0,50,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,74500.0,Government,0.5,Large Indian,Family,0.0,2,1,14200.0,0.0,9300.0,14400.0,13000.0,No,0.0,738.0,474700.0,104000.0,Home Appliances EMI,42000.0,9,Eligible,12980.0
+38.0,Female,Married,Professional,88800.0,Private,8.5,Large Indian,Own,0.0,4,3,0.0,6000.0,4700.0,19500.0,13000.0,No,0.0,767.0,251400.0,149900.0,Education EMI,206000.0,9,High_Risk,27360.0
+38.0,Male,Married,Post Graduate,21200.0,Private,13.3,Mid-size,Own,0.0,4,3,0.0,19200.0,3100.0,5300.0,2600.0,No,0.0,748.0,15600.0,5200.0,Personal Loan EMI,445000.0,50,Not_Eligible,500.0
+27.0,Male,Single,Graduate,67600.0,Private,1.0,Large Indian,Family,0.0,2,1,0.0,0.0,8700.0,13800.0,5000.0,Yes,12000.0,680.0,531200.0,255000.0,Home Appliances EMI,130000.0,35,Eligible,10818.5
+32.0,Female,Single,Professional,78700.0,Private,1.4,MNC,Family,0.0,1,0,0.0,0.0,6400.0,16000.0,10300.0,Yes,13100.0,714.0,111400.0,28700.0,Home Appliances EMI,57000.0,33,Eligible,9212.0
+27.0,Female,Married,Professional,76400.0,Government,5.0,Large Indian,Rented,25900.0,3,2,11200.0,0.0,6500.0,22800.0,11600.0,Yes,20200.0,669.0,400100.0,218700.0,E-commerce Shopping EMI,71000.0,24,Not_Eligible,500.0
+58.0,Male,Married,Post Graduate,73000.0,Private,20.5,Startup,Own,0.0,4,3,6600.0,0.0,8700.0,12800.0,14300.0,No,0.0,764.0,62500.0,20500.0,E-commerce Shopping EMI,121000.0,13,Eligible,14688.0
+48.0,Male,Single,High School,38900.0,Government,2.0,Large Indian,Rented,7500.0,3,2,0.0,0.0,5100.0,9500.0,4000.0,No,0.0,768.0,140800.0,45700.0,E-commerce Shopping EMI,132000.0,6,Not_Eligible,7680.0
+32.0,Female,Married,Professional,47100.0,Private,0.9,MNC,Own,0.0,3,2,14000.0,8600.0,2800.0,12800.0,6700.0,Yes,12400.0,669.0,42000.0,10100.0,E-commerce Shopping EMI,66000.0,7,Not_Eligible,500.0
+38.0,Male,Married,Graduate,71400.0,Private,9.1,Mid-size,Family,0.0,2,1,0.0,0.0,8100.0,21200.0,11200.0,No,0.0,756.0,406200.0,90400.0,Vehicle EMI,1089000.0,50,Not_Eligible,18540.0
+38.0,Male,Married,Graduate,60500.0,Government,8.9,Startup,Family,0.0,3,2,5600.0,18300.0,6800.0,11100.0,8400.0,No,0.0,785.0,428000.0,215000.0,E-commerce Shopping EMI,59000.0,16,Eligible,7477.8
+48.0,Female,Single,Post Graduate,47000.0,Private,11.2,Large Indian,Own,0.0,1,0,0.0,0.0,4600.0,7500.0,6600.0,No,0.0,688.0,142800.0,29700.0,Education EMI,265000.0,32,Eligible,14150.0
+38.0,Male,Married,High School,57100.0,Private,1.6,MNC,Own,0.0,5,4,0.0,0.0,5700.0,12600.0,4200.0,No,0.0,668.0,448800.0,232000.0,Personal Loan EMI,665000.0,59,High_Risk,19030.0
+38.0,Male,Married,Graduate,38400.0,Government,0.6,Startup,Own,0.0,2,1,6300.0,0.0,5200.0,10400.0,3800.0,No,0.0,723.0,306200.0,151200.0,Personal Loan EMI,801000.0,16,Not_Eligible,6985.0
+32.0,Male,Married,Graduate,43300.0,Private,2.8,MNC,Own,0.0,5,4,0.0,14300.0,5100.0,11600.0,2700.0,No,0.0,621.0,210200.0,54600.0,Home Appliances EMI,50000.0,35,Eligible,3840.0
+32.0,Female,Married,Graduate,23500.0,Private,0.9,Mid-size,Rented,6600.0,2,1,14400.0,0.0,2800.0,5300.0,4200.0,Yes,4400.0,589.0,15100.0,5400.0,E-commerce Shopping EMI,121000.0,20,Not_Eligible,500.0
+38.0,Female,Married,Graduate,59400.0,Government,0.5,Large Indian,Rented,12900.0,3,2,0.0,0.0,8400.0,15400.0,3200.0,No,0.0,778.0,394800.0,153600.0,Home Appliances EMI,62000.0,9,Eligible,12870.0
+32.0,Female,Single,Graduate,36400.0,Private,2.8,Mid-size,Rented,6600.0,1,0,0.0,0.0,5100.0,9500.0,6600.0,No,0.0,715.0,150100.0,37400.0,Home Appliances EMI,192000.0,25,Not_Eligible,4300.0
+32.0,Male,Married,Professional,55800.0,Private,1.4,Startup,Rented,13100.0,3,2,0.0,0.0,7700.0,14400.0,7600.0,No,0.0,668.0,419400.0,234500.0,Vehicle EMI,309000.0,39,Not_Eligible,7150.0
+32.0,Male,Single,Professional,102000.0,Private,4.5,MNC,Own,0.0,1,0,0.0,0.0,12000.0,18900.0,18700.0,Yes,24800.0,636.0,622000.0,312700.0,Vehicle EMI,1075000.0,26,Not_Eligible,8500.8
+38.0,Male,Married,Professional,22500.0,Private,10.3,MNC,Rented,3400.0,3,2,9000.0,9400.0,1100.0,3800.0,2100.0,No,0.0,799.0,27700.0,14300.0,E-commerce Shopping EMI,132000.0,11,Not_Eligible,500.0
+32.0,Female,Married,Graduate,63900.0,Private,10.0,Mid-size,Rented,14600.0,3,2,7700.0,0.0,8600.0,18700.0,4100.0,No,0.0,672.0,137300.0,54000.0,Home Appliances EMI,104000.0,11,Not_Eligible,5100.0
+27.0,Female,Single,Graduate,83100.0,Self-employed,3.7,MNC,Rented,19200.0,1,0,0.0,0.0,9900.0,20400.0,4600.0,No,0.0,695.0,526500.0,219400.0,Personal Loan EMI,70000.0,59,Eligible,14355.0
+48.0,Female,Married,Post Graduate,5022.0,Government,2.0,Large Indian,Own,0.0,3,2,11700.0,0.0,5500.0,9800.0,5700.0,Yes,8800.0,815.0,119600.0,56400.0,Personal Loan EMI,679000.0,17,Not_Eligible,1722.0
+27.0,Male,Single,Graduate,18000.0,Government,4.5,Mid-size,Rented,6200.0,1,0,0.0,0.0,1900.0,4800.0,2000.0,Yes,1900.0,738.0,19000.0,4200.0,Personal Loan EMI,88000.0,59,Not_Eligible,500.0
+48.0,Female,Single,Graduate,63000.0,Private,0.5,Mid-size,Family,0.0,2,1,9400.0,16300.0,3900.0,16800.0,5700.0,Yes,9900.0,586.0,459200.0,228400.0,Vehicle EMI,1420000.0,42,Not_Eligible,500.0
+32.0,Female,Single,Graduate,44300.0,Private,2.6,Startup,Rented,7200.0,2,1,2300.0,9800.0,5600.0,8600.0,3300.0,No,0.0,693.0,47900.0,21600.0,Education EMI,454000.0,33,Not_Eligible,3000.0
+48.0,Female,Married,Graduate,32000.0,Private,8.1,Large Indian,Family,0.0,2,1,6100.0,0.0,3800.0,8700.0,6000.0,No,0.0,703.0,121800.0,51500.0,Home Appliances EMI,221000.0,26,Not_Eligible,3700.0
+38.0,Female,Married,Graduate,43600.0,Self-employed,2.2,Large Indian,Rented,13800.0,5,4,13000.0,0.0,6500.0,6800.0,3400.0,No,0.0,647.0,43200.0,11100.0,E-commerce Shopping EMI,106000.0,21,Not_Eligible,500.0
+38.0,Female,Married,High School,14400.0,Private,0.5,Mid-size,Rented,3600.0,4,3,14300.0,0.0,1300.0,3300.0,1000.0,No,0.0,643.0,64700.0,27100.0,Education EMI,362000.0,41,Not_Eligible,500.0
+48.0,Male,Married,Graduate,98600.0,Private,9.9,MNC,Rented,22500.0,2,1,4600.0,0.0,8600.0,21200.0,8800.0,Yes,15900.0,664.0,603300.0,356100.0,Vehicle EMI,149000.0,56,Eligible,6545.0
+32.0,Male,Married,High School,27300.0,Private,1.2,Startup,Rented,7700.0,4,3,5100.0,0.0,3100.0,5400.0,4900.0,Yes,7100.0,747.0,96800.0,45100.0,E-commerce Shopping EMI,38000.0,6,Not_Eligible,500.0
+32.0,Male,Married,High School,52500.0,Private,4.4,Large Indian,Rented,16600.0,3,2,2100.0,0.0,7100.0,12600.0,3400.0,No,0.0,719.0,47000.0,27900.0,Home Appliances EMI,81000.0,10,Not_Eligible,4280.0
+38.0,Male,Married,Graduate,67500.0,Private,16.0,MNC,Rented,13100.0,2,1,0.0,0.0,3500.0,11400.0,5300.0,No,0.0,753.0,214200.0,45200.0,Vehicle EMI,648000.0,31,Not_Eligible,20520.0
+48.0,Male,Married,Post Graduate,53600.0,Self-employed,17.1,Mid-size,Family,0.0,4,3,13200.0,0.0,7800.0,15400.0,7000.0,No,0.0,607.0,165300.0,73300.0,Vehicle EMI,1487000.0,38,Not_Eligible,3672.0
+27.0,Male,Single,Graduate,31400.0,Private,1.9,Large Indian,Rented,5900.0,1,0,0.0,0.0,2700.0,5300.0,1900.0,No,0.0,686.0,95000.0,19900.0,Personal Loan EMI,185000.0,43,Eligible,7800.0
+58.0,Male,Married,Professional,76100.0,Government,14.8,Large Indian,Own,12039.0,3,2,0.0,0.0,4800.0,15600.0,10800.0,No,0.0,850.0,583900.0,340200.0,E-commerce Shopping EMI,126000.0,8,Eligible,32597.4
+58.0,Male,Married,Graduate,79400.0,Private,2.2,Large Indian,Own,0.0,4,3,12800.0,7100.0,5300.0,19600.0,8100.0,No,0.0,674.0,214600.0,118600.0,Education EMI,214000.0,34,Eligible,13250.0
+48.0,Male,Married,Post Graduate,89800.0,Private,9.7,MNC,Own,0.0,4,3,0.0,0.0,10300.0,20800.0,11600.0,No,0.0,850.0,218200.0,113200.0,Vehicle EMI,1169000.0,31,Not_Eligible,28260.0
+48.0,Male,Married,Professional,69000.0,Private,0.6,Mid-size,Rented,14700.0,3,2,4400.0,7400.0,7100.0,18600.0,5200.0,No,0.0,704.0,321800.0,107000.0,Education EMI,147000.0,41,High_Risk,4640.0
+32.0,Male,Married,Post Graduate,28100.0,Private,2.3,Large Indian,Rented,7000.0,3,2,3500.0,0.0,2600.0,4300.0,5400.0,Yes,8400.0,624.0,141400.0,73100.0,E-commerce Shopping EMI,177000.0,9,Not_Eligible,500.0
+58.0,Male,Single,Graduate,42300.0,Private,32.0,Mid-size,Rented,14000.0,1,0,0.0,0.0,2700.0,7200.0,4300.0,Yes,7700.0,744.0,91900.0,39900.0,Personal Loan EMI,612000.0,21,Not_Eligible,2240.0
+58.0,Male,Married,Graduate,45700.0,Private,7.4,Large Indian,Family,0.0,4,3,3600.0,0.0,5900.0,7900.0,8400.0,No,0.0,797.0,365500.0,175600.0,Vehicle EMI,1476000.0,71,Not_Eligible,13134.0
+32.0,Male,Married,Graduate,45500.0,Government,3.3,Large Indian,Family,0.0,3,2,0.0,6500.0,5600.0,9700.0,7400.0,No,0.0,708.0,169100.0,52200.0,Education EMI,403000.0,14,Not_Eligible,8965.0
+32.0,Male,Married,Post Graduate,52900.0,Private,5.1,Startup,Family,0.0,2,1,14300.0,0.0,5500.0,9000.0,7400.0,Yes,14000.0,711.0,228500.0,98800.0,Vehicle EMI,867000.0,68,Not_Eligible,945.0
+48.0,Male,Married,Professional,50300.0,Private,10.3,Startup,Own,0.0,3,2,10100.0,0.0,6300.0,7600.0,7400.0,Yes,10800.0,706.0,236400.0,66500.0,E-commerce Shopping EMI,48000.0,12,Not_Eligible,2835.0
+38.0,Male,Married,Post Graduate,65300.0,Government,0.5,Large Indian,Rented,16800.0,3,2,11500.0,0.0,8800.0,13300.0,7400.0,No,0.0,740.0,325100.0,167100.0,Personal Loan EMI,703000.0,51,Not_Eligible,3750.0
+32.0,Male,Married,Graduate,97500.0,Private,2.2,Startup,Own,0.0,3,2,12900.0,0.0,9400.0,21700.0,12700.0,No,0.0,707.0,767800.0,74000.0,E-commerce Shopping EMI,95000.0,14,Eligible,22440.0
+32.0,Female,Married,High School,13700.0,Private,2.7,MNC,Own,0.0,2,1,13100.0,0.0,1600.0,2200.0,700.0,Yes,3300.0,568.0,62500.0,34100.0,Home Appliances EMI,26000.0,34,Not_Eligible,500.0
+32.0,Female,Single,High School,48200.0,Private,3.3,Mid-size,Family,0.0,1,0,0.0,0.0,5200.0,11800.0,8800.0,No,0.0,795.0,186300.0,94500.0,Vehicle EMI,1451000.0,63,Not_Eligible,13440.0
+48.0,Female,Married,Professional,92700.0,Private,26.0,Mid-size,Family,0.0,4,3,0.0,0.0,13500.0,20600.0,7000.0,No,0.0,755.0,236300.0,124700.0,E-commerce Shopping EMI,187000.0,5,Not_Eligible,30960.0
+48.0,Female,Married,Graduate,60000.0,Government,10.0,MNC,Family,0.0,3,2,14500.0,0.0,6900.0,13900.0,6000.0,No,0.0,804.0,228200.0,127400.0,Home Appliances EMI,89000.0,25,Eligible,12342.0
+38.0,Female,Married,Post Graduate,47700.0,Private,4.1,MNC,Rented,11100.0,3,2,14200.0,0.0,3100.0,13900.0,6000.0,Yes,9800.0,607.0,243100.0,126800.0,E-commerce Shopping EMI,65000.0,6,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,30000.0,Private,2.0,Mid-size,Family,0.0,2,1,12500.0,0.0,3800.0,8300.0,3600.0,Yes,7600.0,670.0,56400.0,21800.0,E-commerce Shopping EMI,188000.0,12,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,19500.0,Private,1.2,Large Indian,Own,0.0,3,2,0.0,0.0,2600.0,5000.0,2600.0,No,0.0,763.0,135800.0,76600.0,E-commerce Shopping EMI,37000.0,11,Eligible,6138.0
+38.0,Female,Married,Post Graduate,60500.0,Government,1.1,Mid-size,Rented,10500.0,3,2,9800.0,7900.0,3200.0,13900.0,11200.0,Yes,17400.0,692.0,122000.0,52100.0,Education EMI,231000.0,41,Not_Eligible,500.0
+48.0,Female,Married,High School,40700.0,Private,5.8,MNC,Rented,6200.0,3,2,13800.0,16700.0,2500.0,6700.0,2100.0,No,0.0,666.0,73800.0,44300.0,Education EMI,101000.0,42,Not_Eligible,500.0
+32.0,Female,Married,Graduate,50500.0,Government,0.9,Large Indian,Rented,11100.0,2,1,0.0,0.0,5800.0,11100.0,10100.0,Yes,5500.0,640.0,286900.0,144100.0,Education EMI,105000.0,32,Not_Eligible,1932.0
+48.0,Female,Single,Professional,32400.0,Private,1.8,Large Indian,Own,0.0,2,1,8700.0,0.0,2800.0,7800.0,3800.0,No,0.0,608.0,83100.0,19400.0,Home Appliances EMI,136000.0,35,Not_Eligible,3720.0
+58.0,Female,Married,Graduate,50000.0,Government,3.0,Large Indian,Rented,16700.0,4,3,3000.0,0.0,6800.0,13800.0,7100.0,No,0.0,711.0,335000.0,153100.0,E-commerce Shopping EMI,45000.0,20,Not_Eligible,1573.0
+38.0,Female,Married,Post Graduate,46600.0,Private,7.9,Large Indian,Own,0.0,4,3,0.0,8300.0,3900.0,13300.0,4000.0,No,0.0,729.0,250400.0,96400.0,Education EMI,175000.0,37,Eligible,8550.0
+32.0,Male,Single,Graduate,54800.0,Government,0.5,MNC,Rented,13500.0,2,1,0.0,9700.0,6600.0,13100.0,7600.0,Yes,6600.0,791.0,86700.0,24800.0,E-commerce Shopping EMI,28000.0,24,Not_Eligible,500.0
+38.0,Male,Single,Post Graduate,25600.0,Government,1.1,MNC,Own,0.0,1,0,0.0,0.0,2600.0,4700.0,3500.0,Yes,3300.0,708.0,197100.0,43600.0,Vehicle EMI,850000.0,41,Not_Eligible,4427.5
+48.0,Male,Married,Professional,58900.0,Private,0.8,MNC,Family,0.0,2,1,14500.0,0.0,5900.0,14000.0,5100.0,No,0.0,759.0,282200.0,68900.0,Vehicle EMI,426000.0,35,Not_Eligible,9312.0
+58.0,Male,Married,Post Graduate,78400.0,Private,20.5,Large Indian,Own,0.0,3,2,8900.0,0.0,5100.0,22000.0,4800.0,Yes,9700.0,683.0,134100.0,72200.0,E-commerce Shopping EMI,152000.0,9,Not_Eligible,7812.0
+32.0,Male,Married,Graduate,27200.0,Private,1.9,Large Indian,Rented,7800.0,5,4,0.0,0.0,3100.0,6600.0,1700.0,Yes,8200.0,612.0,188400.0,103400.0,E-commerce Shopping EMI,107000.0,16,Not_Eligible,500.0
+32.0,Female,Single,Graduate,42600.0,Government,0.8,Mid-size,Own,0.0,1,0,0.0,0.0,5800.0,12000.0,2400.0,Yes,9300.0,690.0,225600.0,68800.0,Personal Loan EMI,344000.0,60,Not_Eligible,4585.0
+38.0,Male,Married,Professional,88600.0,Self-employed,4.6,Mid-size,Own,0.0,2,1,9800.0,8400.0,9200.0,25700.0,10100.0,Yes,10700.0,651.0,308700.0,111300.0,Personal Loan EMI,857000.0,34,Not_Eligible,4630.5
+32.0,Male,Married,High School,42300.0,Private,4.0,Mid-size,Own,0.0,3,2,11000.0,23200.0,3700.0,9200.0,3300.0,No,0.0,728.0,337600.0,198300.0,Vehicle EMI,930000.0,79,Not_Eligible,500.0
+48.0,Female,Married,Graduate,19600.0,Private,21.9,MNC,Family,5847.0,4,3,0.0,0.0,2100.0,5100.0,3600.0,No,0.0,672.0,39700.0,12900.0,Education EMI,194000.0,6,Not_Eligible,4400.0
+38.0,Female,Married,Post Graduate,70800.0,Private,0.5,Startup,Family,0.0,3,2,12700.0,0.0,7200.0,21100.0,6300.0,Yes,7500.0,615.0,243600.0,120000.0,Vehicle EMI,907000.0,42,Not_Eligible,3584.0
+32.0,Female,Married,Post Graduate,92700.0,Private,1.6,MNC,Rented,18600.0,5,4,2000.0,0.0,8400.0,19800.0,10000.0,No,0.0,776.0,740600.0,440900.0,E-commerce Shopping EMI,189000.0,16,Eligible,22374.0
+32.0,Male,Married,Professional,91400.0,Government,0.5,Large Indian,Rented,20800.0,2,1,0.0,0.0,9000.0,17600.0,16400.0,No,0.0,850.0,502900.0,146800.0,Personal Loan EMI,743000.0,13,Not_Eligible,16560.0
+32.0,Male,Married,Post Graduate,103800.0,Private,1.8,Large Indian,Rented,19600.0,3,2,9300.0,0.0,6000.0,27400.0,15100.0,No,0.0,758.0,357300.0,121800.0,Education EMI,108000.0,40,Eligible,15840.0
+27.0,Female,Married,Graduate,54700.0,Self-employed,1.8,Large Indian,Own,0.0,2,1,3400.0,0.0,4400.0,11800.0,8400.0,No,0.0,634.0,410000.0,244200.0,Home Appliances EMI,183000.0,29,Eligible,10573.2
+48.0,Female,Single,Post Graduate,32000.0,Private,6.4,Startup,Rented,7200.0,1,0,0.0,0.0,4000.0,5500.0,4700.0,No,0.0,641.0,136500.0,43200.0,Personal Loan EMI,239000.0,44,Not_Eligible,4240.0
+38.0,Male,Married,Professional,165900.0,Self-employed,0.5,Mid-size,Family,0.0,3,2,13400.0,0.0,10900.0,40500.0,15900.0,No,0.0,750.0,968100.0,395000.0,Education EMI,238000.0,30,Eligible,46008.0
+38.0,Female,Married,High School,35600.0,Private,0.5,Startup,Own,0.0,4,3,7300.0,0.0,2900.0,10500.0,2600.0,No,0.0,731.0,247700.0,114500.0,E-commerce Shopping EMI,188000.0,17,Not_Eligible,5412.0
+32.0,Male,Single,Professional,125800.0,Private,0.5,MNC,Rented,25300.0,3,2,0.0,0.0,16400.0,34600.0,16200.0,No,0.0,733.0,316900.0,81900.0,E-commerce Shopping EMI,46000.0,18,Eligible,13320.0
+27.0,Female,Single,Post Graduate,65900.0,Private,3.2,Large Indian,Own,0.0,1,0,0.0,0.0,9400.0,14400.0,10000.0,No,0.0,676.0,103100.0,56100.0,Personal Loan EMI,199000.0,31,Eligible,12840.0
+27.0,Male,Single,Post Graduate,109400.0,Private,0.5,Large Indian,Family,0.0,3,2,8700.0,0.0,6300.0,20300.0,16200.0,Yes,28800.0,518.0,585500.0,216100.0,Personal Loan EMI,236000.0,51,Not_Eligible,4074.0
+48.0,Male,Married,Graduate,67900.0,Government,7.7,MNC,Own,0.0,3,2,0.0,0.0,4100.0,12800.0,11900.0,No,0.0,790.0,53400.0,22600.0,Home Appliances EMI,102000.0,31,Eligible,20644.8
+48.0,Female,Married,High School,37600.0,Government,6.2,Startup,Family,0.0,3,2,2600.0,9800.0,3900.0,7900.0,4600.0,Yes,5500.0,743.0,71600.0,25200.0,Personal Loan EMI,953000.0,36,Not_Eligible,1016.4
+27.0,Female,Single,Professional,105500.0,Private,1.0,Mid-size,Rented,35300.0,1,0,0.0,0.0,15000.0,25900.0,6700.0,Yes,24200.0,680.0,776300.0,215800.0,Personal Loan EMI,452000.0,56,Not_Eligible,500.0
+27.0,Female,Married,Graduate,49800.0,Private,0.5,Large Indian,Family,0.0,2,1,0.0,11600.0,2900.0,8300.0,6100.0,No,0.0,665.0,196900.0,92100.0,E-commerce Shopping EMI,85000.0,11,High_Risk,8360.0
+27.0,Female,Single,Post Graduate,91700.0,Self-employed,1.8,MNC,Rented,21300.0,3,2,13600.0,0.0,7600.0,15800.0,9000.0,No,0.0,782.0,366100.0,217100.0,Vehicle EMI,380000.0,73,Eligible,13176.0
+32.0,Female,Married,Graduate,50500.0,Private,7.4,Mid-size,Rented,14900.0,3,2,7700.0,0.0,6500.0,9600.0,7500.0,No,0.0,823.0,388100.0,152400.0,E-commerce Shopping EMI,151000.0,3,Not_Eligible,2838.0
+38.0,Male,Married,Graduate,73600.0,Government,6.9,MNC,Rented,19200.0,3,2,6600.0,0.0,3900.0,11100.0,6800.0,No,0.0,775.0,438300.0,117400.0,Education EMI,165000.0,9,Not_Eligible,17160.0
+38.0,Female,Married,Graduate,127900.0,Private,3.1,MNC,Family,0.0,5,4,0.0,0.0,13500.0,20900.0,14000.0,No,0.0,745.0,206600.0,106400.0,E-commerce Shopping EMI,146000.0,21,Eligible,31800.0
+38.0,Female,Single,High School,27000.0,Private,16.0,Startup,Own,0.0,2,1,3600.0,0.0,2700.0,5800.0,4100.0,No,0.0,730.0,188300.0,110400.0,Home Appliances EMI,73000.0,35,Eligible,5940.0
+48.0,Male,Married,Graduate,73000.0,Private,2.2,Mid-size,Family,0.0,3,2,0.0,0.0,5900.0,13700.0,9400.0,No,0.0,768.0,351000.0,208800.0,E-commerce Shopping EMI,182000.0,18,Eligible,26400.0
+32.0,Female,Single,Graduate,84700.0,Private,2.3,Large Indian,Family,0.0,2,1,0.0,14000.0,12700.0,17700.0,13100.0,No,0.0,757.0,221300.0,61400.0,E-commerce Shopping EMI,136000.0,12,Eligible,16320.0
+58.0,Female,Single,Post Graduate,123500.0,Government,7.4,Large Indian,Rented,26800.0,3,2,10000.0,0.0,15600.0,25800.0,11500.0,Yes,18800.0,783.0,820200.0,280800.0,Vehicle EMI,589000.0,42,Not_Eligible,7623.0
+27.0,Male,Single,Post Graduate,100000.0,Private,0.5,Large Indian,Family,0.0,3,2,14600.0,0.0,8500.0,21100.0,18400.0,No,0.0,670.0,286600.0,115200.0,Home Appliances EMI,193000.0,14,High_Risk,14960.0
+48.0,Female,Married,High School,38600.0,Self-employed,15.0,Mid-size,Own,0.0,4,3,8400.0,11600.0,4800.0,6400.0,7600.0,No,0.0,767.0,33000.0,12600.0,Education EMI,265000.0,24,Not_Eligible,500.0
+48.0,Female,Married,Graduate,26000.0,Private,25.8,Large Indian,Family,0.0,3,2,2200.0,0.0,1600.0,4200.0,2400.0,No,0.0,609.0,19100.0,9800.0,E-commerce Shopping EMI,155000.0,18,Not_Eligible,4992.0
+32.0,Male,Single,Post Graduate,40300.0,Private,8.1,MNC,Own,0.0,3,2,14400.0,0.0,4900.0,12100.0,7300.0,No,0.0,788.0,146500.0,35900.0,Vehicle EMI,1361000.0,49,Not_Eligible,960.0
+38.0,Male,Married,Graduate,85588.0,Self-employed,16.0,Large Indian,Rented,14800.0,4,3,0.0,0.0,10400.0,25200.0,10700.0,Yes,10200.0,719.0,167200.0,41900.0,Home Appliances EMI,252000.0,14,Not_Eligible,3528.0
+38.0,Male,Married,Graduate,63100.0,Government,14.3,Mid-size,Rented,14800.0,4,3,14000.0,0.0,3300.0,17400.0,5800.0,Yes,11300.0,661.0,322600.0,86000.0,Education EMI,147000.0,46,Not_Eligible,500.0
+27.0,Male,Single,Graduate,64200.0,Government,2.0,Startup,Rented,19200.0,2,1,12800.0,0.0,9200.0,16000.0,10000.0,Yes,10800.0,770.0,331500.0,95900.0,Personal Loan EMI,819000.0,36,Not_Eligible,500.0
+48.0,Male,Married,Graduate,46100.0,Government,6.7,Mid-size,Rented,10000.0,3,2,6600.0,0.0,4800.0,10600.0,8500.0,No,0.0,819.0,216000.0,78900.0,E-commerce Shopping EMI,76000.0,21,Not_Eligible,3696.0
+48.0,Female,Married,Professional,27000.0,Private,2.5,Large Indian,Family,0.0,3,2,0.0,0.0,2300.0,4200.0,5000.0,No,0.0,733.0,166200.0,50500.0,Personal Loan EMI,356000.0,22,Not_Eligible,8525.0
+58.0,Male,Married,High School,37600.0,Private,8.3,Large Indian,Rented,8100.0,5,4,0.0,0.0,2400.0,9800.0,4100.0,Yes,4100.0,747.0,72200.0,34700.0,Home Appliances EMI,67000.0,7,Not_Eligible,2548.0
+32.0,Male,Married,Graduate,46400.0,Private,0.6,Mid-size,Rented,13100.0,4,3,0.0,11300.0,5800.0,7400.0,8400.0,No,0.0,803.0,130600.0,48900.0,Home Appliances EMI,297000.0,24,Not_Eligible,500.0
+27.0,Female,Single,Professional,8727.0,Private,3.8,Mid-size,Rented,38400.0,1,0,0.0,0.0,21400.0,26600.0,27500.0,No,0.0,801.0,912500.0,423800.0,Home Appliances EMI,264000.0,23,Eligible,22704.0
+32.0,Male,Married,Post Graduate,73800.0,Private,2.7,Large Indian,Family,0.0,3,2,11100.0,0.0,10200.0,17900.0,8200.0,Yes,15900.0,730.0,532700.0,170900.0,E-commerce Shopping EMI,144000.0,7,Not_Eligible,4042.5
+38.0,Male,Married,Graduate,78800.0,Private,8.0,Startup,Rented,25300.0,3,2,0.0,0.0,6400.0,15400.0,11800.0,No,0.0,687.0,515800.0,225200.0,Education EMI,388000.0,40,Not_Eligible,10945.0
+27.0,Male,Single,Professional,95600.0,Government,5.0,Large Indian,Rented,27000.0,2,1,0.0,0.0,4900.0,28200.0,10900.0,No,0.0,717.0,401200.0,102600.0,Education EMI,495000.0,47,Not_Eligible,13530.0
+32.0,Male,Married,Professional,45000.0,Private,0.7,Large Indian,Rented,12400.0,3,2,0.0,0.0,4700.0,10300.0,6100.0,Yes,11900.0,714.0,36700.0,9500.0,Personal Loan EMI,943000.0,22,Not_Eligible,500.0
+58.0,Female,Married,Professional,59000.0,Self-employed,21.8,Large Indian,Family,0.0,4,3,14000.0,0.0,5500.0,15300.0,7100.0,No,0.0,616.0,284500.0,71900.0,Home Appliances EMI,172000.0,13,Not_Eligible,6156.0
+27.0,Male,Married,Graduate,39300.0,Private,0.5,Large Indian,Own,0.0,2,1,0.0,0.0,4300.0,8400.0,2300.0,Yes,10700.0,671.0,144400.0,80000.0,Home Appliances EMI,199000.0,19,Not_Eligible,3808.0
+32.0,Female,Married,Graduate,20000.0,Government,9.2,MNC,Rented,3000.0,2,1,10100.0,5900.0,1800.0,5700.0,1100.0,Yes,5200.0,570.0,124000.0,63100.0,Personal Loan EMI,533000.0,43,Not_Eligible,500.0
+27.0,Female,Single,Post Graduate,44500.0,Private,2.6,Large Indian,Family,0.0,3,2,11600.0,0.0,4900.0,9100.0,3000.0,No,0.0,733.0,111300.0,33800.0,Vehicle EMI,770000.0,65,Not_Eligible,7950.0
+38.0,Male,Married,Post Graduate,149300.0,Private,4.5,Small,Own,0.0,3,2,0.0,0.0,8200.0,42700.0,17600.0,Yes,18500.0,630.0,646000.0,161100.0,Home Appliances EMI,89000.0,35,Eligible,17444.0
+32.0,Female,Married,Graduate,23000.0,Private,5.1,Large Indian,Rented,3500.0,5,4,0.0,0.0,3100.0,6500.0,4000.0,No,0.0,788.0,102600.0,22000.0,Personal Loan EMI,165000.0,30,Not_Eligible,3540.0
+32.0,Male,Single,Graduate,60200.0,Private,1.2,Mid-size,Own,0.0,2,1,0.0,0.0,6200.0,12900.0,8800.0,Yes,6200.0,550.0,264300.0,108700.0,Vehicle EMI,151000.0,80,Eligible,7308.0
+38.0,Male,Married,Graduate,28400.0,Private,0.5,Mid-size,Family,0.0,2,1,0.0,0.0,2900.0,5200.0,5600.0,No,0.0,616.0,181400.0,79900.0,Education EMI,432000.0,35,Not_Eligible,5174.4
+32.0,Male,Married,Graduate,74900.0,Government,0.5,Startup,Rented,17000.0,3,2,5300.0,0.0,8600.0,16300.0,5700.0,No,0.0,584.0,575500.0,287800.0,Education EMI,477000.0,40,Not_Eligible,9680.0
+32.0,Male,Single,Professional,58600.0,Private,1.8,Mid-size,Family,0.0,1,0,0.0,0.0,8000.0,10900.0,3700.0,No,0.0,596.0,70100.0,36400.0,Education EMI,434000.0,25,Not_Eligible,11520.0
+27.0,Male,Single,Graduate,49100.0,Private,1.0,Large Indian,Own,0.0,2,1,9200.0,0.0,5200.0,8000.0,5400.0,Yes,12400.0,714.0,329700.0,88500.0,Education EMI,59000.0,11,Not_Eligible,3426.5
+38.0,Male,Married,High School,41600.0,Private,5.3,Startup,Own,0.0,4,3,4600.0,11200.0,3000.0,7800.0,5700.0,No,0.0,714.0,213300.0,69400.0,Education EMI,279000.0,31,Not_Eligible,4650.0
+32.0,Female,Married,Graduate,60400.0,Private,1.6,MNC,Own,0.0,3,2,11000.0,0.0,6200.0,12300.0,9700.0,No,0.0,664.0,398200.0,110100.0,E-commerce Shopping EMI,116000.0,21,Eligible,11660.0
+48.0,Male,Married,Graduate,59000.0,Self-employed,1.3,Small,Family,0.0,5,4,0.0,10100.0,8100.0,9700.0,8700.0,No,0.0,640.0,43000.0,22200.0,Education EMI,288000.0,19,Not_Eligible,6451.2
+38.0,Female,Single,Graduate,66500.0,Private,1.9,Small,Rented,14800.0,1,0,0.0,0.0,9800.0,13500.0,4100.0,No,0.0,627.0,264700.0,113600.0,Education EMI,411000.0,23,Not_Eligible,9720.0
+32.0,Female,Married,Graduate,64500.0,Private,3.3,MNC,Rented,19500.0,3,2,12900.0,23700.0,6700.0,15600.0,10600.0,No,0.0,559.0,71100.0,21600.0,Vehicle EMI,306000.0,63,Not_Eligible,500.0
+48.0,Female,Married,Professional,49800.0,Private,4.6,Large Indian,Rented,14800.0,5,4,11400.0,11300.0,7200.0,9400.0,8800.0,No,0.0,662.0,385800.0,180100.0,Vehicle EMI,1444000.0,47,Not_Eligible,500.0
+38.0,Female,Married,Graduate,15000.0,Government,4.2,MNC,Family,0.0,4,3,10600.0,0.0,1800.0,3800.0,2500.0,No,0.0,752.0,112200.0,55800.0,Home Appliances EMI,280000.0,12,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,61000.0,Private,6.1,Large Indian,Family,0.0,4,3,0.0,6300.0,7100.0,11600.0,4300.0,No,0.0,691.0,46400.0,13400.0,Home Appliances EMI,279000.0,20,Not_Eligible,12680.0
+38.0,Male,Married,High School,12000.0,Private,7.3,MNC,Family,0.0,5,4,9600.0,0.0,1500.0,2500.0,1400.0,No,0.0,787.0,87800.0,19600.0,Education EMI,160000.0,41,Not_Eligible,500.0
+48.0,Male,Married,High School,49500.0,Private,26.0,Large Indian,Own,0.0,3,2,0.0,0.0,5500.0,10200.0,3500.0,No,0.0,690.0,123700.0,64200.0,Education EMI,466000.0,8,Not_Eligible,15150.0
+58.0,Male,Married,Graduate,40900.0,Private,10.2,Mid-size,Rented,12000.0,2,1,0.0,0.0,4400.0,10000.0,6900.0,No,0.0,740.0,55500.0,11600.0,Education EMI,191000.0,33,Not_Eligible,3040.0
+27.0,Female,Married,Graduate,15000.0,Private,1.6,Mid-size,Rented,2700.0,3,2,8200.0,0.0,2100.0,3500.0,900.0,No,0.0,668.0,41400.0,22100.0,Personal Loan EMI,188000.0,25,Not_Eligible,500.0
+38.0,Male,Single,Graduate,66200.0,Self-employed,8.9,Large Indian,Own,0.0,2,1,4200.0,0.0,7800.0,13500.0,6000.0,Yes,9200.0,661.0,117000.0,48500.0,Education EMI,66000.0,13,High_Risk,6426.0
+48.0,Female,Single,Graduate,66400.0,Private,1.6,MNC,Rented,22000.0,1,0,0.0,0.0,8800.0,12800.0,4000.0,Yes,7500.0,569.0,361600.0,100300.0,Education EMI,111000.0,11,Not_Eligible,3164.0
+48.0,Male,Married,Graduate,57100.0,Government,26.0,Large Indian,Own,0.0,3,2,0.0,0.0,3100.0,9500.0,3600.0,Yes,7500.0,684.0,323700.0,75000.0,Education EMI,497000.0,45,Not_Eligible,12859.0
+38.0,Female,Married,Professional,94400.0,Private,7.3,Startup,Rented,33000.0,3,2,0.0,13700.0,11400.0,27600.0,10500.0,Yes,21300.0,688.0,167900.0,89100.0,E-commerce Shopping EMI,21000.0,8,Not_Eligible,500.0
+38.0,Male,Single,Graduate,51400.0,Private,16.0,Large Indian,Rented,9300.0,3,2,0.0,8900.0,4000.0,9400.0,9600.0,Yes,10300.0,719.0,347500.0,90600.0,Education EMI,330000.0,13,Not_Eligible,500.0
+27.0,Female,Single,Post Graduate,45600.0,Private,0.5,Small,Family,0.0,2,1,14000.0,0.0,3200.0,10800.0,6500.0,No,0.0,651.0,145900.0,83700.0,Vehicle EMI,728000.0,22,Not_Eligible,4440.0
+48.0,Female,Married,Graduate,15200.0,Private,2.0,Small,Rented,2800.0,4,3,0.0,17000.0,1300.0,2300.0,1100.0,Yes,4100.0,454.0,39200.0,12700.0,Home Appliances EMI,251000.0,7,Not_Eligible,500.0
+38.0,Male,Married,Professional,90300.0,Private,5.7,Mid-size,Family,0.0,5,4,0.0,0.0,5100.0,18000.0,9600.0,No,0.0,654.0,333300.0,183500.0,E-commerce Shopping EMI,94000.0,19,Eligible,28800.0
+32.0,Male,Married,Professional,72600.0,Private,5.9,MNC,Rented,18000.0,4,3,12400.0,16200.0,9900.0,11300.0,8500.0,No,0.0,783.0,455400.0,142300.0,Home Appliances EMI,127000.0,28,Not_Eligible,500.0
+27.0,Male,Married,Post Graduate,153000.0,Private,5.0,Small,Family,0.0,3,2,0.0,0.0,20300.0,34900.0,17900.0,Yes,15900.0,664.0,1060300.0,246200.0,E-commerce Shopping EMI,30000.0,20,Eligible,24640.0
+48.0,Female,Married,Graduate,31100.0,Government,1.0,Mid-size,Family,0.0,5,4,0.0,0.0,1900.0,6100.0,4700.0,No,0.0,612.0,104300.0,57400.0,Education EMI,118000.0,25,Eligible,7360.0
+32.0,Female,Single,High School,75200.0,Private,0.5,Large Indian,Rented,13900.0,2,1,0.0,0.0,10900.0,13200.0,4400.0,No,0.0,697.0,460300.0,151600.0,Vehicle EMI,1324000.0,34,Not_Eligible,14432.0
+38.0,Male,Single,Post Graduate,24500.0,Private,4.9,Mid-size,Family,9862.0,2,1,2800.0,9100.0,2900.0,6500.0,3500.0,No,0.0,580.0,176200.0,71100.0,Personal Loan EMI,628000.0,41,Not_Eligible,500.0
+32.0,Female,Married,High School,417837.0,Government,4.3,MNC,Family,0.0,4,3,3200.0,0.0,8700.0,17100.0,13800.0,Yes,10300.0,642.0,225500.0,58900.0,E-commerce Shopping EMI,56000.0,22,Eligible,5143.6
+48.0,Male,Married,High School,324988.0,Private,26.0,Startup,Family,0.0,4,3,0.0,12000.0,3700.0,11700.0,5300.0,No,0.0,691.0,237500.0,84900.0,E-commerce Shopping EMI,126000.0,10,Not_Eligible,4050.0
+48.0,Male,Married,Professional,92200.0,Government,3.3,Mid-size,Rented,16500.0,4,3,8500.0,0.0,6200.0,24800.0,10700.0,No,0.0,689.0,274200.0,161300.0,Vehicle EMI,1160000.0,72,Not_Eligible,14025.0
+48.0,Female,Single,Graduate,15000.0,Private,26.0,MNC,Rented,2600.0,3,2,6500.0,0.0,2200.0,2300.0,1500.0,Yes,2200.0,574.0,44200.0,23600.0,Personal Loan EMI,828000.0,43,Not_Eligible,500.0
+48.0,Female,Married,Graduate,46300.0,Government,5.0,Large Indian,Rented,8400.0,3,2,0.0,0.0,3800.0,11600.0,2500.0,No,0.0,774.0,243800.0,117900.0,Home Appliances EMI,214000.0,13,Not_Eligible,13200.0
+32.0,Female,Single,Post Graduate,54200.0,Private,3.4,Mid-size,Rented,11000.0,1,0,0.0,0.0,5600.0,14800.0,9000.0,Yes,7000.0,680.0,250200.0,127100.0,Home Appliances EMI,51000.0,7,Not_Eligible,2380.0
+48.0,Female,Married,Graduate,71200.0,Government,3.0,MNC,Own,0.0,3,2,10200.0,0.0,8300.0,12300.0,9800.0,Yes,12300.0,788.0,395000.0,161000.0,Vehicle EMI,1245000.0,41,Not_Eligible,8454.6
+38.0,Female,Married,Graduate,21500.0,Private,3.0,MNC,Rented,3700.0,3,2,0.0,0.0,3200.0,4500.0,1500.0,Yes,4500.0,643.0,44700.0,25600.0,Personal Loan EMI,168000.0,42,Not_Eligible,1148.0
+38.0,Male,Married,Post Graduate,93500.0,Government,2.7,Mid-size,Own,0.0,5,4,3400.0,20800.0,8600.0,22300.0,9600.0,Yes,19200.0,637.0,497700.0,160300.0,Education EMI,372000.0,48,Not_Eligible,2688.0
+27.0,Male,Married,Professional,84400.0,Self-employed,1.1,MNC,Own,0.0,3,2,0.0,11000.0,7000.0,22200.0,10100.0,No,0.0,689.0,210500.0,90700.0,Education EMI,173000.0,38,Eligible,15345.0
+48.0,Male,Married,Graduate,53200.0,Private,3.4,Small,Rented,15800.0,3,2,5100.0,22000.0,6300.0,13200.0,3100.0,No,0.0,630.0,298700.0,141600.0,Vehicle EMI,1000000.0,54,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,71500.0,Private,4.7,Startup,Rented,17700.0,5,4,14900.0,0.0,10500.0,20800.0,7800.0,No,0.0,719.0,475700.0,198700.0,Personal Loan EMI,203000.0,58,Not_Eligible,500.0
+32.0,Male,Single,Graduate,31700.0,Private,0.5,Large Indian,Family,0.0,2,1,2200.0,0.0,4000.0,6600.0,1800.0,Yes,7900.0,712.0,178500.0,57900.0,Education EMI,137000.0,25,Not_Eligible,2576.0
+48.0,Male,Married,Graduate,60600.0,Self-employed,2.0,Mid-size,Own,0.0,3,2,0.0,0.0,3500.0,11700.0,4800.0,No,0.0,661.0,84600.0,34100.0,E-commerce Shopping EMI,199000.0,7,Not_Eligible,14616.0
+38.0,Female,Married,Post Graduate,71600.0,Private,3.7,Startup,Family,0.0,2,1,0.0,0.0,8400.0,12700.0,10900.0,Yes,12200.0,625.0,383100.0,169300.0,Education EMI,235000.0,33,Not_Eligible,7672.0
+48.0,Male,Married,Professional,91300.0,Private,5.5,Startup,Rented,25300.0,4,3,7800.0,0.0,7100.0,26100.0,14000.0,No,0.0,806.0,424700.0,161000.0,Education EMI,388000.0,18,Not_Eligible,6600.0
+38.0,Male,Married,Post Graduate,64300.0,Private,0.7,Large Indian,Family,0.0,4,3,13600.0,0.0,6600.0,19100.0,4300.0,Yes,17300.0,749.0,202200.0,85700.0,Personal Loan EMI,654000.0,42,Not_Eligible,952.0
+32.0,Female,Single,High School,46900.0,Private,2.9,Startup,Own,0.0,1,0,0.0,0.0,3700.0,10300.0,7700.0,Yes,8900.0,540.0,252600.0,92300.0,Vehicle EMI,1152000.0,52,Not_Eligible,2852.5
+32.0,Male,Single,Graduate,22800.0,Private,0.5,Large Indian,Family,0.0,1,0,0.0,0.0,1900.0,5100.0,3500.0,No,0.0,717.0,112900.0,49300.0,Education EMI,237000.0,6,Not_Eligible,4920.0
+38.0,Male,Married,Graduate,41400.0,Private,0.7,Startup,Own,0.0,5,4,8900.0,12300.0,5700.0,6500.0,2200.0,No,0.0,702.0,277200.0,129700.0,E-commerce Shopping EMI,78000.0,6,Not_Eligible,2552.0
+48.0,Female,Married,Post Graduate,40400.0,Private,6.1,MNC,Rented,10700.0,3,2,0.0,15500.0,4900.0,6200.0,5000.0,No,0.0,807.0,99000.0,29200.0,Personal Loan EMI,356000.0,59,Not_Eligible,500.0
+38.0,Female,Married,Graduate,57600.0,Private,4.9,MNC,Rented,16800.0,3,2,11700.0,0.0,3800.0,9400.0,10900.0,No,0.0,694.0,154500.0,65400.0,Personal Loan EMI,743000.0,36,Not_Eligible,2500.0
+58.0,Male,Married,Graduate,47400.0,Government,0.8,Mid-size,Rented,7800.0,3,2,6900.0,0.0,6600.0,12000.0,2500.0,Yes,5700.0,718.0,197300.0,115000.0,Vehicle EMI,720000.0,51,Not_Eligible,2065.0
+32.0,Male,Married,Graduate,27100.0,Self-employed,9.0,Large Indian,Own,0.0,4,3,4900.0,0.0,2200.0,8000.0,2300.0,Yes,7000.0,752.0,17800.0,6700.0,Personal Loan EMI,159000.0,29,Not_Eligible,816.48
+48.0,Male,Married,Post Graduate,90500.0,Private,11.8,Startup,Rented,20200.0,3,2,4200.0,0.0,9200.0,24700.0,9100.0,No,0.0,763.0,274700.0,145500.0,Vehicle EMI,948000.0,42,Not_Eligible,13860.0
+48.0,Male,Married,High School,32000.0,Government,11.4,Large Indian,Family,0.0,3,2,14600.0,0.0,2300.0,6900.0,5400.0,Yes,9200.0,668.0,107600.0,48500.0,Personal Loan EMI,414000.0,58,Not_Eligible,500.0
+58.0,Female,Married,High School,40300.0,Private,36.0,Startup,Own,0.0,2,1,3500.0,0.0,5900.0,10800.0,6200.0,No,0.0,780.0,231200.0,60200.0,Education EMI,444000.0,48,Not_Eligible,8340.0
+58.0,Female,Married,Graduate,45800.0,Government,3.7,MNC,Own,0.0,3,2,14500.0,0.0,4900.0,8700.0,3400.0,No,0.0,812.0,138700.0,37200.0,Home Appliances EMI,201000.0,24,Not_Eligible,9438.0
+32.0,Male,Single,Post Graduate,85200.0,Self-employed,3.8,Large Indian,Family,0.0,2,1,12400.0,0.0,6900.0,15100.0,13500.0,No,0.0,660.0,449100.0,105800.0,Education EMI,317000.0,24,High_Risk,16785.0
+48.0,Male,Married,Graduate,41200.0,Private,26.0,Large Indian,Family,0.0,3,2,0.0,0.0,3900.0,8700.0,6000.0,No,0.0,831.0,211800.0,72400.0,E-commerce Shopping EMI,84000.0,8,High_Risk,13560.0
+38.0,Female,Married,Graduate,65900.0,Private,3.8,Mid-size,Own,0.0,3,2,0.0,0.0,4600.0,18600.0,9300.0,No,0.0,737.0,230200.0,90100.0,Personal Loan EMI,715000.0,57,Not_Eligible,16700.0
+27.0,Female,Married,Graduate,18700.0,Private,5.0,Large Indian,Own,0.0,4,3,0.0,0.0,1000.0,3000.0,2500.0,No,0.0,683.0,120000.0,34200.0,Vehicle EMI,430000.0,64,Not_Eligible,6710.0
+27.0,Female,Single,Graduate,46200.0,Private,1.3,Large Indian,Own,0.0,3,2,3100.0,20200.0,5400.0,11900.0,8800.0,No,0.0,621.0,42600.0,21300.0,Vehicle EMI,635000.0,37,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,57400.0,Private,1.9,Mid-size,Rented,10500.0,2,1,0.0,0.0,5800.0,11900.0,10800.0,No,0.0,646.0,191800.0,57400.0,Personal Loan EMI,715000.0,29,Not_Eligible,7360.0
+38.0,Male,Married,High School,48500.0,Private,2.2,Large Indian,Own,0.0,4,3,10200.0,0.0,3500.0,12300.0,4400.0,No,0.0,836.0,87800.0,49900.0,Home Appliances EMI,57000.0,7,High_Risk,8688.0
+48.0,Female,Married,Professional,155800.0,Self-employed,1.0,Startup,Rented,24600.0,4,3,2800.0,0.0,19500.0,27300.0,11700.0,No,0.0,730.0,175600.0,49100.0,Personal Loan EMI,830000.0,17,Not_Eligible,25164.0
+58.0,Male,Married,Graduate,38700.0,Self-employed,5.2,Mid-size,Family,0.0,4,3,8700.0,15500.0,5600.0,11000.0,3200.0,Yes,5800.0,771.0,26200.0,15000.0,Personal Loan EMI,397000.0,38,Not_Eligible,500.0
+27.0,Male,Single,Professional,31000.0,Government,2.1,MNC,Own,0.0,1,0,0.0,0.0,2700.0,5500.0,1800.0,No,0.0,693.0,91700.0,30900.0,E-commerce Shopping EMI,74000.0,16,Eligible,10500.0
+38.0,Female,Married,Graduate,34100.0,Government,5.0,Mid-size,Rented,6900.0,4,3,0.0,0.0,3900.0,8000.0,2400.0,Yes,6400.0,770.0,243900.0,98800.0,Education EMI,442000.0,30,Not_Eligible,3303.3
+48.0,Male,Married,High School,19600.0,Private,0.5,Startup,Own,0.0,4,3,11000.0,0.0,1300.0,4800.0,2100.0,No,0.0,592.0,145100.0,68400.0,Home Appliances EMI,294000.0,8,Not_Eligible,500.0
+32.0,Male,Married,Graduate,70200.0,Private,6.2,Startup,Own,0.0,3,2,9200.0,0.0,10500.0,10800.0,7300.0,No,0.0,732.0,372500.0,188900.0,Education EMI,303000.0,41,Eligible,16200.0
+38.0,Male,Married,High School,36900.0,Private,15.1,Large Indian,Rented,6800.0,3,2,4100.0,10000.0,4600.0,7200.0,7100.0,No,0.0,688.0,121700.0,72200.0,Personal Loan EMI,730000.0,40,Not_Eligible,500.0
+48.0,Female,Married,Graduate,52700.0,Government,6.8,Mid-size,Own,0.0,3,2,13300.0,0.0,6700.0,14400.0,5100.0,Yes,5900.0,838.0,345900.0,192100.0,E-commerce Shopping EMI,107000.0,7,Not_Eligible,3709.86
+58.0,Female,Married,Graduate,24500.0,Private,15.3,Large Indian,Own,0.0,5,4,0.0,0.0,2000.0,4500.0,4200.0,Yes,3800.0,636.0,21000.0,9400.0,Home Appliances EMI,102000.0,19,Not_Eligible,2240.0
+27.0,Male,Married,Graduate,57800.0,Private,1.9,Mid-size,Rented,20100.0,4,3,3300.0,14100.0,7500.0,14000.0,4600.0,Yes,13900.0,619.0,286600.0,139700.0,Education EMI,343000.0,39,Not_Eligible,500.0
+32.0,Female,Married,Professional,125300.0,Self-employed,3.8,Large Indian,Own,0.0,3,2,8900.0,0.0,8000.0,22100.0,14500.0,No,0.0,710.0,310700.0,159700.0,E-commerce Shopping EMI,157000.0,4,Not_Eligible,32310.0
+58.0,Female,Married,Graduate,93200.0,Private,7.0,Mid-size,Family,0.0,3,2,4400.0,0.0,13100.0,21900.0,15100.0,Yes,19000.0,680.0,536200.0,217800.0,Personal Loan EMI,625000.0,33,Not_Eligible,6895.0
+38.0,Male,Married,Graduate,53100.0,Private,4.8,MNC,Family,0.0,4,3,0.0,0.0,3600.0,12100.0,10400.0,Yes,8500.0,634.0,192100.0,76000.0,Personal Loan EMI,864000.0,49,Not_Eligible,5180.0
+38.0,Female,Married,Graduate,39200.0,Self-employed,13.0,MNC,Rented,12900.0,5,4,0.0,10200.0,2700.0,9500.0,4600.0,No,0.0,693.0,232400.0,87100.0,Home Appliances EMI,184000.0,31,Not_Eligible,500.0
+27.0,Female,Single,Graduate,35900.0,Self-employed,2.0,MNC,Own,0.0,2,1,13300.0,0.0,2600.0,6900.0,2900.0,No,0.0,676.0,255300.0,85700.0,Home Appliances EMI,224000.0,29,Not_Eligible,5049.0
+58.0,Female,Married,Graduate,70500.0,Private,4.7,MNC,Rented,20200.0,3,2,11900.0,17400.0,7200.0,17000.0,5800.0,No,0.0,849.0,542000.0,321700.0,Home Appliances EMI,164000.0,12,Not_Eligible,500.0
+38.0,Female,Single,Post Graduate,42900.0,Government,3.8,Mid-size,Own,0.0,1,0,0.0,0.0,3300.0,12100.0,7900.0,No,0.0,668.0,38400.0,11200.0,Home Appliances EMI,190000.0,21,Not_Eligible,8624.0
+38.0,Male,Married,Graduate,62900.0,Private,2.4,Startup,Rented,17900.0,3,2,0.0,0.0,7700.0,18100.0,10600.0,No,0.0,695.0,63600.0,30600.0,E-commerce Shopping EMI,132000.0,16,Not_Eligible,3440.0
+32.0,Male,Married,Graduate,65700.0,Private,2.7,Mid-size,Own,0.0,4,3,0.0,0.0,8000.0,13200.0,8900.0,No,0.0,717.0,302800.0,86800.0,Home Appliances EMI,215000.0,20,Eligible,17800.0
+48.0,Female,Married,High School,34500.0,Government,5.5,Large Indian,Rented,12000.0,2,1,0.0,0.0,1900.0,5400.0,3300.0,Yes,4000.0,827.0,220300.0,124100.0,Home Appliances EMI,121000.0,35,Not_Eligible,4014.78
+27.0,Male,Married,Graduate,34300.0,Private,5.0,Mid-size,Own,0.0,4,3,0.0,9700.0,2600.0,9100.0,4800.0,No,0.0,697.0,120000.0,70000.0,E-commerce Shopping EMI,106000.0,12,Not_Eligible,4050.0
+32.0,Male,Married,Post Graduate,67100.0,Government,0.6,MNC,Own,0.0,5,4,7100.0,0.0,9300.0,16300.0,3400.0,Yes,7600.0,658.0,61600.0,24300.0,Vehicle EMI,1432000.0,45,Not_Eligible,6552.0
+48.0,Male,Married,Graduate,20500.0,Private,20.0,Large Indian,Rented,5800.0,4,3,2200.0,9800.0,2800.0,3900.0,1900.0,No,0.0,662.0,137500.0,44400.0,Vehicle EMI,246000.0,26,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,74400.0,Private,6.3,Startup,Rented,16700.0,2,1,5400.0,0.0,5700.0,12900.0,12800.0,No,0.0,703.0,175700.0,63400.0,Vehicle EMI,332000.0,77,Eligible,10450.0
+38.0,Male,Married,Post Graduate,57800.0,Government,0.6,MNC,Rented,12300.0,2,1,0.0,0.0,5500.0,9400.0,10700.0,Yes,7500.0,600.0,318500.0,189000.0,E-commerce Shopping EMI,118000.0,14,Not_Eligible,3472.0
+27.0,Female,Single,High School,59600.0,Private,0.5,Large Indian,Rented,9500.0,2,1,0.0,0.0,4700.0,15900.0,3300.0,No,0.0,626.0,265100.0,115100.0,Vehicle EMI,648000.0,12,Not_Eligible,8384.0
+32.0,Female,Married,Post Graduate,57400.0,Private,0.5,Mid-size,Rented,18400.0,4,3,9300.0,0.0,5800.0,15900.0,4600.0,Yes,6000.0,780.0,72000.0,42600.0,Home Appliances EMI,290000.0,29,Not_Eligible,500.0
+38.0,Male,Married,Graduate,26300.0,Self-employed,0.5,Mid-size,Rented,9100.0,2,1,4000.0,9400.0,3100.0,5000.0,5000.0,Yes,4600.0,691.0,164300.0,39500.0,Vehicle EMI,1398000.0,81,Not_Eligible,500.0
+32.0,Female,Single,High School,33600.0,Government,3.0,MNC,Own,0.0,2,1,14000.0,17500.0,4200.0,8300.0,3300.0,No,0.0,764.0,192600.0,91100.0,Home Appliances EMI,279000.0,25,Not_Eligible,500.0
+38.0,Male,Married,High School,38900.0,Government,11.9,MNC,Rented,6900.0,3,2,6900.0,22700.0,3000.0,8400.0,7600.0,Yes,5200.0,713.0,24600.0,12900.0,Education EMI,401000.0,40,Not_Eligible,500.0
+48.0,Female,Married,Graduate,47500.0,Private,9.0,Large Indian,Own,0.0,3,2,0.0,0.0,5900.0,8800.0,4000.0,No,0.0,824.0,74500.0,41200.0,Vehicle EMI,474000.0,22,Not_Eligible,13824.0
+58.0,Male,Single,Graduate,18000.0,Private,36.0,Mid-size,Rented,3000.0,1,0,0.0,0.0,1100.0,4500.0,2100.0,Yes,3700.0,747.0,59600.0,32400.0,Personal Loan EMI,113000.0,19,Not_Eligible,1260.0
+37.0,Female,Married,Graduate,50936.0,Private,5.4,Mid-size,Own,0.0,4,3,0.0,0.0,5100.0,12600.0,2700.0,No,0.0,770.0,327100.0,178300.0,E-commerce Shopping EMI,85000.0,20,Eligible,19602.0
+48.0,Male,Married,Professional,88900.0,Private,3.8,MNC,Own,0.0,4,3,0.0,19900.0,12300.0,15800.0,13900.0,No,0.0,763.0,365200.0,180700.0,E-commerce Shopping EMI,48000.0,23,Eligible,16200.0
+32.0,Male,Single,Graduate,50300.0,Private,1.1,Startup,Own,0.0,3,2,0.0,0.0,7500.0,14500.0,3400.0,No,0.0,714.0,135400.0,72300.0,Vehicle EMI,1371000.0,13,Not_Eligible,12450.0
+48.0,Male,Married,Post Graduate,52300.0,Private,7.3,MNC,Family,0.0,3,2,6000.0,0.0,6900.0,8200.0,8700.0,Yes,10600.0,729.0,352100.0,99400.0,Home Appliances EMI,174000.0,24,Not_Eligible,4581.5
+38.0,Male,Married,Professional,38900.0,Private,1.8,MNC,Rented,10900.0,2,1,0.0,23600.0,4600.0,7900.0,5600.0,No,0.0,677.0,256100.0,63100.0,Personal Loan EMI,228000.0,28,Not_Eligible,500.0
+38.0,Female,Married,High School,42800.0,Private,0.5,Mid-size,Rented,8000.0,2,1,3200.0,0.0,3800.0,6400.0,3800.0,No,0.0,790.0,158200.0,44900.0,Home Appliances EMI,57000.0,14,Eligible,8448.0
+48.0,Female,Married,Post Graduate,63200.0,Private,7.0,Large Indian,Own,0.0,4,3,14400.0,22800.0,3900.0,15900.0,10200.0,No,0.0,675.0,452600.0,268200.0,Vehicle EMI,1186000.0,69,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,65500.0,Private,0.6,Mid-size,Rented,18100.0,3,2,0.0,0.0,7000.0,17200.0,12200.0,Yes,8700.0,610.0,203800.0,96000.0,E-commerce Shopping EMI,73000.0,3,Not_Eligible,515.2
+38.0,Male,Married,Professional,67600.0,Government,1.6,MNC,Family,0.0,4,3,7700.0,0.0,8400.0,15800.0,9100.0,No,0.0,850.0,373200.0,218500.0,E-commerce Shopping EMI,190000.0,11,Not_Eligible,15960.0
+27.0,Female,Single,Graduate,52900.0,Private,5.0,Large Indian,Family,0.0,2,1,0.0,0.0,4800.0,11900.0,9400.0,No,0.0,597.0,276500.0,111900.0,Vehicle EMI,1064000.0,56,Not_Eligible,10720.0
+32.0,Male,Single,Post Graduate,107400.0,Private,2.5,MNC,Own,0.0,3,2,10400.0,0.0,5600.0,19200.0,6400.0,Yes,10900.0,610.0,293700.0,94200.0,Education EMI,59000.0,32,Eligible,15372.0
+38.0,Male,Married,Post Graduate,83300.0,Private,9.7,Large Indian,Family,0.0,3,2,6800.0,17300.0,5000.0,21300.0,6900.0,No,0.0,850.0,129100.0,55100.0,E-commerce Shopping EMI,20000.0,5,Eligible,12480.0
+38.0,Male,Married,Graduate,39100.0,Private,1.8,MNC,Family,0.0,3,2,0.0,0.0,4900.0,8200.0,6200.0,Yes,9100.0,582.0,138600.0,64100.0,E-commerce Shopping EMI,153000.0,12,Not_Eligible,2996.0
+27.0,Female,Married,Post Graduate,82200.0,Self-employed,5.0,Mid-size,Rented,27800.0,3,2,12300.0,0.0,10200.0,20900.0,12500.0,No,0.0,716.0,41900.0,12900.0,E-commerce Shopping EMI,41000.0,20,Not_Eligible,500.0
+32.0,Male,Single,Graduate,53900.0,Private,6.7,MNC,Own,0.0,1,0,0.0,0.0,6400.0,10200.0,3300.0,No,0.0,705.0,259100.0,129300.0,E-commerce Shopping EMI,115000.0,3,Not_Eligible,17000.0
+38.0,Male,Single,High School,61700.0,Private,0.5,MNC,Own,0.0,2,1,0.0,0.0,5000.0,14500.0,4900.0,No,0.0,651.0,428700.0,147800.0,Home Appliances EMI,274000.0,23,High_Risk,16412.0
+38.0,Male,Married,Professional,38800.0,Self-employed,12.2,Mid-size,Own,0.0,3,2,10000.0,5400.0,5100.0,6900.0,5500.0,No,0.0,672.0,249200.0,81300.0,E-commerce Shopping EMI,63000.0,9,Not_Eligible,2920.5
+48.0,Female,Married,High School,36600.0,Private,0.5,Startup,Own,0.0,3,2,13200.0,9200.0,3400.0,10800.0,3500.0,No,0.0,666.0,45300.0,18100.0,Home Appliances EMI,82000.0,23,Not_Eligible,500.0
+58.0,Female,Single,High School,21400.0,Private,12.1,Mid-size,Rented,6400.0,3,2,0.0,19300.0,2000.0,5100.0,3400.0,Yes,5100.0,751.0,62100.0,33600.0,Vehicle EMI,156000.0,13,Not_Eligible,500.0
+48.0,Male,Married,Graduate,51900.0,Self-employed,5.1,MNC,Rented,16900.0,4,3,8900.0,0.0,5500.0,15500.0,4100.0,Yes,14800.0,690.0,251000.0,89200.0,Vehicle EMI,123000.0,69,Not_Eligible,500.0
+48.0,Female,Married,Graduate,54200.0,Private,0.5,Startup,Rented,9700.0,2,1,9400.0,0.0,6700.0,12000.0,3000.0,Yes,8600.0,655.0,211200.0,48300.0,Education EMI,442000.0,44,Not_Eligible,1344.0
+32.0,Male,Married,Graduate,74500.0,Private,0.7,Mid-size,Own,0.0,3,2,0.0,20500.0,5200.0,20100.0,9900.0,Yes,15200.0,691.0,230600.0,49300.0,E-commerce Shopping EMI,119000.0,9,Not_Eligible,1008.0
+38.0,Male,Married,Graduate,56000.0,Private,6.5,Large Indian,Family,0.0,3,2,9000.0,0.0,3000.0,13100.0,10000.0,No,0.0,726.0,48700.0,12400.0,E-commerce Shopping EMI,140000.0,5,Not_Eligible,8360.0
+48.0,Female,Married,High School,48600.0,Private,13.8,Startup,Own,0.0,5,4,11200.0,0.0,5100.0,7800.0,5800.0,No,0.0,729.0,330000.0,150200.0,Home Appliances EMI,184000.0,32,Eligible,10285.0
+48.0,Female,Married,Graduate,62700.0,Private,7.4,MNC,Own,0.0,3,2,0.0,20300.0,6400.0,16900.0,5000.0,No,0.0,734.0,425400.0,187500.0,Education EMI,144000.0,8,Not_Eligible,7755.0
+32.0,Male,Married,Post Graduate,83400.0,Private,1.1,MNC,Rented,17600.0,4,3,10600.0,0.0,4400.0,18500.0,7000.0,No,0.0,754.0,129800.0,52700.0,Home Appliances EMI,172000.0,25,Eligible,12144.0
+38.0,Male,Married,Graduate,39800.0,Government,2.9,Startup,Own,0.0,2,1,0.0,16700.0,5000.0,11300.0,2200.0,No,0.0,709.0,110200.0,64700.0,Vehicle EMI,1007000.0,56,Not_Eligible,2300.0
+32.0,Female,Single,Post Graduate,44400.0,Private,2.1,Startup,Own,0.0,2,1,7900.0,22600.0,4900.0,9300.0,2500.0,Yes,7800.0,679.0,241600.0,82300.0,E-commerce Shopping EMI,190000.0,17,Not_Eligible,500.0
+38.0,Female,Married,Graduate,55700.0,Private,7.1,Large Indian,Own,0.0,3,2,7000.0,9100.0,2800.0,13600.0,3400.0,No,0.0,665.0,101700.0,38000.0,E-commerce Shopping EMI,100000.0,15,High_Risk,7920.0
+48.0,Male,Married,Post Graduate,43600.0,Private,0.5,Mid-size,Family,0.0,4,3,0.0,0.0,5500.0,9600.0,6100.0,Yes,10800.0,595.0,65600.0,23900.0,Vehicle EMI,193000.0,13,Not_Eligible,2078.72
+32.0,Male,Married,Graduate,42700.0,Private,6.9,Large Indian,Own,0.0,2,1,0.0,0.0,4400.0,10500.0,5400.0,Yes,12100.0,608.0,159600.0,67900.0,Vehicle EMI,1104000.0,46,Not_Eligible,2884.0
+32.0,Female,Married,Graduate,34300.0,Private,10.0,Startup,Family,0.0,3,2,0.0,0.0,1900.0,9400.0,4500.0,No,0.0,720.0,111600.0,59500.0,Education EMI,189000.0,13,Not_Eligible,9250.0
+32.0,Male,Married,Graduate,88400.0,Private,2.8,Large Indian,Own,0.0,3,2,0.0,0.0,11900.0,20100.0,13400.0,No,0.0,735.0,656700.0,216700.0,Personal Loan EMI,599000.0,15,Not_Eligible,23650.0
+48.0,Male,Married,High School,34300.0,Self-employed,6.3,Startup,Own,0.0,4,3,3800.0,15100.0,4600.0,9300.0,6700.0,Yes,4800.0,744.0,267500.0,116900.0,Vehicle EMI,1442000.0,34,Not_Eligible,500.0
+38.0,Male,Married,Professional,70900.0,Private,4.0,Mid-size,Own,0.0,3,2,6800.0,0.0,6000.0,12600.0,13000.0,No,0.0,700.0,337500.0,84800.0,Vehicle EMI,359000.0,68,Eligible,16250.0
+32.0,Female,Married,High School,39900.0,Private,0.7,Large Indian,Own,0.0,4,3,4200.0,0.0,2700.0,6400.0,4400.0,Yes,10200.0,692.0,157000.0,40200.0,Vehicle EMI,887000.0,47,Not_Eligible,3360.0
+32.0,Male,Married,Graduate,66300.0,Private,2.9,Mid-size,Rented,14700.0,4,3,0.0,0.0,6400.0,10700.0,9100.0,No,0.0,678.0,464400.0,273100.0,Personal Loan EMI,175000.0,58,Eligible,13970.0
+48.0,Male,Married,Graduate,52500.0,Private,23.8,Startup,Family,0.0,2,1,6000.0,0.0,3700.0,8600.0,8600.0,Yes,12300.0,761.0,229700.0,97200.0,E-commerce Shopping EMI,47000.0,11,High_Risk,5586.0
+48.0,Male,Married,Graduate,40300.0,Government,12.8,Mid-size,Rented,10300.0,5,4,9100.0,0.0,2700.0,11000.0,2300.0,No,0.0,763.0,134700.0,74300.0,Personal Loan EMI,421000.0,40,Not_Eligible,3234.0
+48.0,Female,Married,Graduate,18000.0,Private,15.3,Small,Rented,6200.0,3,2,0.0,5000.0,1300.0,3500.0,3400.0,Yes,2600.0,578.0,56900.0,21400.0,Home Appliances EMI,226000.0,7,Not_Eligible,500.0
+38.0,Male,Married,Graduate,58600.0,Private,0.8,Large Indian,Rented,15200.0,4,3,7200.0,0.0,7800.0,15700.0,8900.0,No,0.0,785.0,272900.0,115800.0,Education EMI,362000.0,34,Not_Eligible,1824.0
+27.0,Male,Married,Professional,101700.0,Private,0.5,Mid-size,Rented,19400.0,3,2,0.0,0.0,8100.0,19700.0,10300.0,Yes,23500.0,670.0,461300.0,230600.0,Education EMI,190000.0,7,Not_Eligible,5796.0
+38.0,Female,Married,Graduate,93900.0,Private,4.5,Large Indian,Own,0.0,3,2,0.0,0.0,10300.0,27000.0,9600.0,No,0.0,742.0,404900.0,193700.0,Home Appliances EMI,188000.0,20,Eligible,23500.0
+58.0,Male,Married,Professional,48900.0,Private,27.7,Startup,Rented,11800.0,3,2,11500.0,22900.0,5800.0,11200.0,5000.0,Yes,6800.0,671.0,154800.0,76200.0,E-commerce Shopping EMI,44000.0,17,Not_Eligible,500.0
+32.0,Male,Single,Graduate,11852.0,Self-employed,6.0,MNC,Rented,24000.0,3,2,4700.0,0.0,7900.0,17500.0,10200.0,Yes,12900.0,688.0,482300.0,225200.0,Education EMI,250000.0,9,Not_Eligible,500.0
+38.0,Male,Married,Graduate,31500.0,Private,3.7,Startup,Family,0.0,3,2,0.0,17900.0,4700.0,5200.0,4800.0,Yes,5400.0,603.0,237700.0,85300.0,Education EMI,437000.0,46,Not_Eligible,500.0
+38.0,Male,Married,Graduate,46300.0,Private,2.4,Mid-size,Own,0.0,3,2,2400.0,14800.0,2700.0,9300.0,5300.0,Yes,6400.0,713.0,332500.0,109500.0,E-commerce Shopping EMI,186000.0,24,Not_Eligible,2079.0
+38.0,Male,Single,Graduate,81600.0,Private,3.1,MNC,Rented,18200.0,2,1,0.0,0.0,11800.0,12800.0,5000.0,No,0.0,733.0,98300.0,48000.0,Personal Loan EMI,473000.0,37,Not_Eligible,13520.0
+27.0,Male,Single,Graduate,55600.0,Government,0.5,Small,Family,0.0,1,0,0.0,0.0,7700.0,10600.0,10300.0,No,0.0,737.0,343200.0,112200.0,Vehicle EMI,1067000.0,16,Not_Eligible,14850.0
+27.0,Female,Married,Graduate,95400.0,Private,1.7,Large Indian,Family,0.0,2,1,0.0,22900.0,9600.0,18000.0,7600.0,No,0.0,724.0,572900.0,303100.0,Vehicle EMI,604000.0,32,Not_Eligible,20515.0
+32.0,Female,Single,Graduate,43600.0,Government,2.5,Large Indian,Own,0.0,2,1,0.0,0.0,6100.0,13000.0,2600.0,No,0.0,787.0,190600.0,98300.0,Education EMI,220000.0,32,Eligible,13140.0
+32.0,Male,Married,Post Graduate,416265.0,Private,4.4,Large Indian,Rented,19000.0,2,1,6500.0,0.0,8700.0,18500.0,9200.0,No,0.0,634.0,64800.0,14200.0,Vehicle EMI,858000.0,62,Not_Eligible,4128.0
+32.0,Female,Single,Graduate,49100.0,Private,9.4,Large Indian,Own,0.0,1,0,0.0,0.0,6900.0,12400.0,5000.0,No,0.0,789.0,288900.0,62500.0,Personal Loan EMI,417000.0,12,Not_Eligible,14880.0
+48.0,Male,Married,High School,8288.0,Private,18.2,Startup,Rented,3800.0,3,2,2400.0,9700.0,1300.0,4600.0,2500.0,No,0.0,703.0,122700.0,40100.0,Personal Loan EMI,111000.0,41,Not_Eligible,500.0
+48.0,Male,Married,High School,28500.0,Government,6.0,MNC,Family,0.0,3,2,7700.0,0.0,1500.0,4300.0,2400.0,No,0.0,796.0,38900.0,13400.0,E-commerce Shopping EMI,136000.0,23,Not_Eligible,6652.8
+32.0,Male,Married,Graduate,71700.0,Private,0.5,Large Indian,Own,0.0,4,3,14600.0,7700.0,7700.0,20700.0,9900.0,No,0.0,752.0,102900.0,24500.0,Home Appliances EMI,294000.0,21,Not_Eligible,4262.4
+48.0,Female,Married,Post Graduate,49400.0,Private,26.0,Mid-size,Rented,9300.0,4,3,6100.0,0.0,4400.0,11900.0,2900.0,No,0.0,746.0,124100.0,59800.0,E-commerce Shopping EMI,96000.0,11,Not_Eligible,7400.0
+32.0,Male,Married,Graduate,41200.0,Private,2.5,Mid-size,Own,0.0,2,1,11000.0,0.0,5900.0,7500.0,4000.0,No,0.0,632.0,262500.0,149200.0,Home Appliances EMI,174000.0,31,Not_Eligible,5632.0
+27.0,Male,Married,High School,48400.0,Private,1.5,Startup,Family,0.0,3,2,0.0,0.0,2700.0,14300.0,9400.0,Yes,6900.0,663.0,205200.0,60000.0,Home Appliances EMI,97000.0,20,Not_Eligible,5285.0
+48.0,Male,Married,Graduate,36800.0,Private,0.5,MNC,Family,9448.0,3,2,7000.0,13300.0,3100.0,10000.0,2900.0,No,0.0,676.0,25700.0,15300.0,E-commerce Shopping EMI,76000.0,9,Not_Eligible,500.0
+32.0,Male,Single,High School,38300.0,Government,1.1,Mid-size,Own,0.0,3,2,12100.0,0.0,3900.0,7600.0,3100.0,Yes,5100.0,672.0,123900.0,26100.0,E-commerce Shopping EMI,31000.0,20,Eligible,2275.0
+38.0,Female,Married,Post Graduate,31100.0,Private,5.6,Large Indian,Rented,8600.0,3,2,0.0,0.0,2900.0,5200.0,4000.0,No,0.0,722.0,245600.0,103400.0,Personal Loan EMI,167000.0,20,Not_Eligible,5720.0
+32.0,Male,Single,Post Graduate,68100.0,Private,10.0,Large Indian,Rented,11200.0,1,0,0.0,0.0,4200.0,11500.0,11900.0,Yes,10100.0,757.0,377300.0,161400.0,Personal Loan EMI,722000.0,18,Not_Eligible,8064.0
+48.0,Male,Married,Graduate,48600.0,Private,26.0,MNC,Rented,10100.0,4,3,13100.0,0.0,3900.0,7600.0,3500.0,No,0.0,711.0,250700.0,133900.0,E-commerce Shopping EMI,63000.0,10,Not_Eligible,5200.0
+27.0,Male,Single,Graduate,115000.0,Private,2.7,MNC,Own,0.0,2,1,0.0,0.0,14300.0,20100.0,13800.0,Yes,17600.0,671.0,105200.0,40800.0,Personal Loan EMI,339000.0,41,High_Risk,13776.0
+58.0,Male,Married,Graduate,92700.0,Private,8.1,Large Indian,Family,0.0,3,2,0.0,23700.0,11300.0,27700.0,11600.0,Yes,11800.0,631.0,347000.0,156200.0,E-commerce Shopping EMI,33000.0,3,Not_Eligible,1848.0
+38.0,Male,Married,Post Graduate,123600.0,Private,0.5,MNC,Rented,20900.0,4,3,8700.0,0.0,9700.0,24300.0,14800.0,Yes,29400.0,622.0,898900.0,470700.0,Personal Loan EMI,126000.0,33,Not_Eligible,3893.12
+32.0,Female,Married,Professional,74100.0,Government,0.5,Large Indian,Family,0.0,3,2,2300.0,0.0,5600.0,11600.0,7000.0,No,0.0,581.0,563000.0,164300.0,Personal Loan EMI,284000.0,28,Eligible,20944.0
+38.0,Male,Married,Graduate,56000.0,Private,2.8,MNC,Family,0.0,2,1,13200.0,0.0,7000.0,13100.0,8500.0,No,0.0,800.0,348200.0,121900.0,Personal Loan EMI,110000.0,24,Eligible,9372.0
+38.0,Male,Married,Graduate,42400.0,Private,4.5,MNC,Rented,10500.0,4,3,11500.0,0.0,3900.0,7700.0,8500.0,No,0.0,734.0,291200.0,151300.0,Home Appliances EMI,240000.0,30,Not_Eligible,500.0
+38.0,Male,Married,Graduate,29400.0,Private,8.8,Large Indian,Rented,5900.0,3,2,12000.0,0.0,4000.0,4700.0,5100.0,Yes,5200.0,625.0,212500.0,112500.0,Education EMI,183000.0,30,Not_Eligible,500.0
+48.0,Female,Married,Post Graduate,81200.0,Private,6.0,Large Indian,Own,0.0,3,2,0.0,14500.0,8600.0,12600.0,7000.0,Yes,16300.0,726.0,212300.0,116200.0,Education EMI,129000.0,36,Eligible,7770.0
+27.0,Male,Single,Professional,55200.0,Self-employed,0.5,Large Indian,Rented,13500.0,2,1,12000.0,0.0,4500.0,13800.0,3900.0,Yes,12200.0,565.0,374500.0,224100.0,E-commerce Shopping EMI,34000.0,7,Not_Eligible,500.0
+38.0,Female,Married,Graduate,493084.0,Government,8.1,Large Indian,Family,0.0,2,1,9400.0,0.0,1800.0,8000.0,3100.0,No,0.0,765.0,201200.0,84900.0,E-commerce Shopping EMI,102000.0,5,Not_Eligible,4864.2
+32.0,Female,Married,Graduate,46800.0,Private,2.8,Mid-size,Rented,14800.0,2,1,5600.0,10800.0,4500.0,13600.0,3300.0,No,0.0,757.0,28700.0,9000.0,Personal Loan EMI,813000.0,58,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,23400.0,Government,3.1,MNC,Own,0.0,3,2,12700.0,21800.0,2700.0,5900.0,1700.0,No,0.0,721.0,17000.0,7700.0,E-commerce Shopping EMI,57000.0,6,Not_Eligible,500.0
+48.0,Female,Married,Post Graduate,110300.0,Private,0.7,MNC,Family,0.0,2,1,6800.0,10800.0,12400.0,17300.0,12200.0,Yes,27700.0,807.0,209100.0,75500.0,Education EMI,367000.0,22,Not_Eligible,6209.28
+27.0,Female,Single,Graduate,74800.0,Private,4.4,Large Indian,Rented,14600.0,3,2,0.0,8500.0,10200.0,19200.0,13300.0,No,0.0,625.0,570700.0,124800.0,Personal Loan EMI,456000.0,53,Not_Eligible,3960.0
+38.0,Male,Married,Graduate,49900.0,Private,16.0,Mid-size,Rented,11300.0,5,4,13400.0,22900.0,2700.0,14200.0,5300.0,No,0.0,642.0,349800.0,178300.0,E-commerce Shopping EMI,99000.0,7,Not_Eligible,500.0
+32.0,Male,Single,Graduate,47700.0,Private,6.0,Mid-size,Rented,12200.0,2,1,14300.0,0.0,3700.0,10500.0,9100.0,No,0.0,767.0,346300.0,73300.0,E-commerce Shopping EMI,166000.0,19,Not_Eligible,500.0
+48.0,Female,Single,Post Graduate,69400.0,Private,0.5,Mid-size,Rented,15300.0,3,2,14800.0,0.0,8000.0,17500.0,5500.0,No,0.0,647.0,535600.0,171200.0,Vehicle EMI,640000.0,66,Not_Eligible,2921.6
+48.0,Female,Married,Graduate,42300.0,Self-employed,15.6,Large Indian,Family,0.0,3,2,5000.0,0.0,2600.0,7300.0,3200.0,No,0.0,753.0,267900.0,112000.0,Home Appliances EMI,233000.0,20,High_Risk,14374.8
+32.0,Female,Married,Graduate,21500.0,Self-employed,0.5,MNC,Own,0.0,4,3,13100.0,0.0,2300.0,3900.0,3100.0,No,0.0,677.0,170900.0,49500.0,Personal Loan EMI,203000.0,42,Not_Eligible,500.0
+48.0,Male,Single,Graduate,22300.0,Private,1.0,Mid-size,Rented,7000.0,1,0,0.0,0.0,2800.0,4600.0,1900.0,No,0.0,643.0,100600.0,25700.0,Education EMI,203000.0,34,Not_Eligible,2400.0
+38.0,Male,Married,Graduate,39600.0,Government,3.5,Mid-size,Rented,13100.0,2,1,11600.0,16700.0,5900.0,7700.0,4700.0,Yes,8600.0,689.0,270000.0,128800.0,Education EMI,427000.0,39,Not_Eligible,500.0
+38.0,Male,Married,Graduate,110200.0,Private,0.5,Large Indian,Family,0.0,3,2,0.0,7200.0,8300.0,27400.0,21800.0,Yes,25200.0,696.0,774500.0,361700.0,Personal Loan EMI,468000.0,18,Not_Eligible,6252.4
+48.0,Male,Married,Graduate,42700.0,Self-employed,6.7,Large Indian,Own,0.0,4,3,0.0,0.0,5900.0,9100.0,6700.0,Yes,9000.0,648.0,176900.0,89100.0,Personal Loan EMI,237000.0,25,Not_Eligible,3024.0
+38.0,Male,Married,High School,66200.0,Private,5.1,MNC,Rented,15200.0,4,3,2300.0,20300.0,5800.0,12000.0,4600.0,No,0.0,718.0,44200.0,25900.0,E-commerce Shopping EMI,90000.0,21,Not_Eligible,2400.0
+38.0,Male,Married,Professional,128100.0,Private,10.5,Startup,Family,0.0,4,3,0.0,0.0,17300.0,25400.0,24800.0,Yes,14500.0,697.0,746900.0,393900.0,E-commerce Shopping EMI,116000.0,18,Eligible,16135.0
+38.0,Male,Married,Post Graduate,100400.0,Private,10.3,Large Indian,Own,0.0,2,1,3500.0,24600.0,12800.0,15600.0,19200.0,Yes,16900.0,774.0,147600.0,62600.0,Vehicle EMI,869000.0,12,Not_Eligible,2620.8
+27.0,Female,Single,Post Graduate,102700.0,Private,1.1,Large Indian,Own,0.0,1,0,0.0,0.0,10300.0,27300.0,20200.0,No,0.0,808.0,112200.0,41000.0,Personal Loan EMI,274000.0,30,Eligible,21552.0
+38.0,Male,Married,Professional,57500.0,Private,3.5,Mid-size,Family,0.0,3,2,11900.0,0.0,8200.0,14100.0,7300.0,Yes,12100.0,623.0,339800.0,84500.0,Education EMI,420000.0,12,Not_Eligible,1092.0
+27.0,Male,Married,High School,37300.0,Private,0.5,Large Indian,Rented,9900.0,4,3,10000.0,19200.0,3900.0,8200.0,6500.0,No,0.0,630.0,126800.0,55800.0,E-commerce Shopping EMI,140000.0,14,Not_Eligible,500.0
+27.0,Male,Single,Professional,107700.0,Private,0.5,Large Indian,Rented,20600.0,2,1,8600.0,0.0,11900.0,26500.0,15100.0,No,0.0,640.0,700300.0,199000.0,Personal Loan EMI,946000.0,44,Not_Eligible,8800.0
+48.0,Male,Single,Graduate,36300.0,Private,8.7,Large Indian,Rented,7700.0,1,0,0.0,0.0,3100.0,6000.0,3700.0,Yes,9500.0,685.0,53700.0,14300.0,Vehicle EMI,721000.0,51,Not_Eligible,1764.0
+38.0,Male,Married,Post Graduate,63500.0,Private,1.0,Large Indian,Rented,14200.0,2,1,5900.0,0.0,6900.0,18700.0,4900.0,No,0.0,616.0,61100.0,18000.0,E-commerce Shopping EMI,83000.0,3,Not_Eligible,4128.0
+38.0,Female,Single,Graduate,84400.0,Private,1.1,Large Indian,Rented,22500.0,1,0,0.0,0.0,12400.0,25100.0,13100.0,No,0.0,671.0,238100.0,125100.0,E-commerce Shopping EMI,140000.0,15,Not_Eligible,5650.0
+32.0,Male,Single,Graduate,36300.0,Private,1.9,Large Indian,Own,0.0,2,1,3600.0,0.0,2000.0,10700.0,2500.0,No,0.0,684.0,214500.0,106300.0,Education EMI,131000.0,38,Eligible,8750.0
+32.0,Male,Married,High School,71200.0,Private,5.3,MNC,Rented,14300.0,3,2,4100.0,0.0,6500.0,14900.0,10300.0,No,0.0,721.0,514300.0,190000.0,Education EMI,498000.0,8,Not_Eligible,11605.0
+38.0,Male,Married,High School,50500.0,Private,0.5,MNC,Rented,14700.0,5,4,3300.0,0.0,5000.0,12300.0,4100.0,No,0.0,777.0,128200.0,27000.0,Personal Loan EMI,568000.0,35,Not_Eligible,5328.0
+38.0,Male,Married,Graduate,69800.0,Private,16.0,Startup,Rented,18500.0,4,3,0.0,15200.0,8200.0,10900.0,13200.0,No,0.0,746.0,314000.0,136200.0,E-commerce Shopping EMI,114000.0,14,Not_Eligible,1900.0
+32.0,Female,Married,Post Graduate,74400.0,Private,0.7,Large Indian,Own,0.0,2,1,6300.0,0.0,8400.0,19100.0,4100.0,Yes,18200.0,667.0,277900.0,91800.0,Education EMI,384000.0,33,Not_Eligible,5124.0
+48.0,Female,Married,Graduate,74800.0,Private,17.4,Mid-size,Rented,26200.0,2,1,0.0,0.0,4400.0,21800.0,14500.0,No,0.0,746.0,136300.0,44300.0,Personal Loan EMI,871000.0,55,Not_Eligible,3160.0
+58.0,Female,Married,High School,19400.0,Government,7.7,Large Indian,Rented,6100.0,5,4,12200.0,0.0,2400.0,3000.0,1100.0,Yes,2900.0,720.0,24700.0,9300.0,Personal Loan EMI,780000.0,19,Not_Eligible,500.0
+58.0,Female,Single,Graduate,32300.0,Private,4.9,MNC,Own,0.0,1,0,0.0,0.0,3000.0,9100.0,2100.0,Yes,8600.0,684.0,121400.0,55500.0,E-commerce Shopping EMI,46000.0,21,Eligible,3325.0
+32.0,Female,Married,Graduate,106500.0,Government,0.5,Mid-size,Rented,19900.0,4,3,2000.0,0.0,15400.0,17700.0,20500.0,Yes,21800.0,650.0,599700.0,161200.0,Personal Loan EMI,442000.0,49,Not_Eligible,3220.0
+32.0,Female,Married,Graduate,24500.0,Private,3.0,Large Indian,Own,0.0,3,2,0.0,0.0,2000.0,5700.0,4100.0,Yes,5900.0,710.0,146400.0,33800.0,Vehicle EMI,872000.0,39,Not_Eligible,2380.0
+48.0,Female,Married,Graduate,18700.0,Government,3.6,Small,Rented,3100.0,4,3,0.0,0.0,2600.0,4900.0,1600.0,Yes,3700.0,701.0,16000.0,5200.0,Vehicle EMI,1468000.0,67,Not_Eligible,862.4
+48.0,Female,Married,Graduate,107300.0,Private,2.7,Startup,Family,0.0,4,3,3100.0,0.0,11600.0,27800.0,5800.0,No,0.0,705.0,241400.0,132700.0,E-commerce Shopping EMI,150000.0,4,Not_Eligible,29500.0
+38.0,Male,Married,Professional,170800.0,Government,1.8,Large Indian,Family,0.0,4,3,0.0,8100.0,23300.0,31500.0,27800.0,Yes,24300.0,692.0,429000.0,132900.0,Education EMI,434000.0,28,High_Risk,19530.0
+27.0,Male,Single,Graduate,69400.0,Private,1.5,MNC,Own,0.0,1,0,0.0,0.0,7200.0,15400.0,7100.0,No,0.0,730.0,195000.0,113200.0,Personal Loan EMI,519000.0,60,Eligible,19850.0
+38.0,Female,Married,Post Graduate,34900.0,Self-employed,5.9,Large Indian,Rented,11000.0,3,2,0.0,6000.0,3300.0,5600.0,2100.0,No,0.0,746.0,84800.0,38600.0,E-commerce Shopping EMI,118000.0,20,Not_Eligible,3105.0
+32.0,Female,Single,Graduate,41000.0,Private,0.5,Large Indian,Rented,8800.0,1,0,0.0,0.0,4100.0,9100.0,6300.0,Yes,6300.0,648.0,126700.0,66400.0,Education EMI,306000.0,47,Not_Eligible,1433.6
+27.0,Female,Married,Graduate,43300.0,Self-employed,0.6,Mid-size,Own,0.0,5,4,4300.0,0.0,2300.0,12200.0,2900.0,No,0.0,710.0,253300.0,84700.0,E-commerce Shopping EMI,171000.0,11,Not_Eligible,9720.0
+27.0,Male,Single,Professional,74700.0,Self-employed,1.0,Mid-size,Own,0.0,3,2,0.0,0.0,9100.0,16100.0,8700.0,No,0.0,697.0,472300.0,244000.0,Personal Loan EMI,528000.0,20,Not_Eligible,20196.0
+47.0,Female,Single,Graduate,94814.0,Self-employed,8.1,MNC,Family,0.0,1,0,0.0,0.0,9100.0,22800.0,6500.0,Yes,14700.0,632.0,353400.0,93600.0,Personal Loan EMI,372000.0,29,Not_Eligible,10155.6
+48.0,Male,Married,Graduate,30800.0,Self-employed,17.3,MNC,Rented,9000.0,4,3,3700.0,9900.0,3800.0,8800.0,2500.0,No,0.0,704.0,50900.0,21200.0,E-commerce Shopping EMI,18000.0,17,Not_Eligible,500.0
+38.0,Female,Married,High School,33200.0,Private,9.0,Mid-size,Family,0.0,2,1,2100.0,0.0,4000.0,6100.0,2700.0,No,0.0,603.0,135800.0,73100.0,Education EMI,149000.0,36,Eligible,7320.0
+32.0,Female,Single,High School,35300.0,Private,4.8,Startup,Family,0.0,1,0,0.0,0.0,3500.0,8700.0,2500.0,Yes,10600.0,674.0,175700.0,93700.0,E-commerce Shopping EMI,192000.0,7,Not_Eligible,3500.0
+27.0,Female,Single,High School,66600.0,Private,3.3,Startup,Own,0.0,1,0,0.0,0.0,6400.0,18600.0,12800.0,Yes,15500.0,750.0,461400.0,274800.0,Education EMI,268000.0,13,Not_Eligible,6144.6
+38.0,Male,Married,High School,21800.0,Self-employed,9.1,Mid-size,Own,0.0,5,4,3600.0,7900.0,1600.0,4800.0,2300.0,No,0.0,746.0,78600.0,39900.0,Home Appliances EMI,73000.0,30,Not_Eligible,720.0
+38.0,Male,Married,Graduate,52800.0,Private,0.8,Mid-size,Own,0.0,2,1,0.0,0.0,6200.0,11400.0,6300.0,Yes,9100.0,671.0,286900.0,90600.0,Education EMI,83000.0,39,Eligible,5544.0
+27.0,Male,Single,Graduate,104700.0,Private,5.0,MNC,Own,0.0,1,0,0.0,0.0,14800.0,20200.0,9100.0,Yes,11800.0,626.0,77500.0,19400.0,Education EMI,172000.0,30,Eligible,10931.2
+38.0,Female,Married,Post Graduate,31700.0,Private,5.7,MNC,Rented,6200.0,3,2,8300.0,15000.0,1900.0,9200.0,6300.0,No,0.0,689.0,101800.0,50600.0,Vehicle EMI,1109000.0,80,Not_Eligible,500.0
+27.0,Male,Single,High School,30300.0,Private,0.5,Mid-size,Rented,10400.0,1,0,0.0,0.0,3000.0,8900.0,4500.0,No,0.0,746.0,141200.0,70400.0,Education EMI,186000.0,17,Not_Eligible,1400.0
+48.0,Male,Married,High School,33800.0,Private,0.5,Mid-size,Rented,8800.0,3,2,5700.0,0.0,3300.0,5800.0,6000.0,No,0.0,606.0,262400.0,118000.0,Education EMI,417000.0,43,Not_Eligible,1478.4
+27.0,Male,Single,Graduate,34500.0,Private,1.1,Large Indian,Own,0.0,1,0,0.0,0.0,3600.0,6000.0,3500.0,No,0.0,596.0,224300.0,61900.0,Home Appliances EMI,122000.0,17,High_Risk,9416.0
+32.0,Male,Married,High School,27400.0,Self-employed,0.5,Startup,Own,0.0,3,2,13100.0,11700.0,2100.0,5100.0,4200.0,No,0.0,683.0,19000.0,5700.0,Home Appliances EMI,113000.0,33,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,77400.0,Private,0.9,Mid-size,Rented,13100.0,3,2,7900.0,0.0,4100.0,19700.0,14400.0,Yes,23000.0,741.0,307600.0,106100.0,Home Appliances EMI,195000.0,19,Not_Eligible,500.0
+27.0,Male,Single,Graduate,61700.0,Private,1.9,Mid-size,Rented,17400.0,2,1,0.0,0.0,8500.0,17600.0,6600.0,No,0.0,672.0,471500.0,150500.0,Personal Loan EMI,319000.0,15,Not_Eligible,6380.0
+38.0,Male,Married,High School,32900.0,Private,7.5,Mid-size,Rented,5000.0,2,1,0.0,13000.0,1700.0,8500.0,6400.0,No,0.0,673.0,223500.0,82200.0,E-commerce Shopping EMI,69000.0,19,Not_Eligible,500.0
+32.0,Male,Married,Professional,50000.0,Self-employed,1.8,MNC,Family,0.0,3,2,7300.0,0.0,5700.0,10100.0,8500.0,No,0.0,620.0,143100.0,47000.0,E-commerce Shopping EMI,183000.0,11,Not_Eligible,6624.0
+38.0,Male,Married,High School,33200.0,Government,1.1,MNC,Own,0.0,3,2,9100.0,22600.0,1900.0,5100.0,2300.0,No,0.0,691.0,150800.0,46900.0,Personal Loan EMI,483000.0,16,Not_Eligible,500.0
+38.0,Male,Married,High School,16000.0,Private,2.3,MNC,Family,0.0,4,3,8500.0,9400.0,1500.0,4300.0,1800.0,Yes,3500.0,690.0,104500.0,50100.0,Personal Loan EMI,780000.0,24,Not_Eligible,500.0
+32.0,Male,Single,Post Graduate,98500.0,Private,1.8,Mid-size,Rented,15200.0,2,1,0.0,0.0,10100.0,18900.0,8000.0,No,0.0,715.0,497600.0,211700.0,Education EMI,159000.0,27,Eligible,23150.0
+38.0,Female,Single,Graduate,26500.0,Private,4.2,Mid-size,Family,0.0,1,0,0.0,0.0,2700.0,7500.0,2000.0,Yes,5000.0,671.0,64800.0,22400.0,E-commerce Shopping EMI,129000.0,17,Not_Eligible,3255.0
+58.0,Female,Married,Graduate,49300.0,Private,4.8,Mid-size,Rented,15900.0,2,1,5000.0,12700.0,4500.0,14800.0,9600.0,No,0.0,643.0,358400.0,115600.0,Home Appliances EMI,250000.0,32,Not_Eligible,500.0
+32.0,Male,Married,Graduate,48300.0,Private,5.4,Large Indian,Family,0.0,3,2,14800.0,0.0,7000.0,7300.0,3100.0,No,0.0,681.0,60300.0,35100.0,Education EMI,162000.0,30,High_Risk,6440.0
+32.0,Male,Single,Graduate,48100.0,Private,10.0,Large Indian,Rented,9700.0,3,2,6500.0,0.0,5400.0,10700.0,4800.0,Yes,13500.0,578.0,147800.0,56000.0,Education EMI,478000.0,34,Not_Eligible,500.0
+32.0,Female,Single,Post Graduate,47000.0,Private,2.9,Large Indian,Own,0.0,1,0,0.0,0.0,6200.0,12900.0,7100.0,No,0.0,565.0,343600.0,203400.0,Vehicle EMI,1263000.0,62,Not_Eligible,9152.0
+48.0,Male,Married,Graduate,74500.0,Private,20.6,MNC,Rented,19000.0,4,3,8800.0,0.0,10500.0,19100.0,13700.0,No,0.0,807.0,291500.0,99900.0,Education EMI,141000.0,40,Not_Eligible,2040.0
+32.0,Female,Married,High School,21700.0,Private,4.0,Startup,Rented,7300.0,4,3,0.0,0.0,2200.0,3600.0,2200.0,No,0.0,756.0,105000.0,40200.0,Vehicle EMI,230000.0,81,Not_Eligible,3840.0
+32.0,Male,Married,Graduate,320867.0,Private,9.5,Large Indian,Rented,36200.0,4,3,5700.0,0.0,13400.0,27800.0,7000.0,No,0.0,835.0,192300.0,97900.0,Personal Loan EMI,347000.0,31,Not_Eligible,10032.0
+38.0,Male,Married,Graduate,18000.0,Private,2.0,Mid-size,Own,0.0,4,3,0.0,0.0,2600.0,3700.0,2400.0,No,0.0,710.0,115200.0,45900.0,Home Appliances EMI,99000.0,14,Not_Eligible,5115.0
+58.0,Female,Married,Post Graduate,42000.0,Government,33.4,Small,Family,0.0,3,2,11900.0,14000.0,2200.0,8300.0,4200.0,Yes,7500.0,684.0,252500.0,67700.0,Vehicle EMI,1032000.0,66,Not_Eligible,500.0
+58.0,Female,Married,High School,30600.0,Self-employed,36.0,Mid-size,Family,0.0,2,1,5300.0,24400.0,1700.0,8500.0,5100.0,Yes,3200.0,738.0,16700.0,4700.0,E-commerce Shopping EMI,104000.0,23,Not_Eligible,500.0
+27.0,Female,Married,High School,15100.0,Government,4.9,Small,Family,0.0,3,2,12100.0,0.0,1400.0,4300.0,1000.0,No,0.0,655.0,8800.0,3400.0,E-commerce Shopping EMI,21000.0,10,Not_Eligible,500.0
+38.0,Female,Married,Graduate,91300.0,Private,4.3,MNC,Family,0.0,3,2,6200.0,0.0,5600.0,26300.0,14600.0,Yes,22200.0,775.0,408800.0,89900.0,Personal Loan EMI,232000.0,43,Not_Eligible,6888.0
+27.0,Female,Married,Graduate,74400.0,Government,1.5,MNC,Family,0.0,2,1,11900.0,0.0,10900.0,19800.0,12800.0,Yes,15300.0,713.0,482100.0,288300.0,Home Appliances EMI,276000.0,17,Not_Eligible,1424.5
+27.0,Female,Married,Graduate,84600.0,Government,5.0,Mid-size,Family,0.0,4,3,11000.0,23300.0,5100.0,14400.0,8700.0,Yes,18900.0,734.0,291700.0,165200.0,Vehicle EMI,1489000.0,54,Not_Eligible,1232.0
+38.0,Female,Married,Post Graduate,55900.0,Private,2.4,Large Indian,Own,0.0,4,3,11800.0,0.0,7200.0,15200.0,11100.0,No,0.0,658.0,348800.0,94700.0,Home Appliances EMI,209000.0,14,Not_Eligible,5830.0
+48.0,Male,Married,Graduate,75900.0,Private,8.3,MNC,Rented,12800.0,4,3,6300.0,0.0,8500.0,22000.0,11200.0,No,0.0,753.0,464600.0,256700.0,E-commerce Shopping EMI,129000.0,10,Not_Eligible,9966.0
+32.0,Male,Single,High School,43500.0,Self-employed,1.8,Large Indian,Own,0.0,1,0,0.0,0.0,3200.0,7000.0,4000.0,Yes,5900.0,725.0,75000.0,30400.0,E-commerce Shopping EMI,171000.0,23,Not_Eligible,5896.8
+48.0,Male,Single,Graduate,28100.0,Government,5.8,Mid-size,Own,0.0,1,0,0.0,0.0,3000.0,4600.0,3900.0,No,0.0,742.0,186700.0,56000.0,E-commerce Shopping EMI,86000.0,18,Eligible,10043.0
+48.0,Male,Married,High School,28200.0,Government,6.1,Startup,Family,0.0,2,1,0.0,0.0,3500.0,4400.0,2600.0,Yes,3200.0,810.0,109900.0,31200.0,E-commerce Shopping EMI,70000.0,3,Not_Eligible,6699.0
+38.0,Female,Married,Post Graduate,58700.0,Private,9.1,Mid-size,Rented,16700.0,3,2,10700.0,18400.0,4100.0,15200.0,8800.0,No,0.0,684.0,65300.0,15800.0,Vehicle EMI,1390000.0,49,Not_Eligible,500.0
+27.0,Male,Single,Graduate,86900.0,Government,1.0,Mid-size,Rented,23600.0,2,1,9300.0,24900.0,11800.0,24700.0,16500.0,Yes,14300.0,750.0,215400.0,121500.0,Personal Loan EMI,587000.0,38,Not_Eligible,500.0
+48.0,Male,Married,Graduate,66200.0,Private,3.0,MNC,Rented,12400.0,4,3,0.0,0.0,4200.0,12200.0,11400.0,Yes,6900.0,764.0,170100.0,86000.0,Vehicle EMI,1045000.0,69,Not_Eligible,8022.0
+32.0,Male,Married,Graduate,72400.0,Private,7.3,Mid-size,Rented,18900.0,3,2,8200.0,20300.0,9800.0,14100.0,4800.0,No,0.0,665.0,567800.0,175600.0,Personal Loan EMI,170000.0,19,Not_Eligible,500.0
+27.0,Female,Single,Graduate,62800.0,Private,2.5,MNC,Rented,17400.0,2,1,14800.0,18600.0,8700.0,13400.0,4800.0,No,0.0,643.0,100300.0,53500.0,E-commerce Shopping EMI,170000.0,6,Not_Eligible,500.0
+27.0,Female,Single,Graduate,18000.0,Government,0.8,Startup,Rented,3100.0,2,1,10100.0,5700.0,1000.0,3100.0,3500.0,No,0.0,730.0,22500.0,11700.0,Education EMI,262000.0,9,Not_Eligible,500.0
+32.0,Male,Married,Post Graduate,59100.0,Government,1.4,Large Indian,Family,0.0,4,3,3100.0,0.0,7000.0,14500.0,11000.0,No,0.0,813.0,331900.0,166400.0,Education EMI,249000.0,18,Not_Eligible,14100.0
+58.0,Male,Married,Post Graduate,77500.0,Private,7.4,Large Indian,Rented,18200.0,4,3,0.0,14300.0,9600.0,21300.0,14600.0,No,0.0,777.0,132200.0,45900.0,Education EMI,95000.0,35,Not_Eligible,500.0
+48.0,Male,Single,Graduate,81800.0,Government,8.2,MNC,Own,0.0,3,2,14000.0,0.0,5300.0,24200.0,8000.0,Yes,21700.0,669.0,358700.0,153700.0,Home Appliances EMI,268000.0,7,Not_Eligible,3311.0
+48.0,Female,Married,Graduate,72300.0,Private,11.1,Startup,Own,0.0,5,4,8200.0,15100.0,9500.0,16300.0,8700.0,No,0.0,689.0,309700.0,180700.0,Education EMI,485000.0,23,Not_Eligible,7250.0
+38.0,Male,Married,Professional,90200.0,Private,1.0,Large Indian,Rented,20900.0,3,2,0.0,13100.0,13000.0,17500.0,5600.0,Yes,24500.0,652.0,713600.0,339600.0,E-commerce Shopping EMI,167000.0,11,Not_Eligible,500.0
+32.0,Male,Single,Graduate,81900.0,Private,4.8,Mid-size,Family,0.0,1,0,0.0,0.0,6800.0,16300.0,6100.0,No,0.0,795.0,631600.0,203200.0,Education EMI,372000.0,38,Eligible,34782.0
+32.0,Female,Married,Professional,88200.0,Private,0.6,MNC,Family,0.0,4,3,0.0,0.0,11300.0,22700.0,15300.0,Yes,22600.0,619.0,158000.0,62600.0,Education EMI,373000.0,23,Not_Eligible,2920.96
+58.0,Male,Married,Graduate,69900.0,Private,3.0,Startup,Family,0.0,3,2,8600.0,0.0,8800.0,16100.0,4700.0,No,0.0,678.0,62600.0,29000.0,Vehicle EMI,163000.0,77,Eligible,12680.0
+27.0,Male,Single,Post Graduate,71400.0,Government,2.0,Startup,Rented,19200.0,3,2,0.0,0.0,6800.0,16100.0,4000.0,No,0.0,772.0,356200.0,207200.0,E-commerce Shopping EMI,164000.0,5,Not_Eligible,15180.0
+48.0,Male,Married,Graduate,18000.0,Private,2.3,Mid-size,Own,0.0,5,4,2600.0,0.0,2500.0,4700.0,3000.0,No,0.0,726.0,42700.0,22300.0,Education EMI,128000.0,15,Not_Eligible,2600.0
+32.0,Male,Single,Graduate,391443.0,Private,3.2,Large Indian,Own,0.0,1,0,0.0,0.0,1800.0,5200.0,2400.0,No,0.0,733.0,117800.0,34800.0,Personal Loan EMI,199000.0,22,Not_Eligible,5300.0
+38.0,Male,Married,Graduate,52400.0,Self-employed,7.5,Large Indian,Rented,12800.0,4,3,12700.0,0.0,3400.0,10000.0,8300.0,Yes,14100.0,779.0,363900.0,148700.0,Vehicle EMI,800000.0,81,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,29300.0,Private,13.3,Large Indian,Own,0.0,3,2,0.0,0.0,3000.0,5600.0,2300.0,No,0.0,771.0,100500.0,57200.0,Personal Loan EMI,816000.0,57,Not_Eligible,11040.0
+38.0,Female,Married,Post Graduate,86400.0,Private,1.4,Large Indian,Rented,25500.0,2,1,5300.0,0.0,12400.0,24200.0,16500.0,No,0.0,722.0,427200.0,86700.0,E-commerce Shopping EMI,112000.0,15,Not_Eligible,1250.0
+38.0,Female,Married,High School,58600.0,Private,1.2,MNC,Own,21128.0,4,3,0.0,12400.0,6200.0,11000.0,9900.0,No,0.0,597.0,202100.0,92300.0,Vehicle EMI,242000.0,20,Not_Eligible,7640.0
+48.0,Male,Single,Graduate,22100.0,Private,15.4,Startup,Rented,4500.0,2,1,0.0,20900.0,2700.0,5500.0,3600.0,Yes,6200.0,625.0,52800.0,23700.0,Home Appliances EMI,235000.0,19,Not_Eligible,500.0
+38.0,Female,Married,High School,14400.0,Private,6.4,Large Indian,Family,0.0,3,2,0.0,0.0,1100.0,3000.0,1900.0,Yes,1800.0,631.0,106100.0,46600.0,Vehicle EMI,1014000.0,56,Not_Eligible,2032.8
+48.0,Male,Married,Graduate,115500.0,Private,20.1,Large Indian,Own,0.0,4,3,0.0,0.0,9700.0,29900.0,22500.0,No,0.0,728.0,348200.0,166500.0,Education EMI,61000.0,43,Eligible,26700.0
+38.0,Male,Married,Post Graduate,90800.0,Government,4.3,MNC,Own,0.0,3,2,6800.0,0.0,10700.0,26600.0,7900.0,No,0.0,791.0,270700.0,148900.0,Education EMI,290000.0,15,High_Risk,25608.0
+27.0,Male,Single,Graduate,39800.0,Private,0.7,Startup,Own,0.0,1,0,0.0,0.0,5100.0,10600.0,6800.0,Yes,9600.0,637.0,248400.0,86100.0,Home Appliances EMI,50000.0,10,Not_Eligible,1897.28
+38.0,Male,Married,Professional,30000.0,Private,0.5,MNC,Rented,8200.0,5,4,0.0,23900.0,4500.0,4900.0,2000.0,No,0.0,701.0,107900.0,31500.0,Vehicle EMI,1130000.0,19,Not_Eligible,500.0
+32.0,Male,Single,Professional,52600.0,Self-employed,1.7,Large Indian,Family,0.0,1,0,0.0,0.0,4100.0,12700.0,2900.0,No,0.0,754.0,26900.0,8300.0,Vehicle EMI,607000.0,33,Not_Eligible,14212.8
+38.0,Male,Married,Graduate,52500.0,Private,2.5,Mid-size,Family,0.0,4,3,0.0,21000.0,6400.0,10200.0,8100.0,No,0.0,708.0,400700.0,90600.0,Vehicle EMI,652000.0,20,Not_Eligible,3740.0
+38.0,Female,Married,Graduate,102700.0,Private,0.7,Mid-size,Rented,32500.0,4,3,8500.0,0.0,13400.0,17900.0,15600.0,No,0.0,828.0,752400.0,396400.0,Education EMI,342000.0,37,Not_Eligible,7814.4
+32.0,Female,Married,High School,28100.0,Private,4.0,Mid-size,Own,0.0,5,4,2800.0,0.0,2400.0,4400.0,4200.0,No,0.0,706.0,43300.0,22500.0,Vehicle EMI,1002000.0,38,Not_Eligible,5720.0
+48.0,Female,Married,Professional,56700.0,Private,24.1,Large Indian,Rented,9300.0,3,2,4800.0,0.0,4800.0,14700.0,6600.0,No,0.0,762.0,124700.0,31200.0,Vehicle EMI,1459000.0,14,Not_Eligible,9900.0
+32.0,Male,Single,Post Graduate,71400.0,Government,0.7,MNC,Own,0.0,1,0,0.0,0.0,6700.0,11000.0,6400.0,Yes,19700.0,737.0,166000.0,70200.0,E-commerce Shopping EMI,17000.0,20,Eligible,9660.0
+48.0,Male,Married,Post Graduate,114900.0,Private,20.5,MNC,Family,0.0,4,3,0.0,0.0,5900.0,33300.0,22300.0,No,0.0,632.0,196000.0,70600.0,Personal Loan EMI,543000.0,46,High_Risk,17088.0
+38.0,Female,Married,Graduate,94200.0,Private,12.2,Mid-size,Family,0.0,2,1,13200.0,0.0,9700.0,14800.0,9600.0,Yes,28200.0,774.0,625600.0,149000.0,Education EMI,98000.0,32,Eligible,8639.4
+58.0,Female,Married,Post Graduate,24800.0,Private,36.0,Startup,Rented,5500.0,4,3,0.0,0.0,2500.0,5200.0,2700.0,Yes,5700.0,635.0,77700.0,38500.0,Vehicle EMI,906000.0,81,Not_Eligible,896.0
+27.0,Female,Single,Graduate,121000.0,Government,1.7,Large Indian,Own,0.0,1,0,0.0,0.0,13200.0,26000.0,6800.0,No,0.0,850.0,309800.0,176000.0,E-commerce Shopping EMI,63000.0,13,Eligible,45000.0
+48.0,Female,Married,Graduate,19200.0,Private,2.8,MNC,Rented,3800.0,3,2,2100.0,7500.0,1200.0,4800.0,2300.0,No,0.0,495.0,76800.0,19400.0,Education EMI,66000.0,33,Not_Eligible,500.0
+58.0,Female,Married,Professional,124600.0,Government,1.6,Startup,Rented,39300.0,2,1,8200.0,0.0,16200.0,24700.0,20900.0,No,0.0,850.0,345800.0,115300.0,Personal Loan EMI,299000.0,42,Not_Eligible,9180.0
+48.0,Male,Married,Graduate,64000.0,Private,3.1,Startup,Own,0.0,3,2,3800.0,10900.0,8700.0,15800.0,10700.0,Yes,8000.0,688.0,227900.0,122000.0,E-commerce Shopping EMI,175000.0,5,Not_Eligible,2135.0
+32.0,Male,Single,Professional,87500.0,Private,1.6,Large Indian,Rented,17200.0,2,1,5200.0,0.0,9300.0,21300.0,9200.0,Yes,9400.0,300.0,649800.0,141300.0,Home Appliances EMI,96000.0,30,Eligible,4897.2
+32.0,Male,Single,Post Graduate,26200.0,Private,5.0,MNC,Rented,3900.0,1,0,0.0,0.0,2300.0,7400.0,3100.0,Yes,4200.0,639.0,56800.0,25600.0,Personal Loan EMI,636000.0,24,Not_Eligible,1484.0
+32.0,Male,Married,Graduate,49500.0,Private,3.3,Large Indian,Family,8726.0,4,3,0.0,16700.0,6500.0,9500.0,9800.0,Yes,5800.0,650.0,352700.0,206400.0,E-commerce Shopping EMI,40000.0,22,Not_Eligible,500.0
+38.0,Male,Married,Graduate,59700.0,Private,10.9,Large Indian,Own,0.0,4,3,14700.0,0.0,5800.0,14400.0,11400.0,No,0.0,627.0,374000.0,161000.0,Home Appliances EMI,116000.0,14,Not_Eligible,5896.0
+27.0,Female,Single,Professional,35400.0,Private,3.4,Large Indian,Rented,9500.0,3,2,14900.0,0.0,2100.0,7800.0,4900.0,No,0.0,675.0,208900.0,52100.0,Home Appliances EMI,171000.0,24,Not_Eligible,500.0
+27.0,Female,Single,Professional,117600.0,Private,0.5,Mid-size,Rented,32300.0,3,2,7300.0,10200.0,9300.0,34700.0,14600.0,Yes,35300.0,722.0,165000.0,40300.0,E-commerce Shopping EMI,23000.0,19,Not_Eligible,500.0
+27.0,Male,Single,Post Graduate,66700.0,Private,1.0,MNC,Own,0.0,1,0,0.0,0.0,4400.0,17200.0,7900.0,Yes,8500.0,600.0,438100.0,91300.0,E-commerce Shopping EMI,163000.0,3,Not_Eligible,8839.6
+27.0,Male,Single,Professional,8040.0,Self-employed,1.0,Large Indian,Rented,24900.0,2,1,0.0,0.0,10100.0,26400.0,17600.0,Yes,29400.0,694.0,742800.0,236900.0,Personal Loan EMI,61000.0,20,Eligible,8473.5
+38.0,Male,Married,Professional,113500.0,Government,3.8,Small,Rented,24300.0,4,3,13900.0,0.0,12500.0,26600.0,16500.0,Yes,22800.0,736.0,278300.0,127100.0,Vehicle EMI,1452000.0,53,Not_Eligible,500.0
+32.0,Male,Single,Post Graduate,82800.0,Private,2.3,Large Indian,Family,0.0,3,2,9700.0,7500.0,9800.0,22100.0,7900.0,No,0.0,612.0,392500.0,166700.0,E-commerce Shopping EMI,176000.0,24,High_Risk,10320.0
+32.0,Female,Married,Professional,51500.0,Government,0.5,Startup,Rented,12100.0,4,3,3600.0,6400.0,3600.0,10600.0,6800.0,Yes,15100.0,753.0,336300.0,146400.0,Home Appliances EMI,212000.0,17,Not_Eligible,500.0
+32.0,Female,Single,Post Graduate,74900.0,Government,10.0,Large Indian,Family,0.0,2,1,12100.0,13100.0,4100.0,13000.0,6100.0,No,0.0,789.0,493300.0,160900.0,Personal Loan EMI,576000.0,15,Not_Eligible,19239.0
+38.0,Male,Married,Professional,41100.0,Private,0.5,Large Indian,Rented,13500.0,3,2,0.0,0.0,5100.0,7300.0,5700.0,No,0.0,690.0,140400.0,77300.0,Education EMI,428000.0,42,Not_Eligible,3800.0
+38.0,Female,Married,Post Graduate,23400.0,Private,9.9,Mid-size,Family,0.0,2,1,0.0,14400.0,2800.0,3800.0,1500.0,Yes,5100.0,466.0,101400.0,28100.0,Personal Loan EMI,340000.0,35,Not_Eligible,500.0
+58.0,Male,Married,High School,45200.0,Private,1.3,Mid-size,Rented,11200.0,3,2,0.0,0.0,3100.0,7300.0,4200.0,Yes,9900.0,555.0,223600.0,127200.0,Education EMI,106000.0,19,Not_Eligible,2660.0
+38.0,Female,Married,Graduate,50100.0,Government,0.5,Startup,Own,0.0,3,2,14800.0,19500.0,3400.0,9100.0,6800.0,No,0.0,689.0,399500.0,223800.0,Education EMI,397000.0,29,Not_Eligible,500.0
+38.0,Male,Married,Graduate,27800.0,Government,0.9,Large Indian,Rented,4800.0,4,3,9500.0,19100.0,3300.0,4500.0,4700.0,No,0.0,585.0,84300.0,37200.0,Education EMI,77000.0,30,Not_Eligible,500.0
+32.0,Female,Married,Graduate,95600.0,Government,3.7,MNC,Rented,23800.0,3,2,0.0,0.0,10200.0,24800.0,10600.0,Yes,12300.0,657.0,650200.0,202400.0,Home Appliances EMI,28000.0,11,Eligible,5886.65
+38.0,Male,Married,Professional,42100.0,Private,0.6,MNC,Family,0.0,2,1,0.0,0.0,2900.0,7000.0,2500.0,Yes,7300.0,704.0,290800.0,110400.0,Education EMI,223000.0,7,Not_Eligible,6899.2
+38.0,Male,Married,High School,20400.0,Private,3.8,Mid-size,Rented,4300.0,2,1,6300.0,9200.0,1900.0,5800.0,2200.0,No,0.0,623.0,14400.0,3800.0,E-commerce Shopping EMI,152000.0,10,Not_Eligible,500.0
+47.0,Male,Married,Graduate,38595.0,Self-employed,2.1,Large Indian,Own,0.0,3,2,6900.0,14800.0,3500.0,10400.0,3500.0,Yes,9900.0,699.0,52900.0,19000.0,Education EMI,214000.0,14,Not_Eligible,500.0
+27.0,Female,Married,Graduate,65900.0,Private,5.0,Startup,Own,0.0,2,1,12300.0,0.0,4200.0,18600.0,13100.0,No,0.0,804.0,157100.0,87100.0,Education EMI,385000.0,48,High_Risk,10620.0
+32.0,Female,Married,High School,25300.0,Private,10.0,Mid-size,Own,0.0,3,2,13000.0,0.0,3700.0,6800.0,3100.0,No,0.0,751.0,161400.0,67200.0,Personal Loan EMI,62000.0,16,Not_Eligible,500.0
+48.0,Male,Married,Professional,111600.0,Private,12.1,Small,Own,0.0,4,3,0.0,0.0,8200.0,28400.0,12500.0,No,0.0,739.0,307200.0,108000.0,Education EMI,346000.0,39,Eligible,31250.0
+38.0,Female,Married,High School,67700.0,Private,10.1,Large Indian,Rented,19300.0,4,3,0.0,20500.0,6900.0,10600.0,8900.0,Yes,11900.0,633.0,147300.0,83600.0,Personal Loan EMI,322000.0,37,Not_Eligible,500.0
+38.0,Male,Married,Graduate,32300.0,Self-employed,2.7,Mid-size,Rented,7800.0,3,2,3000.0,0.0,4700.0,5600.0,4500.0,Yes,6000.0,741.0,140100.0,29500.0,Home Appliances EMI,291000.0,20,Not_Eligible,500.0
+48.0,Female,Married,Graduate,31700.0,Private,19.7,Mid-size,Rented,6900.0,5,4,12500.0,0.0,2800.0,5800.0,4900.0,Yes,7600.0,649.0,31600.0,15700.0,Vehicle EMI,713000.0,28,Not_Eligible,500.0
+48.0,Female,Married,High School,60600.0,Private,3.9,Small,Own,0.0,3,2,5800.0,0.0,7700.0,14800.0,5900.0,Yes,6500.0,610.0,272500.0,163200.0,E-commerce Shopping EMI,24000.0,10,Eligible,5572.0
+38.0,Male,Married,High School,52800.0,Private,11.7,Mid-size,Family,0.0,3,2,6900.0,21300.0,4200.0,10600.0,5300.0,No,0.0,780.0,150000.0,79900.0,Home Appliances EMI,185000.0,12,Not_Eligible,2700.0
+32.0,Female,Married,Graduate,70500.0,Government,0.7,MNC,Own,0.0,3,2,4600.0,0.0,6000.0,14700.0,8000.0,Yes,10100.0,687.0,355000.0,138100.0,Education EMI,441000.0,32,Not_Eligible,9485.0
+48.0,Male,Married,High School,52200.0,Private,0.5,Large Indian,Family,11492.0,4,3,6000.0,0.0,4800.0,11700.0,5900.0,No,0.0,783.0,131300.0,47800.0,Education EMI,459000.0,30,Not_Eligible,11424.0
+32.0,Male,Married,Post Graduate,84100.0,Government,4.4,Startup,Rented,25200.0,4,3,0.0,0.0,9800.0,20700.0,9300.0,No,0.0,752.0,217200.0,104500.0,Home Appliances EMI,26000.0,34,Eligible,12606.0
+38.0,Male,Married,Post Graduate,65900.0,Government,1.6,Mid-size,Rented,11800.0,2,1,12400.0,11600.0,9100.0,12100.0,7600.0,No,0.0,701.0,353300.0,172800.0,Vehicle EMI,88000.0,47,Not_Eligible,650.0
+58.0,Female,Married,Graduate,83100.0,Private,5.2,MNC,Own,0.0,5,4,0.0,0.0,6300.0,18700.0,11800.0,No,0.0,794.0,252200.0,53500.0,E-commerce Shopping EMI,125000.0,16,Eligible,27780.0
+38.0,Female,Married,Graduate,93300.0,Government,2.6,Large Indian,Rented,14800.0,3,2,0.0,6600.0,9500.0,20400.0,6300.0,Yes,14000.0,731.0,74300.0,37600.0,Education EMI,98000.0,30,Eligible,6076.0
+38.0,Male,Married,Post Graduate,51400.0,Private,2.5,MNC,Family,0.0,4,3,10000.0,0.0,3200.0,14100.0,3000.0,No,0.0,589.0,225700.0,83700.0,Home Appliances EMI,162000.0,31,Eligible,8440.0
+38.0,Male,Married,Post Graduate,83100.0,Private,0.8,MNC,Own,0.0,4,3,0.0,0.0,7700.0,13500.0,8500.0,No,0.0,556.0,368800.0,130400.0,Personal Loan EMI,935000.0,49,Not_Eligible,17088.0
+38.0,Male,Married,Graduate,87100.0,Private,0.9,MNC,Rented,30300.0,2,1,5000.0,7700.0,7800.0,16400.0,6400.0,No,0.0,760.0,525800.0,286300.0,E-commerce Shopping EMI,74000.0,15,Eligible,7128.0
+38.0,Male,Married,Post Graduate,83900.0,Self-employed,3.8,MNC,Family,0.0,2,1,0.0,6100.0,8500.0,23200.0,6900.0,Yes,12600.0,688.0,266100.0,77100.0,Home Appliances EMI,212000.0,34,High_Risk,8379.0
+38.0,Male,Married,Graduate,44800.0,Private,0.5,MNC,Family,0.0,5,4,6700.0,18100.0,6100.0,6700.0,7100.0,No,0.0,709.0,224100.0,92200.0,Vehicle EMI,158000.0,40,Not_Eligible,500.0
+32.0,Female,Married,Graduate,26300.0,Private,5.7,Mid-size,Family,0.0,5,4,0.0,5700.0,1300.0,6500.0,2000.0,No,0.0,709.0,179900.0,100900.0,Home Appliances EMI,152000.0,30,High_Risk,5940.0
+48.0,Male,Single,Graduate,45600.0,Self-employed,17.8,Large Indian,Family,0.0,2,1,5200.0,0.0,6000.0,7000.0,3900.0,No,0.0,724.0,131600.0,59100.0,Vehicle EMI,388000.0,76,Eligible,10575.0
+32.0,Female,Married,High School,13700.0,Government,0.8,MNC,Rented,2500.0,3,2,4900.0,13600.0,1600.0,3700.0,1400.0,No,0.0,825.0,19300.0,7600.0,Education EMI,332000.0,46,Not_Eligible,500.0
+27.0,Female,Single,Graduate,45400.0,Private,0.5,Mid-size,Own,0.0,1,0,0.0,0.0,5600.0,13000.0,8100.0,Yes,7100.0,630.0,79100.0,25900.0,Education EMI,245000.0,43,Not_Eligible,2078.72
+27.0,Female,Married,Graduate,31200.0,Government,0.8,MNC,Own,0.0,3,2,0.0,5700.0,2300.0,6600.0,2500.0,No,0.0,660.0,76800.0,16200.0,E-commerce Shopping EMI,88000.0,22,Eligible,7050.0
+48.0,Male,Married,High School,67000.0,Private,0.5,Large Indian,Own,0.0,2,1,0.0,0.0,7700.0,15500.0,6400.0,Yes,19400.0,543.0,244300.0,124700.0,Education EMI,128000.0,32,Not_Eligible,2520.0
+48.0,Male,Married,Graduate,52400.0,Private,1.4,MNC,Own,0.0,3,2,0.0,0.0,2600.0,8000.0,8700.0,Yes,15100.0,618.0,93000.0,23900.0,Vehicle EMI,659000.0,44,Not_Eligible,4032.0
+38.0,Male,Single,High School,32200.0,Private,0.5,Mid-size,Own,0.0,1,0,0.0,0.0,4100.0,7800.0,5900.0,No,0.0,725.0,55500.0,15900.0,Education EMI,172000.0,44,Not_Eligible,4608.0
+38.0,Male,Married,Professional,92600.0,Private,0.5,Mid-size,Family,0.0,4,3,4000.0,0.0,12900.0,23700.0,6500.0,No,0.0,664.0,623300.0,256500.0,Home Appliances EMI,200000.0,26,Eligible,20020.0
+38.0,Male,Married,Post Graduate,63900.0,Private,0.5,MNC,Family,0.0,3,2,13600.0,0.0,4900.0,10700.0,8200.0,Yes,10100.0,681.0,109100.0,63400.0,E-commerce Shopping EMI,109000.0,17,Not_Eligible,3673.6
+27.0,Male,Single,Professional,60100.0,Private,4.4,Mid-size,Family,0.0,1,0,0.0,0.0,7200.0,15900.0,9500.0,Yes,10200.0,592.0,228500.0,80700.0,Vehicle EMI,1083000.0,44,Not_Eligible,4844.0
+32.0,Male,Married,Graduate,46100.0,Private,1.7,MNC,Rented,9700.0,3,2,0.0,17200.0,6800.0,9000.0,3200.0,Yes,6500.0,604.0,140100.0,82300.0,E-commerce Shopping EMI,178000.0,22,Not_Eligible,500.0
+38.0,Male,Married,Graduate,54900.0,Private,3.0,Large Indian,Rented,18500.0,3,2,0.0,0.0,3700.0,15000.0,8000.0,No,0.0,654.0,208600.0,52700.0,Vehicle EMI,1281000.0,36,Not_Eligible,4850.0
+58.0,Male,Single,Graduate,45500.0,Private,6.1,MNC,Rented,11100.0,1,0,0.0,0.0,6300.0,6800.0,5000.0,Yes,5900.0,654.0,77100.0,38600.0,Education EMI,497000.0,29,Not_Eligible,2912.0
+32.0,Male,Single,High School,54100.0,Private,1.9,Mid-size,Family,0.0,2,1,9600.0,10600.0,3100.0,9100.0,6900.0,No,0.0,716.0,279900.0,157500.0,Personal Loan EMI,873000.0,31,Not_Eligible,7400.0
+58.0,Female,Married,Post Graduate,63400.0,Private,1.3,Large Indian,Own,0.0,2,1,0.0,13900.0,6700.0,10600.0,12500.0,No,0.0,717.0,266900.0,114600.0,E-commerce Shopping EMI,14000.0,7,Eligible,9850.0
+38.0,Male,Married,Graduate,43400.0,Private,0.6,Startup,Rented,15100.0,4,3,3300.0,0.0,3600.0,12000.0,8100.0,Yes,11600.0,900.0,320100.0,99500.0,Personal Loan EMI,652000.0,58,Not_Eligible,500.0
+27.0,Female,Single,Professional,100200.0,Private,1.8,Startup,Rented,19800.0,2,1,0.0,0.0,13500.0,23000.0,12100.0,No,0.0,712.0,272500.0,104800.0,Vehicle EMI,1306000.0,44,Not_Eligible,15900.0
+27.0,Male,Single,Graduate,49500.0,Private,4.7,Large Indian,Rented,12400.0,2,1,3100.0,0.0,4500.0,11600.0,8400.0,Yes,9900.0,669.0,292600.0,99200.0,Home Appliances EMI,183000.0,29,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,22800.0,Private,0.5,Large Indian,Rented,7000.0,5,4,0.0,0.0,3100.0,4300.0,3500.0,No,0.0,548.0,97700.0,31400.0,Education EMI,341000.0,31,Not_Eligible,980.0
+38.0,Male,Married,Graduate,72800.0,Private,16.0,Mid-size,Rented,12900.0,5,4,0.0,0.0,3700.0,14600.0,8900.0,Yes,11300.0,703.0,493000.0,173100.0,E-commerce Shopping EMI,72000.0,9,Not_Eligible,8239.0
+38.0,Male,Married,Graduate,63300.0,Private,1.7,Mid-size,Family,0.0,3,2,0.0,0.0,7600.0,15100.0,6300.0,No,0.0,647.0,172400.0,71100.0,Vehicle EMI,116000.0,21,Eligible,13720.0
+38.0,Female,Married,Post Graduate,53000.0,Self-employed,0.5,MNC,Rented,18300.0,4,3,12400.0,0.0,3200.0,14600.0,8700.0,No,0.0,746.0,103600.0,24500.0,Education EMI,96000.0,40,Not_Eligible,500.0
+38.0,Male,Married,Graduate,66600.0,Government,2.0,Startup,Rented,20200.0,2,1,0.0,0.0,3900.0,16900.0,7200.0,No,0.0,699.0,143500.0,33900.0,Home Appliances EMI,93000.0,15,Eligible,9200.0
+48.0,Male,Married,Graduate,37700.0,Private,0.9,Mid-size,Rented,11300.0,5,4,6200.0,0.0,3800.0,11300.0,2900.0,No,0.0,642.0,149000.0,37000.0,Vehicle EMI,364000.0,45,Not_Eligible,704.0
+32.0,Female,Married,Post Graduate,19500.0,Private,3.1,Large Indian,Rented,5000.0,4,3,3100.0,0.0,2300.0,4400.0,1300.0,No,0.0,527.0,70700.0,20100.0,Vehicle EMI,600000.0,60,Not_Eligible,850.0
+32.0,Female,Single,Graduate,46100.0,Private,10.0,Large Indian,Rented,11400.0,2,1,0.0,0.0,4200.0,8400.0,6800.0,No,0.0,735.0,68800.0,38500.0,E-commerce Shopping EMI,141000.0,7,Not_Eligible,6120.0
+58.0,Female,Married,Graduate,56400.0,Private,4.1,MNC,Family,0.0,4,3,0.0,19900.0,7600.0,13400.0,3800.0,Yes,16900.0,671.0,172600.0,83400.0,Education EMI,62000.0,10,Not_Eligible,500.0
+48.0,Male,Married,Graduate,30000.0,Government,2.5,MNC,Family,0.0,3,2,0.0,20200.0,3000.0,4700.0,4100.0,Yes,8600.0,729.0,229200.0,89600.0,Vehicle EMI,621000.0,32,Not_Eligible,500.0
+32.0,Male,Married,Graduate,19000.0,Private,1.6,MNC,Own,0.0,5,4,9700.0,9000.0,2200.0,3300.0,3100.0,No,0.0,626.0,27000.0,13300.0,Education EMI,208000.0,18,Not_Eligible,500.0
+32.0,Male,Married,Professional,105800.0,Private,5.5,Large Indian,Rented,34300.0,3,2,0.0,16400.0,11200.0,16800.0,13700.0,No,0.0,702.0,842200.0,352200.0,Home Appliances EMI,118000.0,7,Not_Eligible,7370.0
+38.0,Male,Married,Graduate,40200.0,Private,2.5,Large Indian,Family,0.0,5,4,7500.0,21300.0,5000.0,8800.0,5600.0,No,0.0,715.0,105100.0,29500.0,Vehicle EMI,841000.0,76,Not_Eligible,500.0
+58.0,Female,Married,High School,27800.0,Private,16.5,MNC,Own,0.0,3,2,4100.0,0.0,4100.0,6700.0,3700.0,No,0.0,695.0,220900.0,94700.0,Home Appliances EMI,207000.0,26,Not_Eligible,5060.0
+32.0,Male,Married,Professional,110400.0,Private,5.7,MNC,Family,0.0,5,4,0.0,0.0,9200.0,31600.0,15800.0,No,0.0,686.0,684300.0,343900.0,Personal Loan EMI,280000.0,51,Eligible,29590.0
+47.0,Female,Married,Graduate,18985.0,Government,3.0,Large Indian,Rented,4800.0,3,2,6700.0,22500.0,2300.0,4500.0,3400.0,No,0.0,672.0,131600.0,57600.0,Vehicle EMI,405000.0,38,Not_Eligible,500.0
+32.0,Male,Married,Graduate,84500.0,Private,2.3,Mid-size,Rented,15000.0,2,1,9700.0,10500.0,7000.0,17400.0,9700.0,No,0.0,730.0,671700.0,328200.0,E-commerce Shopping EMI,21000.0,18,Eligible,8360.0
+38.0,Male,Married,Professional,80200.0,Private,7.5,MNC,Rented,24200.0,3,2,8800.0,9600.0,6800.0,20400.0,5200.0,Yes,19500.0,637.0,114200.0,39800.0,Vehicle EMI,807000.0,33,Not_Eligible,500.0
+27.0,Female,Single,Graduate,28700.0,Private,0.5,MNC,Rented,5300.0,1,0,0.0,0.0,2000.0,6600.0,5300.0,Yes,5600.0,647.0,92500.0,29000.0,Personal Loan EMI,124000.0,39,Not_Eligible,873.6
+48.0,Male,Married,Graduate,71200.0,Private,1.1,Large Indian,Own,0.0,5,4,4000.0,11800.0,10300.0,16100.0,6400.0,Yes,13100.0,678.0,197500.0,94200.0,Vehicle EMI,986000.0,51,Not_Eligible,3325.0
+48.0,Male,Married,Post Graduate,91200.0,Private,0.5,Startup,Family,0.0,3,2,0.0,0.0,6700.0,22100.0,12700.0,No,0.0,725.0,149500.0,73500.0,Home Appliances EMI,200000.0,13,Not_Eligible,15904.0
+27.0,Male,Single,Post Graduate,29800.0,Private,2.0,Mid-size,Own,11170.0,1,0,0.0,0.0,4000.0,6800.0,4800.0,No,0.0,651.0,118300.0,69800.0,E-commerce Shopping EMI,118000.0,10,Not_Eligible,7100.0
+38.0,Male,Married,Professional,55000.0,Private,0.5,Large Indian,Family,0.0,4,3,7400.0,0.0,6900.0,16000.0,6600.0,No,0.0,735.0,197500.0,66500.0,E-commerce Shopping EMI,188000.0,8,Not_Eligible,7240.0
+38.0,Female,Married,Graduate,62400.0,Government,6.9,Mid-size,Own,0.0,2,1,0.0,6700.0,4300.0,18500.0,8600.0,No,0.0,696.0,43900.0,21700.0,Personal Loan EMI,423000.0,60,Not_Eligible,10692.0
+32.0,Female,Married,Graduate,63000.0,Government,0.5,Startup,Own,0.0,4,3,2300.0,0.0,7300.0,16700.0,9300.0,Yes,16000.0,818.0,298800.0,128000.0,Vehicle EMI,682000.0,74,Not_Eligible,4788.0
+58.0,Female,Married,Professional,47600.0,Private,10.7,MNC,Family,0.0,3,2,14000.0,0.0,6100.0,8300.0,8200.0,Yes,9600.0,777.0,357300.0,159800.0,Personal Loan EMI,584000.0,44,Not_Eligible,646.8
+32.0,Female,Single,Graduate,67600.0,Private,1.7,Mid-size,Rented,14900.0,2,1,5100.0,0.0,6700.0,16400.0,10900.0,Yes,11400.0,602.0,118600.0,26400.0,Vehicle EMI,193000.0,60,Not_Eligible,500.0
+27.0,Female,Single,Post Graduate,46900.0,Private,1.0,MNC,Rented,11200.0,3,2,7800.0,24500.0,2600.0,12600.0,8700.0,Yes,11500.0,587.0,274800.0,128900.0,Vehicle EMI,618000.0,72,Not_Eligible,500.0
+32.0,Female,Single,Graduate,65900.0,Private,6.6,Mid-size,Rented,17400.0,2,1,2600.0,0.0,8100.0,10800.0,8400.0,No,0.0,773.0,128800.0,62400.0,Personal Loan EMI,434000.0,33,Not_Eligible,8928.0
+38.0,Male,Married,Professional,93600.0,Private,6.6,Large Indian,Rented,29500.0,4,3,0.0,0.0,12000.0,21800.0,6600.0,No,0.0,759.0,263200.0,68400.0,Personal Loan EMI,564000.0,29,Not_Eligible,14220.0
+38.0,Male,Married,Post Graduate,51900.0,Private,5.8,Large Indian,Family,0.0,4,3,0.0,6900.0,2900.0,13000.0,5600.0,No,0.0,701.0,280000.0,134200.0,Home Appliances EMI,91000.0,21,Eligible,11750.0
+38.0,Male,Married,Professional,98900.0,Private,3.0,Mid-size,Own,0.0,2,1,9000.0,17000.0,10700.0,19800.0,12400.0,No,0.0,745.0,782600.0,207800.0,Personal Loan EMI,92000.0,48,Eligible,16500.0
+32.0,Female,Married,Post Graduate,50900.0,Private,0.5,MNC,Rented,16000.0,4,3,7300.0,0.0,6700.0,14900.0,8000.0,No,0.0,747.0,279200.0,131500.0,E-commerce Shopping EMI,73000.0,19,Not_Eligible,500.0
+32.0,Male,Married,Professional,43400.0,Private,0.5,Mid-size,Rented,10600.0,3,2,10400.0,5400.0,2400.0,9500.0,5200.0,Yes,12200.0,640.0,44700.0,15300.0,Home Appliances EMI,251000.0,6,Not_Eligible,500.0
+32.0,Male,Married,Graduate,9417.0,Private,4.2,Mid-size,Family,0.0,3,2,14900.0,0.0,5600.0,17400.0,12600.0,Yes,20600.0,742.0,374400.0,135400.0,Vehicle EMI,142000.0,28,Not_Eligible,3185.0
+48.0,Male,Married,Post Graduate,68500.0,Government,23.6,MNC,Rented,22200.0,4,3,11100.0,0.0,9500.0,15700.0,11500.0,No,0.0,701.0,534100.0,202600.0,Vehicle EMI,1390000.0,49,Not_Eligible,500.0
+38.0,Female,Married,Graduate,114500.0,Government,3.1,Large Indian,Rented,26100.0,3,2,7700.0,0.0,11100.0,27800.0,20100.0,Yes,31700.0,748.0,892700.0,404300.0,Personal Loan EMI,156000.0,49,Not_Eligible,500.0
+32.0,Male,Married,Graduate,33700.0,Private,6.0,Large Indian,Family,0.0,3,2,0.0,0.0,4400.0,5800.0,2500.0,No,0.0,704.0,195400.0,95400.0,E-commerce Shopping EMI,69000.0,23,Eligible,10500.0
+38.0,Male,Married,Professional,85300.0,Private,7.0,Startup,Own,0.0,3,2,0.0,0.0,12700.0,14600.0,10100.0,Yes,22900.0,772.0,568400.0,200700.0,Vehicle EMI,765000.0,41,Not_Eligible,11550.0
+27.0,Female,Single,Graduate,32700.0,Government,0.5,Mid-size,Family,0.0,3,2,0.0,0.0,4100.0,8800.0,2900.0,No,0.0,721.0,177100.0,59300.0,Vehicle EMI,948000.0,58,Not_Eligible,8450.0
+38.0,Male,Married,High School,38100.0,Private,1.4,Mid-size,Family,0.0,3,2,12600.0,20400.0,5300.0,10600.0,2100.0,Yes,7200.0,769.0,258900.0,144300.0,Education EMI,339000.0,36,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,23400.0,Private,5.8,Large Indian,Family,0.0,4,3,0.0,0.0,1300.0,3900.0,3800.0,No,0.0,718.0,135400.0,76100.0,E-commerce Shopping EMI,86000.0,20,Eligible,7200.0
+38.0,Male,Married,Graduate,81200.0,Private,6.3,Startup,Rented,13500.0,4,3,0.0,8100.0,6300.0,21100.0,11200.0,Yes,10400.0,733.0,601700.0,300100.0,E-commerce Shopping EMI,165000.0,11,Not_Eligible,4081.0
+48.0,Male,Married,High School,77000.0,Government,8.1,Large Indian,Rented,15100.0,3,2,11500.0,18500.0,5000.0,11900.0,4000.0,No,0.0,759.0,259700.0,71200.0,Personal Loan EMI,319000.0,33,Not_Eligible,7260.0
+27.0,Male,Married,Professional,61200.0,Private,0.5,Mid-size,Family,0.0,2,1,9300.0,0.0,8300.0,16600.0,3600.0,Yes,16100.0,634.0,338300.0,135600.0,E-commerce Shopping EMI,192000.0,20,Not_Eligible,1635.2
+32.0,Female,Married,Post Graduate,66900.0,Private,4.1,MNC,Rented,22300.0,5,4,0.0,0.0,8200.0,11600.0,3600.0,No,0.0,583.0,78200.0,36200.0,Personal Loan EMI,708000.0,25,Not_Eligible,6784.0
+32.0,Female,Married,High School,24700.0,Private,0.5,Large Indian,Rented,5000.0,4,3,13800.0,0.0,2400.0,4500.0,4100.0,Yes,5100.0,699.0,96600.0,40300.0,Home Appliances EMI,286000.0,6,Not_Eligible,500.0
+58.0,Female,Married,Graduate,58600.0,Government,7.4,Mid-size,Own,0.0,3,2,12400.0,0.0,5000.0,11900.0,3200.0,Yes,17100.0,796.0,390300.0,103100.0,Home Appliances EMI,56000.0,30,Eligible,4573.8
+48.0,Female,Married,Graduate,52800.0,Private,13.9,Mid-size,Family,0.0,2,1,3000.0,0.0,3100.0,10100.0,3600.0,Yes,11400.0,612.0,353000.0,169800.0,E-commerce Shopping EMI,46000.0,6,Not_Eligible,6652.8
+58.0,Male,Married,High School,57700.0,Government,19.7,Small,Rented,19100.0,3,2,5300.0,0.0,3200.0,16900.0,8200.0,No,0.0,794.0,263700.0,123900.0,Home Appliances EMI,155000.0,9,Not_Eligible,3300.0
+27.0,Female,Married,Graduate,87700.0,Private,2.1,Large Indian,Own,0.0,4,3,2300.0,15400.0,10700.0,18500.0,11100.0,No,0.0,716.0,563200.0,241500.0,Personal Loan EMI,916000.0,55,Not_Eligible,16335.0
+32.0,Female,Married,Graduate,27200.0,Private,8.5,Startup,Rented,5000.0,3,2,12200.0,6400.0,3100.0,5900.0,2000.0,No,0.0,625.0,119200.0,58700.0,Personal Loan EMI,103000.0,57,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,77800.0,Private,0.7,MNC,Rented,19900.0,3,2,11200.0,0.0,9100.0,12200.0,6400.0,No,0.0,740.0,232900.0,79500.0,E-commerce Shopping EMI,104000.0,13,Not_Eligible,7600.0
+38.0,Female,Married,Professional,36600.0,Private,10.4,MNC,Rented,6600.0,2,1,0.0,0.0,1800.0,7800.0,1800.0,No,0.0,753.0,232800.0,76300.0,E-commerce Shopping EMI,12000.0,5,Eligible,12276.0
+48.0,Female,Married,Professional,57800.0,Government,13.0,Large Indian,Rented,12200.0,4,3,8400.0,0.0,3700.0,13000.0,5100.0,Yes,16600.0,850.0,173000.0,43100.0,Home Appliances EMI,214000.0,16,Not_Eligible,500.0
+38.0,Male,Married,Graduate,63400.0,Private,2.0,Mid-size,Own,0.0,4,3,0.0,0.0,8900.0,15700.0,6000.0,No,0.0,731.0,258800.0,113500.0,Home Appliances EMI,154000.0,26,Eligible,16400.0
+38.0,Male,Married,Graduate,55400.0,Private,2.1,Large Indian,Rented,10300.0,3,2,6600.0,11400.0,3200.0,11900.0,10400.0,No,0.0,730.0,211700.0,73300.0,Education EMI,68000.0,14,Not_Eligible,800.0
+48.0,Male,Married,Graduate,27500.0,Private,0.5,Mid-size,Own,0.0,4,3,8300.0,13900.0,3100.0,8100.0,1700.0,Yes,6100.0,603.0,218300.0,127600.0,E-commerce Shopping EMI,27000.0,15,Not_Eligible,500.0
+48.0,Male,Married,Graduate,18000.0,Private,7.9,Mid-size,Own,0.0,4,3,0.0,0.0,1800.0,4000.0,2200.0,No,0.0,812.0,47900.0,13000.0,Education EMI,330000.0,22,Not_Eligible,6000.0
+32.0,Male,Single,Graduate,27500.0,Private,0.6,Large Indian,Family,0.0,2,1,0.0,0.0,1900.0,6600.0,3300.0,No,0.0,620.0,217400.0,106200.0,Vehicle EMI,852000.0,79,Not_Eligible,5526.4
+32.0,Male,Married,Graduate,43300.0,Private,1.7,MNC,Own,0.0,5,4,4700.0,23000.0,2700.0,11800.0,6800.0,No,0.0,695.0,90100.0,36700.0,Vehicle EMI,804000.0,29,Not_Eligible,500.0
+27.0,Male,Single,Graduate,38700.0,Private,1.1,Startup,Family,0.0,2,1,8900.0,20200.0,3800.0,10100.0,7300.0,No,0.0,635.0,220800.0,83300.0,Personal Loan EMI,717000.0,28,Not_Eligible,500.0
+32.0,Male,Married,Professional,53500.0,Private,3.8,Large Indian,Own,0.0,3,2,7400.0,10000.0,4200.0,10900.0,9400.0,No,0.0,594.0,298700.0,117900.0,E-commerce Shopping EMI,61000.0,22,Eligible,4640.0
+27.0,Female,Single,Post Graduate,48200.0,Private,0.7,MNC,Rented,15100.0,2,1,0.0,24200.0,4400.0,11600.0,4200.0,Yes,6700.0,672.0,73400.0,27800.0,Vehicle EMI,1379000.0,45,Not_Eligible,500.0
+38.0,Male,Married,Graduate,79400.0,Private,6.6,MNC,Family,0.0,2,1,8900.0,0.0,8000.0,12700.0,4900.0,No,0.0,775.0,359400.0,157000.0,Vehicle EMI,339000.0,63,Eligible,26940.0
+27.0,Male,Single,High School,28100.0,Private,2.8,Large Indian,Own,0.0,2,1,0.0,0.0,3500.0,6400.0,4500.0,No,0.0,793.0,139800.0,75100.0,E-commerce Shopping EMI,104000.0,9,Not_Eligible,8220.0
+48.0,Male,Married,Post Graduate,41000.0,Private,4.5,Large Indian,Own,18465.0,3,2,7800.0,0.0,3100.0,10200.0,2900.0,No,0.0,784.0,58700.0,19000.0,E-commerce Shopping EMI,172000.0,22,Not_Eligible,8160.0
+38.0,Male,Married,Graduate,26900.0,Government,0.5,Mid-size,Own,0.0,4,3,6100.0,0.0,2800.0,7500.0,4600.0,No,0.0,695.0,56400.0,19300.0,Vehicle EMI,588000.0,55,Not_Eligible,2950.0
+27.0,Male,Single,Graduate,69100.0,Private,0.5,Large Indian,Rented,21300.0,3,2,0.0,0.0,7800.0,15200.0,12900.0,No,0.0,676.0,90300.0,20100.0,Vehicle EMI,1456000.0,76,Not_Eligible,3808.0
+38.0,Male,Married,Graduate,20000.0,Private,1.9,Mid-size,Rented,4900.0,3,2,0.0,0.0,2600.0,5600.0,3900.0,No,0.0,691.0,69700.0,28300.0,Personal Loan EMI,662000.0,44,Not_Eligible,1500.0
+32.0,Female,Single,Graduate,51600.0,Private,9.6,Large Indian,Rented,17600.0,1,0,0.0,0.0,6200.0,9000.0,8900.0,Yes,7300.0,618.0,67000.0,23700.0,Vehicle EMI,762000.0,70,Not_Eligible,582.4
+32.0,Male,Single,Post Graduate,64900.0,Private,3.5,Startup,Family,0.0,1,0,0.0,0.0,7600.0,12100.0,8100.0,No,0.0,741.0,73200.0,40800.0,Education EMI,59000.0,25,Eligible,14840.0
+32.0,Male,Single,Post Graduate,76800.0,Private,9.8,MNC,Rented,23100.0,3,2,2300.0,0.0,9500.0,17400.0,6100.0,No,0.0,809.0,155500.0,90000.0,Vehicle EMI,144000.0,42,Eligible,11040.0
+48.0,Female,Married,Post Graduate,64400.0,Private,15.7,Large Indian,Own,0.0,4,3,2800.0,0.0,9400.0,18200.0,10200.0,Yes,10900.0,835.0,298900.0,60700.0,Education EMI,92000.0,14,Not_Eligible,5418.0
+38.0,Male,Married,Professional,66500.0,Self-employed,9.5,Startup,Family,0.0,2,1,13700.0,0.0,3600.0,16400.0,8900.0,No,0.0,847.0,278000.0,68000.0,Personal Loan EMI,384000.0,25,Not_Eligible,12906.0
+48.0,Male,Married,Professional,51600.0,Government,4.3,Mid-size,Rented,9400.0,3,2,9300.0,5400.0,2800.0,14700.0,3700.0,No,0.0,752.0,188200.0,43300.0,E-commerce Shopping EMI,74000.0,12,Not_Eligible,4158.0
+38.0,Female,Married,Graduate,47800.0,Private,9.8,MNC,Own,0.0,3,2,10300.0,0.0,4900.0,11500.0,5900.0,No,0.0,666.0,93200.0,23100.0,Personal Loan EMI,74000.0,23,Eligible,6080.0
+38.0,Male,Single,Professional,10102.0,Government,10.5,Startup,Own,0.0,2,1,2200.0,0.0,2200.0,9400.0,3200.0,No,0.0,824.0,187200.0,62500.0,Personal Loan EMI,408000.0,26,Not_Eligible,11616.0
+27.0,Female,Single,Graduate,64300.0,Government,0.5,Large Indian,Rented,19200.0,2,1,8600.0,0.0,6400.0,10700.0,7200.0,No,0.0,806.0,344500.0,128200.0,Home Appliances EMI,260000.0,22,Not_Eligible,7320.0
+38.0,Male,Married,Post Graduate,69000.0,Private,4.0,Mid-size,Rented,14800.0,3,2,8400.0,0.0,6300.0,13600.0,11000.0,No,0.0,652.0,58000.0,16700.0,E-commerce Shopping EMI,37000.0,21,Eligible,5960.0
+27.0,Male,Single,Graduate,30900.0,Government,0.5,Small,Family,0.0,2,1,0.0,0.0,2600.0,5400.0,5600.0,Yes,6400.0,900.0,145500.0,60300.0,Home Appliances EMI,50000.0,33,Eligible,3052.0
+58.0,Male,Married,Professional,93600.0,Self-employed,21.8,MNC,Rented,17300.0,4,3,0.0,0.0,9000.0,14500.0,12100.0,No,0.0,701.0,528800.0,311900.0,Education EMI,401000.0,40,Eligible,18315.0
+48.0,Female,Married,High School,64700.0,Private,6.1,Mid-size,Rented,19700.0,4,3,0.0,9400.0,4900.0,15200.0,12700.0,No,0.0,805.0,161900.0,35700.0,Personal Loan EMI,165000.0,59,Not_Eligible,1680.0
+48.0,Male,Single,Post Graduate,26300.0,Private,18.2,MNC,Family,0.0,1,0,0.0,0.0,2600.0,6300.0,4800.0,Yes,6700.0,666.0,135300.0,46000.0,Vehicle EMI,1039000.0,25,Not_Eligible,2065.0
+38.0,Female,Married,High School,16000.0,Private,6.2,Large Indian,Rented,4500.0,4,3,9900.0,0.0,1200.0,4000.0,800.0,Yes,4800.0,702.0,68300.0,27300.0,Vehicle EMI,1395000.0,84,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,65500.0,Private,0.8,Mid-size,Rented,15800.0,3,2,13500.0,0.0,3400.0,10800.0,11900.0,No,0.0,850.0,263200.0,151600.0,Education EMI,153000.0,14,Not_Eligible,4848.0
+27.0,Male,Married,Graduate,41600.0,Private,1.3,MNC,Rented,8100.0,4,3,0.0,0.0,4600.0,8300.0,7100.0,Yes,9800.0,900.0,35500.0,8800.0,Home Appliances EMI,99000.0,17,Not_Eligible,828.8
+38.0,Male,Married,Professional,79300.0,Government,4.5,Small,Own,0.0,2,1,3000.0,18300.0,9900.0,23700.0,15000.0,Yes,18200.0,757.0,517600.0,276300.0,Home Appliances EMI,177000.0,20,Not_Eligible,500.0
+38.0,Male,Married,Professional,150900.0,Self-employed,0.5,Large Indian,Own,21906.0,2,1,9800.0,0.0,8200.0,37500.0,21400.0,No,0.0,737.0,296600.0,145700.0,Vehicle EMI,1462000.0,20,Not_Eligible,26640.0
+38.0,Male,Married,Professional,57200.0,Private,6.5,Mid-size,Rented,17500.0,4,3,0.0,0.0,5400.0,10400.0,6200.0,Yes,9700.0,692.0,95200.0,31600.0,E-commerce Shopping EMI,53000.0,22,Not_Eligible,2240.0
+27.0,Male,Single,High School,13900.0,Government,0.5,Large Indian,Family,0.0,3,2,0.0,0.0,1800.0,3900.0,900.0,No,0.0,703.0,70700.0,30300.0,Vehicle EMI,639000.0,40,Not_Eligible,3650.0
+38.0,Female,Married,Post Graduate,24500.0,Private,9.3,MNC,Rented,4000.0,2,1,4900.0,18000.0,2500.0,6700.0,1800.0,Yes,4400.0,744.0,163800.0,41800.0,E-commerce Shopping EMI,179000.0,5,Not_Eligible,500.0
+32.0,Male,Married,Graduate,42300.0,Self-employed,2.4,Large Indian,Family,0.0,3,2,5300.0,18500.0,2800.0,11500.0,7400.0,No,0.0,680.0,233300.0,54100.0,E-commerce Shopping EMI,124000.0,13,Not_Eligible,500.0
+58.0,Male,Married,High School,29000.0,Private,7.5,Mid-size,Rented,5400.0,3,2,8600.0,8100.0,1800.0,5400.0,2700.0,Yes,4400.0,663.0,102700.0,47300.0,Personal Loan EMI,154000.0,28,Not_Eligible,500.0
+27.0,Female,Single,Graduate,61500.0,Private,0.5,Mid-size,Own,0.0,1,0,0.0,0.0,5900.0,11300.0,3700.0,Yes,13500.0,727.0,288400.0,63200.0,E-commerce Shopping EMI,103000.0,16,High_Risk,7588.0
+38.0,Female,Married,High School,42000.0,Private,6.9,Mid-size,Own,0.0,5,4,11700.0,0.0,4800.0,11500.0,8400.0,Yes,10900.0,634.0,83900.0,32500.0,Education EMI,176000.0,41,Not_Eligible,500.0
+48.0,Male,Married,Graduate,81600.0,Private,2.0,MNC,Rented,19800.0,3,2,0.0,0.0,6500.0,22900.0,11600.0,Yes,21700.0,651.0,151700.0,75500.0,Vehicle EMI,421000.0,27,Not_Eligible,500.0
+38.0,Male,Married,High School,47300.0,Private,0.5,Large Indian,Rented,13800.0,3,2,0.0,22000.0,4500.0,10700.0,7400.0,Yes,10300.0,647.0,349500.0,93300.0,Personal Loan EMI,673000.0,41,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,137600.0,Private,1.6,Mid-size,Own,0.0,2,1,11700.0,0.0,8800.0,31800.0,23200.0,No,0.0,704.0,531700.0,304800.0,E-commerce Shopping EMI,184000.0,10,Eligible,31050.0
+38.0,Male,Married,Professional,22500.0,Private,7.2,Large Indian,Rented,7100.0,4,3,3600.0,13800.0,2200.0,5400.0,4200.0,Yes,5900.0,630.0,155700.0,63300.0,Vehicle EMI,113000.0,47,Not_Eligible,500.0
+38.0,Female,Married,Post Graduate,98700.0,Government,0.5,Large Indian,Own,0.0,3,2,10900.0,18800.0,8100.0,24900.0,19600.0,No,0.0,678.0,378800.0,157500.0,Vehicle EMI,852000.0,48,Not_Eligible,8200.0
+32.0,Female,Married,High School,23100.0,Private,5.7,Mid-size,Own,0.0,5,4,2000.0,0.0,1300.0,5400.0,1300.0,No,0.0,730.0,78600.0,15900.0,Education EMI,490000.0,20,Not_Eligible,6550.0
+48.0,Female,Married,Graduate,104200.0,Private,0.5,Large Indian,Own,0.0,4,3,0.0,0.0,7400.0,18600.0,6800.0,No,0.0,648.0,535900.0,223800.0,E-commerce Shopping EMI,79000.0,11,Eligible,22848.0
+32.0,Male,Single,Graduate,41700.0,Private,0.9,Large Indian,Rented,13900.0,2,1,8500.0,0.0,4900.0,9200.0,7800.0,Yes,9000.0,670.0,195000.0,108500.0,Vehicle EMI,598000.0,44,Not_Eligible,500.0
+48.0,Female,Married,Graduate,56300.0,Government,6.9,Large Indian,Rented,16900.0,3,2,5400.0,0.0,7200.0,10100.0,7100.0,No,0.0,719.0,72200.0,38600.0,Vehicle EMI,970000.0,80,Not_Eligible,4224.0
+32.0,Male,Married,Graduate,30400.0,Private,6.3,Small,Family,0.0,4,3,11500.0,0.0,4000.0,4900.0,4700.0,Yes,4800.0,573.0,149700.0,80200.0,Personal Loan EMI,391000.0,46,Not_Eligible,500.0
+27.0,Male,Single,Professional,170500.0,Private,1.4,Large Indian,Rented,50600.0,2,1,4200.0,0.0,8800.0,30100.0,17800.0,Yes,34000.0,599.0,738900.0,305000.0,Home Appliances EMI,126000.0,34,Eligible,7000.0
+32.0,Female,Married,Graduate,53800.0,Private,2.4,Large Indian,Own,0.0,4,3,0.0,9600.0,4400.0,14200.0,7600.0,Yes,11200.0,801.0,40200.0,20300.0,Home Appliances EMI,296000.0,13,Not_Eligible,2284.8
+32.0,Male,Married,High School,26500.0,Government,0.5,Large Indian,Rented,8300.0,3,2,6800.0,17000.0,3200.0,7800.0,2300.0,Yes,4600.0,743.0,174800.0,66400.0,Education EMI,235000.0,27,Not_Eligible,500.0
+48.0,Female,Married,Post Graduate,63000.0,Private,9.9,Mid-size,Family,0.0,4,3,3400.0,0.0,6800.0,12200.0,8700.0,Yes,15900.0,721.0,175000.0,89600.0,Personal Loan EMI,749000.0,47,Not_Eligible,5600.0
+27.0,Female,Single,Post Graduate,82500.0,Private,0.5,MNC,Own,0.0,3,2,0.0,0.0,6500.0,23900.0,8400.0,No,0.0,782.0,490300.0,190700.0,Education EMI,211000.0,29,Eligible,20976.0
+38.0,Female,Married,Post Graduate,69600.0,Self-employed,1.1,Startup,Family,0.0,3,2,0.0,0.0,7300.0,20600.0,8300.0,No,0.0,719.0,74500.0,23200.0,Education EMI,392000.0,17,Not_Eligible,12024.0
+27.0,Male,Married,Graduate,51500.0,Private,2.9,Large Indian,Own,0.0,3,2,0.0,0.0,4900.0,10300.0,7800.0,Yes,10000.0,587.0,192200.0,79200.0,Education EMI,276000.0,41,Not_Eligible,5180.0
+48.0,Female,Married,Graduate,36100.0,Private,4.7,MNC,Family,0.0,3,2,0.0,7000.0,3500.0,5900.0,2600.0,Yes,7400.0,639.0,45900.0,74000.0,Home Appliances EMI,150000.0,12,Not_Eligible,2172.8
+38.0,Female,Married,High School,12000.0,Private,0.5,Small,Own,0.0,5,4,0.0,0.0,1600.0,3300.0,2100.0,No,0.0,663.0,39300.0,18400.0,E-commerce Shopping EMI,16000.0,20,Eligible,2000.0
+58.0,Male,Married,Post Graduate,71000.0,Private,7.3,MNC,Own,0.0,2,1,0.0,15000.0,5700.0,13600.0,8400.0,No,0.0,747.0,215400.0,117600.0,Personal Loan EMI,818000.0,53,Not_Eligible,14150.0
+27.0,Female,Single,Post Graduate,77700.0,Government,0.5,Startup,Own,0.0,2,1,0.0,24900.0,7100.0,20900.0,4300.0,No,0.0,714.0,243200.0,93600.0,Education EMI,422000.0,45,Not_Eligible,10250.0
+32.0,Male,Single,Graduate,34000.0,Government,0.6,Mid-size,Rented,8600.0,1,0,0.0,0.0,2100.0,7600.0,4800.0,No,0.0,646.0,235400.0,77600.0,Education EMI,283000.0,48,Not_Eligible,4796.0
+38.0,Male,Married,Graduate,118700.0,Government,16.0,MNC,Rented,40000.0,2,1,8500.0,0.0,6500.0,29300.0,7800.0,No,0.0,850.0,717400.0,424600.0,Home Appliances EMI,208000.0,21,Eligible,19311.6
+48.0,Male,Married,Professional,56300.0,Private,7.2,MNC,Rented,16100.0,4,3,6600.0,0.0,8300.0,8800.0,8500.0,No,0.0,685.0,93900.0,55800.0,Education EMI,368000.0,29,Not_Eligible,3200.0
+48.0,Female,Married,Graduate,151700.0,Private,12.6,MNC,Own,0.0,4,3,10700.0,0.0,19200.0,25100.0,12600.0,Yes,19000.0,752.0,1208000.0,534500.0,E-commerce Shopping EMI,164000.0,14,Eligible,30076.2
+48.0,Female,Single,Professional,83600.0,Government,1.8,MNC,Own,0.0,1,0,0.0,0.0,6400.0,18000.0,16500.0,No,0.0,646.0,566700.0,117800.0,Personal Loan EMI,167000.0,19,Eligible,18788.0
+58.0,Female,Married,Graduate,39600.0,Government,14.2,Large Indian,Rented,12100.0,2,1,0.0,9000.0,4000.0,11700.0,2600.0,No,0.0,604.0,284000.0,112300.0,Personal Loan EMI,190000.0,31,Not_Eligible,500.0
+38.0,Male,Married,Graduate,50200.0,Government,1.2,MNC,Rented,9300.0,3,2,11100.0,0.0,5900.0,8100.0,4800.0,No,0.0,728.0,213900.0,113800.0,Education EMI,402000.0,10,Not_Eligible,5500.0
+27.0,Male,Single,Post Graduate,53100.0,Private,1.3,Large Indian,Rented,11600.0,3,2,3300.0,0.0,3500.0,8300.0,8000.0,No,0.0,648.0,303300.0,124000.0,Personal Loan EMI,140000.0,17,Not_Eligible,7360.0
+27.0,Male,Single,Post Graduate,80300.0,Private,3.4,MNC,Rented,23900.0,1,0,0.0,0.0,10200.0,12900.0,5400.0,No,0.0,715.0,326900.0,108400.0,Education EMI,382000.0,42,High_Risk,13950.0
+48.0,Male,Married,Graduate,19800.0,Private,1.0,MNC,Own,0.0,4,3,0.0,0.0,2600.0,4000.0,1300.0,Yes,2100.0,645.0,100100.0,42900.0,Vehicle EMI,1090000.0,56,Not_Eligible,2744.0
+38.0,Female,Married,Post Graduate,24300.0,Self-employed,3.2,MNC,Rented,4400.0,4,3,0.0,0.0,2600.0,4300.0,4700.0,Yes,3100.0,640.0,59200.0,30700.0,Home Appliances EMI,282000.0,20,Not_Eligible,1310.4
+38.0,Male,Married,High School,18000.0,Private,0.5,Large Indian,Rented,4300.0,2,1,0.0,0.0,1400.0,2800.0,3000.0,Yes,2900.0,663.0,74500.0,19100.0,Personal Loan EMI,982000.0,27,Not_Eligible,1008.0
+32.0,Female,Married,Graduate,68600.0,Private,1.9,Startup,Family,0.0,3,2,8100.0,0.0,6400.0,13000.0,8300.0,No,0.0,642.0,142100.0,79800.0,E-commerce Shopping EMI,178000.0,19,High_Risk,13120.0
+48.0,Female,Married,High School,42900.0,Private,3.4,Startup,Rented,11500.0,3,2,2900.0,0.0,5800.0,10800.0,5900.0,No,0.0,668.0,150200.0,68600.0,Education EMI,237000.0,40,Not_Eligible,3000.0
+38.0,Female,Married,High School,38100.0,Government,1.9,Startup,Rented,11700.0,2,1,7500.0,0.0,3000.0,6800.0,7400.0,No,0.0,681.0,191900.0,96600.0,E-commerce Shopping EMI,89000.0,7,Not_Eligible,850.0
+48.0,Male,Married,High School,45500.0,Government,5.1,Large Indian,Rented,15500.0,3,2,11200.0,0.0,3700.0,7600.0,7600.0,Yes,11700.0,641.0,213800.0,55200.0,Personal Loan EMI,284000.0,48,Not_Eligible,500.0
+48.0,Female,Married,Graduate,68300.0,Private,26.0,Mid-size,Family,0.0,3,2,2300.0,0.0,5600.0,15200.0,7300.0,No,0.0,693.0,303200.0,140200.0,Education EMI,71000.0,40,Eligible,18950.0
+48.0,Female,Married,Graduate,24700.0,Private,26.0,Large Indian,Own,0.0,2,1,5700.0,0.0,2800.0,5000.0,4400.0,Yes,7400.0,622.0,54500.0,17100.0,E-commerce Shopping EMI,100000.0,4,Not_Eligible,500.0
+48.0,Female,Married,Graduate,38400.0,Private,1.3,Large Indian,Family,0.0,2,1,8300.0,0.0,3900.0,9100.0,4000.0,Yes,10600.0,625.0,159700.0,77200.0,Home Appliances EMI,73000.0,8,Not_Eligible,700.0
+32.0,Male,Married,Graduate,56900.0,Private,2.0,Startup,Own,0.0,3,2,0.0,12400.0,3300.0,10200.0,6500.0,No,0.0,678.0,435700.0,143100.0,Home Appliances EMI,119000.0,6,Not_Eligible,13475.0
+38.0,Female,Married,Graduate,39200.0,Private,1.4,Mid-size,Rented,0.0,3,2,14700.0,0.0,2800.0,7600.0,7500.0,No,0.0,770.0,37900.0,19400.0,Vehicle EMI,154000.0,17,Not_Eligible,500.0
+38.0,Male,Married,Professional,45300.0,Private,1.7,Large Indian,Own,0.0,4,3,11100.0,0.0,4400.0,8500.0,7400.0,Yes,10900.0,631.0,250800.0,141800.0,E-commerce Shopping EMI,132000.0,18,Not_Eligible,840.0
+32.0,Female,Married,High School,14400.0,Private,1.6,Mid-size,Own,0.0,3,2,0.0,0.0,1800.0,3800.0,800.0,Yes,2600.0,639.0,64700.0,33000.0,Education EMI,279000.0,28,Not_Eligible,1512.0
+58.0,Female,Married,Graduate,58900.0,Self-employed,2.2,Mid-size,Own,0.0,4,3,0.0,0.0,4300.0,14600.0,9800.0,Yes,13700.0,743.0,223500.0,87800.0,Personal Loan EMI,873000.0,20,Not_Eligible,5197.5
+27.0,Male,Single,Post Graduate,64100.0,Private,0.6,Mid-size,Own,24890.0,2,1,0.0,0.0,6500.0,14500.0,10300.0,Yes,13600.0,659.0,289900.0,92800.0,E-commerce Shopping EMI,197000.0,23,Not_Eligible,5376.0
+48.0,Female,Married,Graduate,15000.0,Self-employed,4.0,Mid-size,Rented,3100.0,5,4,2400.0,0.0,900.0,2700.0,1600.0,No,0.0,732.0,118000.0,37000.0,E-commerce Shopping EMI,162000.0,22,Not_Eligible,2128.5
+48.0,Female,Married,Professional,98400.0,Private,2.2,Mid-size,Family,12173.0,4,3,0.0,15700.0,11100.0,23500.0,18400.0,No,0.0,703.0,668600.0,187000.0,Personal Loan EMI,522000.0,28,Not_Eligible,16335.0
+58.0,Male,Married,Graduate,66400.0,Self-employed,0.5,Mid-size,Family,0.0,4,3,10800.0,23900.0,6500.0,11900.0,8100.0,No,0.0,785.0,453200.0,169500.0,Vehicle EMI,278000.0,24,Not_Eligible,3088.8
+38.0,Female,Married,Professional,55000.0,Government,7.1,Mid-size,Family,0.0,4,3,0.0,0.0,4200.0,12900.0,2800.0,No,0.0,774.0,202400.0,79600.0,Education EMI,193000.0,15,Eligible,23166.0
+38.0,Male,Married,High School,56600.0,Self-employed,0.5,Large Indian,Own,0.0,4,3,13400.0,0.0,7700.0,9500.0,5000.0,No,0.0,661.0,389700.0,122800.0,E-commerce Shopping EMI,143000.0,21,Eligible,10395.0
+38.0,Male,Married,Post Graduate,44000.0,Private,9.7,Large Indian,Own,0.0,3,2,0.0,0.0,6300.0,6900.0,3000.0,Yes,9700.0,729.0,199800.0,42400.0,Vehicle EMI,1113000.0,24,Not_Eligible,6335.0
+27.0,Male,Married,Post Graduate,85500.0,Government,0.5,Small,Family,0.0,2,1,0.0,0.0,4800.0,14700.0,10800.0,No,0.0,744.0,283900.0,104800.0,E-commerce Shopping EMI,41000.0,17,Eligible,27600.0
+32.0,Male,Married,Professional,31900.0,Private,2.0,Mid-size,Rented,5400.0,3,2,10500.0,13100.0,4400.0,9400.0,3500.0,No,0.0,636.0,96000.0,52500.0,Vehicle EMI,605000.0,76,Not_Eligible,500.0
+32.0,Male,Married,Professional,103100.0,Private,0.5,Mid-size,Own,0.0,3,2,13500.0,20900.0,15100.0,27600.0,7500.0,Yes,11400.0,740.0,290500.0,124400.0,Education EMI,122000.0,36,Not_Eligible,1988.0
+58.0,Female,Married,Professional,49100.0,Government,25.3,Large Indian,Family,0.0,3,2,0.0,0.0,6200.0,9900.0,8100.0,No,0.0,757.0,32100.0,16000.0,E-commerce Shopping EMI,162000.0,7,Not_Eligible,13147.2
+32.0,Male,Married,Graduate,37400.0,Private,0.8,Mid-size,Rented,5800.0,3,2,0.0,0.0,4200.0,7800.0,5100.0,No,0.0,621.0,60100.0,15500.0,Education EMI,413000.0,14,Not_Eligible,3712.0
+32.0,Male,Married,Professional,116200.0,Private,0.6,Mid-size,Family,0.0,5,4,0.0,0.0,8700.0,25100.0,18600.0,No,0.0,639.0,464700.0,206700.0,Vehicle EMI,1207000.0,20,Not_Eligible,20416.0
+38.0,Female,Married,High School,14400.0,Private,16.0,MNC,Own,0.0,4,3,0.0,0.0,2100.0,2800.0,1500.0,Yes,2200.0,796.0,67700.0,35500.0,Home Appliances EMI,180000.0,36,Not_Eligible,2436.0
+32.0,Male,Married,High School,23800.0,Private,0.6,Startup,Own,0.0,3,2,13400.0,13800.0,1700.0,6900.0,4300.0,No,0.0,763.0,177600.0,61500.0,Vehicle EMI,125000.0,15,Not_Eligible,500.0
+48.0,Male,Married,Post Graduate,23400.0,Private,14.4,Startup,Rented,6300.0,4,3,0.0,0.0,2300.0,4800.0,3700.0,No,0.0,753.0,135000.0,43100.0,Education EMI,397000.0,43,Not_Eligible,3780.0
+27.0,Male,Single,Post Graduate,67000.0,Government,0.5,MNC,Rented,21500.0,1,0,0.0,0.0,8000.0,10300.0,5400.0,No,0.0,705.0,347900.0,74000.0,E-commerce Shopping EMI,164000.0,11,Not_Eligible,10900.0
+32.0,Female,Married,Graduate,31000.0,Private,2.7,Mid-size,Rented,7900.0,3,2,7300.0,0.0,3400.0,7300.0,1800.0,No,0.0,637.0,78700.0,32400.0,Personal Loan EMI,474000.0,45,Not_Eligible,1320.0
+32.0,Female,Married,Post Graduate,77600.0,Self-employed,0.9,Startup,Own,0.0,5,4,2100.0,20700.0,6100.0,13900.0,7100.0,Yes,19900.0,660.0,92800.0,37800.0,Home Appliances EMI,290000.0,32,Not_Eligible,1965.6
+27.0,Male,Single,Graduate,49100.0,Government,0.5,Startup,Rented,7500.0,2,1,5800.0,18600.0,2900.0,13800.0,4100.0,No,0.0,714.0,151000.0,68300.0,Home Appliances EMI,197000.0,13,Not_Eligible,500.0
+38.0,Male,Married,Graduate,40000.0,Self-employed,16.0,Mid-size,Rented,8600.0,5,4,8500.0,18200.0,4400.0,10700.0,2600.0,Yes,10400.0,637.0,199000.0,115900.0,Personal Loan EMI,553000.0,17,Not_Eligible,500.0
+32.0,Female,Single,High School,58600.0,Private,5.8,Large Indian,Own,0.0,1,0,0.0,0.0,6600.0,14000.0,6900.0,No,0.0,493.0,74400.0,36600.0,Home Appliances EMI,225000.0,24,Not_Eligible,6220.0
+32.0,Male,Married,Post Graduate,43000.0,Private,3.7,Large Indian,Own,0.0,3,2,11500.0,21600.0,6400.0,8400.0,8500.0,No,0.0,632.0,326000.0,118200.0,Vehicle EMI,1143000.0,59,Not_Eligible,500.0
+27.0,Female,Single,Graduate,45300.0,Private,0.5,MNC,Own,0.0,1,0,0.0,0.0,3000.0,11400.0,6100.0,Yes,10600.0,566.0,354400.0,139500.0,Education EMI,187000.0,17,Not_Eligible,3498.88
+38.0,Female,Married,Professional,172500.0,Private,9.5,MNC,Own,0.0,3,2,9000.0,0.0,16000.0,26100.0,9300.0,No,0.0,850.0,1050900.0,269100.0,Home Appliances EMI,35000.0,7,Eligible,73986.0
+27.0,Male,Single,Post Graduate,94500.0,Private,0.5,Large Indian,Rented,20300.0,1,0,0.0,0.0,7800.0,21000.0,17100.0,Yes,17000.0,593.0,508000.0,181200.0,Home Appliances EMI,76000.0,24,Not_Eligible,2531.2
+38.0,Female,Married,Post Graduate,48600.0,Private,3.0,MNC,Family,0.0,5,4,0.0,0.0,6800.0,13400.0,3100.0,No,0.0,788.0,245600.0,58800.0,Home Appliances EMI,184000.0,34,Eligible,15180.0
+38.0,Male,Married,Post Graduate,37600.0,Government,4.5,MNC,Own,0.0,2,1,12900.0,0.0,2100.0,9400.0,7400.0,Yes,5600.0,747.0,143300.0,42200.0,Education EMI,283000.0,29,Not_Eligible,500.0
+38.0,Female,Married,Professional,27000.0,Government,1.2,Large Indian,Family,0.0,2,1,8200.0,0.0,3000.0,4200.0,5200.0,Yes,7200.0,702.0,42400.0,15700.0,Vehicle EMI,338000.0,69,Not_Eligible,500.0
+27.0,Female,Single,Graduate,57100.0,Private,0.5,Large Indian,Family,0.0,3,2,11800.0,0.0,7900.0,12800.0,7600.0,No,0.0,757.0,233700.0,55600.0,Home Appliances EMI,198000.0,9,Not_Eligible,8160.0
+32.0,Female,Single,Graduate,31700.0,Private,1.8,Mid-size,Rented,8500.0,3,2,9600.0,0.0,3200.0,4800.0,5700.0,Yes,3900.0,608.0,147100.0,31000.0,Education EMI,186000.0,13,Not_Eligible,500.0
+38.0,Male,Single,Graduate,59700.0,Government,1.1,MNC,Rented,13200.0,1,0,0.0,0.0,3900.0,17400.0,8800.0,No,0.0,833.0,329100.0,119800.0,Vehicle EMI,1215000.0,83,Not_Eligible,9840.0
+58.0,Female,Married,High School,23800.0,Government,9.8,Large Indian,Family,0.0,3,2,0.0,0.0,2900.0,3600.0,3600.0,Yes,3100.0,682.0,45000.0,19700.0,Education EMI,156000.0,6,Not_Eligible,3264.8
+27.0,Male,Married,Graduate,46000.0,Private,2.4,MNC,Rented,12700.0,3,2,6800.0,0.0,5100.0,12500.0,4900.0,Yes,9700.0,604.0,99600.0,56100.0,Home Appliances EMI,157000.0,30,Not_Eligible,500.0
+32.0,Female,Married,Graduate,56200.0,Private,0.8,Startup,Family,0.0,3,2,4700.0,0.0,4300.0,12200.0,4600.0,Yes,7000.0,651.0,78900.0,36900.0,Home Appliances EMI,281000.0,15,Not_Eligible,5241.6
+48.0,Male,Single,High School,38000.0,Private,8.7,Large Indian,Own,0.0,1,0,0.0,0.0,2400.0,7900.0,5800.0,No,0.0,689.0,87100.0,27200.0,E-commerce Shopping EMI,46000.0,13,Eligible,10950.0
+38.0,Male,Married,Post Graduate,39300.0,Private,1.1,Large Indian,Own,0.0,5,4,8600.0,17000.0,4600.0,9700.0,7100.0,Yes,8000.0,615.0,177300.0,65200.0,Vehicle EMI,1246000.0,33,Not_Eligible,500.0
+27.0,Male,Single,Post Graduate,26600.0,Self-employed,1.2,Large Indian,Own,0.0,1,0,0.0,0.0,3900.0,6300.0,1700.0,Yes,5800.0,725.0,131400.0,70200.0,E-commerce Shopping EMI,87000.0,9,Not_Eligible,2803.5
+58.0,Female,Married,Post Graduate,94400.0,Government,9.0,Startup,Family,0.0,4,3,9300.0,0.0,9200.0,15900.0,18400.0,Yes,13300.0,764.0,208600.0,81900.0,Home Appliances EMI,132000.0,35,Eligible,13074.6
+32.0,Male,Single,Graduate,44700.0,Private,7.1,Mid-size,Family,0.0,2,1,0.0,18300.0,4000.0,9100.0,3100.0,Yes,12300.0,566.0,228400.0,116800.0,Home Appliances EMI,49000.0,24,Not_Eligible,500.0
+27.0,Female,Single,Graduate,113000.0,Private,1.2,Large Indian,Family,0.0,1,0,0.0,0.0,8400.0,17600.0,5800.0,No,0.0,679.0,631800.0,262600.0,Vehicle EMI,895000.0,69,Eligible,40600.0
+32.0,Female,Married,High School,58600.0,Government,1.8,MNC,Rented,14900.0,2,1,0.0,0.0,8000.0,16800.0,9500.0,Yes,7500.0,300.0,124300.0,31900.0,E-commerce Shopping EMI,13000.0,12,Not_Eligible,665.0
+32.0,Female,Single,Post Graduate,89700.0,Private,3.2,Mid-size,Own,0.0,2,1,0.0,0.0,7500.0,17600.0,5300.0,Yes,19700.0,718.0,630100.0,140900.0,Vehicle EMI,1096000.0,44,Not_Eligible,15246.0
+32.0,Male,Married,Post Graduate,82200.0,Self-employed,0.5,MNC,Own,0.0,5,4,9700.0,0.0,4500.0,21700.0,6000.0,Yes,14900.0,727.0,375600.0,83900.0,Personal Loan EMI,417000.0,52,Not_Eligible,8001.0
+27.0,Female,Single,Professional,134900.0,Private,0.5,Large Indian,Rented,28700.0,2,1,9300.0,0.0,15900.0,21100.0,26700.0,No,0.0,686.0,348200.0,191600.0,Education EMI,405000.0,29,Not_Eligible,13280.0
+48.0,Male,Married,Professional,66200.0,Private,11.8,Large Indian,Rented,16700.0,4,3,0.0,0.0,9300.0,10100.0,10000.0,No,0.0,696.0,324100.0,103400.0,Home Appliances EMI,48000.0,10,Eligible,10050.0
+32.0,Male,Married,Post Graduate,80000.0,Private,1.3,Startup,Rented,21800.0,4,3,0.0,0.0,7600.0,19000.0,8200.0,No,0.0,754.0,121400.0,25900.0,Vehicle EMI,780000.0,62,Not_Eligible,11232.0
+27.0,Male,Single,Graduate,115000.0,Private,2.6,MNC,Own,0.0,2,1,0.0,20600.0,8100.0,31900.0,20900.0,Yes,16600.0,656.0,500300.0,241600.0,Personal Loan EMI,667000.0,45,Not_Eligible,5915.0
+48.0,Female,Married,Professional,126500.0,Private,3.9,Large Indian,Rented,31700.0,2,1,9700.0,23700.0,13600.0,27700.0,15600.0,Yes,20700.0,663.0,888100.0,363300.0,Vehicle EMI,292000.0,60,Not_Eligible,500.0
+58.0,Male,Married,Graduate,39500.0,Private,12.6,Startup,Family,0.0,3,2,0.0,0.0,3000.0,6100.0,5400.0,No,0.0,747.0,253200.0,66100.0,Personal Loan EMI,430000.0,59,High_Risk,13750.0
+58.0,Male,Married,Graduate,28700.0,Private,3.6,MNC,Own,0.0,4,3,7700.0,0.0,3600.0,7500.0,2200.0,Yes,8400.0,635.0,20100.0,8800.0,Education EMI,351000.0,10,Not_Eligible,500.0
+48.0,Female,Married,Graduate,322217.0,Private,18.9,Mid-size,Rented,9100.0,3,2,13200.0,0.0,5800.0,10300.0,2600.0,No,0.0,689.0,291600.0,134500.0,Education EMI,85000.0,15,Not_Eligible,3410.0
+27.0,Female,Married,Graduate,33500.0,Private,2.5,Mid-size,Own,0.0,4,3,10800.0,0.0,4100.0,5400.0,6600.0,Yes,8900.0,739.0,121900.0,38600.0,Personal Loan EMI,900000.0,50,Not_Eligible,500.0
+38.0,Female,Married,Graduate,18000.0,Private,1.3,Mid-size,Own,0.0,2,1,0.0,0.0,2600.0,4200.0,3100.0,No,0.0,683.0,92300.0,53900.0,Education EMI,175000.0,16,Not_Eligible,4050.0
+32.0,Male,Married,Graduate,103000.0,Private,0.7,Large Indian,Rented,22200.0,2,1,4900.0,0.0,11200.0,19500.0,9600.0,No,0.0,762.0,334500.0,157800.0,E-commerce Shopping EMI,199000.0,19,Eligible,17088.0
+27.0,Male,Single,Professional,30800.0,Self-employed,1.1,MNC,Own,0.0,2,1,11800.0,0.0,4500.0,6700.0,6100.0,Yes,3200.0,759.0,31300.0,17200.0,Personal Loan EMI,779000.0,34,Not_Eligible,500.0
+27.0,Male,Married,Professional,29200.0,Private,1.4,Large Indian,Own,0.0,4,3,4600.0,0.0,2800.0,5600.0,3400.0,No,0.0,643.0,130500.0,33500.0,Home Appliances EMI,280000.0,23,Not_Eligible,5120.0
+38.0,Female,Married,High School,34500.0,Private,0.5,Startup,Family,0.0,3,2,14900.0,0.0,3500.0,7200.0,5200.0,No,0.0,733.0,96900.0,42200.0,Vehicle EMI,629000.0,31,Not_Eligible,1480.0
+38.0,Female,Married,Graduate,18000.0,Private,0.5,Large Indian,Rented,5900.0,3,2,0.0,0.0,1600.0,3700.0,2000.0,Yes,5100.0,625.0,50100.0,13700.0,E-commerce Shopping EMI,194000.0,15,Not_Eligible,500.0
+38.0,Male,Married,Post Graduate,82800.0,Private,9.9,Mid-size,Rented,20100.0,3,2,6200.0,0.0,7100.0,22700.0,4500.0,No,0.0,706.0,444000.0,167600.0,Home Appliances EMI,78000.0,28,Eligible,11100.0
+38.0,Male,Married,Graduate,36300.0,Government,5.5,Small,Rented,5700.0,3,2,0.0,8900.0,3300.0,9200.0,2800.0,No,0.0,769.0,209200.0,95100.0,Home Appliances EMI,288000.0,16,Not_Eligible,4224.0
+48.0,Female,Married,Professional,66100.0,Private,12.9,Large Indian,Own,0.0,3,2,3100.0,18000.0,8400.0,13200.0,10900.0,No,0.0,690.0,211500.0,112100.0,Vehicle EMI,985000.0,32,Not_Eligible,6250.0
+27.0,Male,Married,High School,24800.0,Private,1.9,MNC,Rented,5100.0,3,2,12100.0,0.0,1800.0,5800.0,3200.0,No,0.0,717.0,74400.0,26100.0,E-commerce Shopping EMI,42000.0,6,Not_Eligible,500.0
+27.0,Male,Single,Post Graduate,60000.0,Government,4.4,Mid-size,Rented,11400.0,1,0,0.0,0.0,3800.0,13000.0,9700.0,No,0.0,684.0,418500.0,145100.0,Vehicle EMI,153000.0,81,Eligible,13370.5
+48.0,Female,Married,Graduate,36500.0,Government,26.0,Large Indian,Rented,6200.0,4,3,0.0,9700.0,4200.0,8000.0,2300.0,No,0.0,663.0,21500.0,7200.0,Education EMI,380000.0,30,Not_Eligible,2684.0
+38.0,Female,Married,Post Graduate,51200.0,Private,15.1,Startup,Own,0.0,3,2,12100.0,0.0,3600.0,14400.0,6200.0,Yes,7500.0,601.0,338200.0,102000.0,Vehicle EMI,300000.0,74,Not_Eligible,2279.2
+32.0,Male,Single,Graduate,35900.0,Self-employed,5.3,Large Indian,Own,0.0,2,1,0.0,0.0,3200.0,9000.0,5300.0,No,0.0,696.0,128000.0,53600.0,Home Appliances EMI,96000.0,22,Eligible,8280.0
+38.0,Male,Single,Professional,76700.0,Government,16.0,Startup,Own,0.0,2,1,5200.0,0.0,5200.0,19200.0,8100.0,No,0.0,779.0,153000.0,60800.0,Vehicle EMI,1153000.0,22,Not_Eligible,20592.0
+32.0,Male,Single,Graduate,30900.0,Self-employed,2.0,MNC,Rented,8600.0,2,1,0.0,0.0,2900.0,7300.0,2200.0,Yes,7300.0,601.0,33900.0,12700.0,Personal Loan EMI,419000.0,55,Not_Eligible,524.16
+38.0,Female,Married,High School,41200.0,Private,4.2,Startup,Rented,13500.0,2,1,0.0,0.0,3800.0,7800.0,4000.0,No,0.0,718.0,136700.0,35500.0,Education EMI,181000.0,21,Not_Eligible,6050.0
+48.0,Female,Married,High School,28500.0,Private,1.3,MNC,Own,0.0,4,3,3300.0,0.0,2900.0,7100.0,2000.0,No,0.0,646.0,111700.0,22400.0,Personal Loan EMI,283000.0,26,Not_Eligible,5280.0
+48.0,Female,Married,Graduate,72400.0,Government,21.4,Startup,Family,0.0,4,3,9100.0,8800.0,5600.0,14700.0,4300.0,Yes,11900.0,764.0,85800.0,47100.0,Vehicle EMI,981000.0,32,Not_Eligible,6652.8
+38.0,Male,Married,Graduate,47100.0,Private,2.3,Large Indian,Own,0.0,5,4,13900.0,18800.0,3300.0,7600.0,4800.0,No,0.0,749.0,141900.0,51900.0,Vehicle EMI,683000.0,20,Not_Eligible,500.0
+27.0,Female,Married,Graduate,27600.0,Private,0.9,Mid-size,Rented,8200.0,3,2,0.0,6100.0,2000.0,4500.0,5400.0,No,0.0,625.0,19900.0,9200.0,Home Appliances EMI,30000.0,31,Not_Eligible,500.0
+48.0,Female,Married,Post Graduate,106600.0,Private,0.8,MNC,Family,0.0,3,2,14200.0,0.0,7900.0,21000.0,10000.0,No,0.0,669.0,102700.0,43900.0,Vehicle EMI,389000.0,64,Eligible,17120.0
+38.0,Male,Single,High School,89100.0,Government,7.2,Small,Family,0.0,1,0,0.0,0.0,6400.0,20100.0,13800.0,No,0.0,823.0,196000.0,116900.0,Personal Loan EMI,333000.0,49,Eligible,32208.0
+38.0,Male,Married,Graduate,79100.0,Private,5.9,MNC,Rented,17400.0,3,2,12000.0,0.0,6100.0,17400.0,11900.0,No,0.0,714.0,578700.0,240600.0,Personal Loan EMI,324000.0,56,Not_Eligible,7865.0
+58.0,Male,Married,Post Graduate,31200.0,Private,7.6,Large Indian,Own,0.0,4,3,8700.0,0.0,1700.0,4800.0,2900.0,No,0.0,844.0,144800.0,71700.0,E-commerce Shopping EMI,74000.0,8,Not_Eligible,7860.0
+32.0,Male,Married,Post Graduate,63800.0,Private,4.8,MNC,Family,0.0,3,2,5200.0,0.0,3300.0,18200.0,3300.0,No,0.0,805.0,217000.0,96100.0,Education EMI,226000.0,24,Eligible,20280.0
+32.0,Female,Married,Graduate,30400.0,Private,2.2,Mid-size,Family,0.0,4,3,0.0,11700.0,3800.0,8500.0,2100.0,No,0.0,676.0,97700.0,36600.0,Education EMI,72000.0,13,Not_Eligible,2150.0
+27.0,Male,Single,Post Graduate,53700.0,Self-employed,0.5,Large Indian,Family,0.0,2,1,12800.0,14400.0,2900.0,10200.0,3100.0,Yes,11800.0,676.0,261000.0,103300.0,Personal Loan EMI,526000.0,39,Not_Eligible,500.0
+32.0,Male,Married,High School,12000.0,Government,2.1,Mid-size,Own,0.0,2,1,10700.0,0.0,1300.0,2500.0,2000.0,No,0.0,760.0,75300.0,40300.0,Education EMI,457000.0,19,Not_Eligible,500.0
+32.0,Female,Single,High School,14400.0,Private,0.8,Large Indian,Own,0.0,1,0,0.0,0.0,1400.0,2800.0,800.0,Yes,3700.0,584.0,103700.0,50300.0,E-commerce Shopping EMI,120000.0,14,Not_Eligible,1404.48
+48.0,Male,Single,Graduate,22900.0,Private,15.9,Mid-size,Family,0.0,3,2,11000.0,0.0,2400.0,3500.0,2900.0,No,0.0,785.0,41500.0,17700.0,Education EMI,157000.0,34,Not_Eligible,1488.0
+58.0,Male,Married,Post Graduate,79100.0,Private,0.8,Large Indian,Family,0.0,3,2,6900.0,18700.0,10600.0,17600.0,14400.0,Yes,18200.0,770.0,614100.0,309700.0,Education EMI,116000.0,7,Not_Eligible,500.0
+38.0,Female,Married,Graduate,70600.0,Private,2.3,Mid-size,Rented,20900.0,2,1,0.0,22200.0,7000.0,17600.0,4300.0,No,0.0,742.0,321200.0,189100.0,Education EMI,186000.0,37,Not_Eligible,500.0
+38.0,Female,Married,Professional,78800.0,Private,7.0,Mid-size,Own,0.0,2,1,8000.0,0.0,8600.0,16200.0,4000.0,Yes,21200.0,625.0,472300.0,179400.0,Home Appliances EMI,60000.0,36,Eligible,5824.0
+58.0,Female,Single,Graduate,59300.0,Private,1.1,Small,Family,0.0,3,2,0.0,0.0,3800.0,16700.0,5200.0,Yes,9400.0,579.0,59100.0,31700.0,Education EMI,242000.0,38,Not_Eligible,5420.8
+38.0,Female,Married,High School,31100.0,Private,0.5,Mid-size,Rented,9500.0,3,2,3300.0,0.0,3400.0,6500.0,5200.0,Yes,7000.0,679.0,157900.0,61600.0,Home Appliances EMI,98000.0,16,Not_Eligible,500.0
+38.0,Male,Married,Professional,109200.0,Private,0.5,Startup,Rented,33700.0,4,3,0.0,0.0,7000.0,22800.0,11100.0,No,0.0,723.0,626800.0,298100.0,E-commerce Shopping EMI,133000.0,16,Eligible,13840.0
+48.0,Male,Married,Graduate,92500.0,Private,3.0,Large Indian,Family,0.0,5,4,0.0,18400.0,8900.0,16000.0,7300.0,Yes,26700.0,665.0,57700.0,13200.0,Education EMI,267000.0,14,Not_Eligible,4256.0
+27.0,Male,Single,High School,33900.0,Private,0.8,MNC,Family,0.0,2,1,11000.0,10100.0,3200.0,6500.0,2800.0,No,0.0,715.0,147600.0,58000.0,Personal Loan EMI,738000.0,17,Not_Eligible,500.0
+58.0,Female,Married,Post Graduate,44000.0,Private,36.0,Mid-size,Own,0.0,3,2,0.0,18000.0,3100.0,6800.0,2700.0,No,0.0,850.0,150900.0,32300.0,Education EMI,240000.0,45,High_Risk,8040.0
